@@ -3,6 +3,11 @@ About gmsm
 
 This is a PHP extension for SM Crypto Algorithm  that supports SM2 / SM3 / SM4.
 
+Environment
+------------
+
+`php5.4`
+
 SM Crypto Algorithm
 ------------
 
