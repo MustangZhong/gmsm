@@ -1,0 +1,120 @@
+miracl/mrcore.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcore.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcore.c -o miracl/mrcore.lo 
+miracl/mrarth0.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth0.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth0.c -o miracl/mrarth0.lo 
+miracl/mrarth1.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth1.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth1.c -o miracl/mrarth1.lo 
+miracl/mrarth2.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth2.c -o miracl/mrarth2.lo 
+miracl/mralloc.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mralloc.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mralloc.c -o miracl/mralloc.lo 
+miracl/mrsmall.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsmall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsmall.c -o miracl/mrsmall.lo 
+miracl/mrio1.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrio1.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrio1.c -o miracl/mrio1.lo 
+miracl/mrio2.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrio2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrio2.c -o miracl/mrio2.lo 
+miracl/mrgcd.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgcd.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgcd.c -o miracl/mrgcd.lo 
+miracl/mrjack.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrjack.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrjack.c -o miracl/mrjack.lo 
+miracl/mrxgcd.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrxgcd.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrxgcd.c -o miracl/mrxgcd.lo 
+miracl/mrarth3.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrarth3.c -o miracl/mrarth3.lo 
+miracl/mrbits.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbits.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbits.c -o miracl/mrbits.lo 
+miracl/mrrand.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrrand.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrrand.c -o miracl/mrrand.lo 
+miracl/mrprime.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrprime.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrprime.c -o miracl/mrprime.lo 
+miracl/mrcrt.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcrt.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcrt.c -o miracl/mrcrt.lo 
+miracl/mrscrt.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrscrt.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrscrt.c -o miracl/mrscrt.lo 
+miracl/mrmonty.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrmonty.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrmonty.c -o miracl/mrmonty.lo 
+miracl/mrpower.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrpower.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrpower.c -o miracl/mrpower.lo 
+miracl/mrsroot.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsroot.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsroot.c -o miracl/mrsroot.lo 
+miracl/mrcurve.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcurve.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrcurve.c -o miracl/mrcurve.lo 
+miracl/mrfast.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfast.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfast.c -o miracl/mrfast.lo 
+miracl/mrshs.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs.c -o miracl/mrshs.lo 
+miracl/mrshs256.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs256.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs256.c -o miracl/mrshs256.lo 
+miracl/mrshs512.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs512.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrshs512.c -o miracl/mrshs512.lo 
+miracl/mrsha3.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsha3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrsha3.c -o miracl/mrsha3.lo 
+miracl/mrfpe.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfpe.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfpe.c -o miracl/mrfpe.lo 
+miracl/mraes.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mraes.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mraes.c -o miracl/mraes.lo 
+miracl/mrgcm.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgcm.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgcm.c -o miracl/mrgcm.lo 
+miracl/mrlucas.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrlucas.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrlucas.c -o miracl/mrlucas.lo 
+miracl/mrzzn2.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn2.c -o miracl/mrzzn2.lo 
+miracl/mrzzn2b.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn2b.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn2b.c -o miracl/mrzzn2b.lo 
+miracl/mrzzn3.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn3.c -o miracl/mrzzn3.lo 
+miracl/mrzzn4.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn4.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrzzn4.c -o miracl/mrzzn4.lo 
+miracl/mrecn2.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrecn2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrecn2.c -o miracl/mrecn2.lo 
+miracl/mrstrong.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrstrong.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrstrong.c -o miracl/mrstrong.lo 
+miracl/mrbrick.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbrick.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbrick.c -o miracl/mrbrick.lo 
+miracl/mrebrick.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrebrick.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrebrick.c -o miracl/mrebrick.lo 
+miracl/mrec2m.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrec2m.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrec2m.c -o miracl/mrec2m.lo 
+miracl/mrgf2m.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgf2m.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrgf2m.c -o miracl/mrgf2m.lo 
+miracl/mrflash.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflash.c -o miracl/mrflash.lo 
+miracl/mrfrnd.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfrnd.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrfrnd.c -o miracl/mrfrnd.lo 
+miracl/mrdouble.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrdouble.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrdouble.c -o miracl/mrdouble.lo 
+miracl/mrround.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrround.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrround.c -o miracl/mrround.lo 
+miracl/mrbuild.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbuild.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrbuild.c -o miracl/mrbuild.lo 
+miracl/mrflsh1.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh1.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh1.c -o miracl/mrflsh1.lo 
+miracl/mrpi.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrpi.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrpi.c -o miracl/mrpi.lo 
+miracl/mrflsh2.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh2.c -o miracl/mrflsh2.lo 
+miracl/mrflsh3.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh3.c -o miracl/mrflsh3.lo 
+miracl/mrflsh4.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh4.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrflsh4.c -o miracl/mrflsh4.lo 
+miracl/mrmuldv.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/mrmuldv.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/mrmuldv.c -o miracl/mrmuldv.lo 
+miracl/bmark.lo: /home/dev/javin/php/php-src/ext/gmsm/miracl/bmark.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/miracl/bmark.c -o miracl/bmark.lo 
+sm2/GMSM2.lo: /home/dev/javin/php/php-src/ext/gmsm/sm2/GMSM2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/sm2/GMSM2.c -o sm2/GMSM2.lo 
+sm3/GMSM3.lo: /home/dev/javin/php/php-src/ext/gmsm/sm3/GMSM3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/sm3/GMSM3.c -o sm3/GMSM3.lo 
+sm4/GMSM4.lo: /home/dev/javin/php/php-src/ext/gmsm/sm4/GMSM4.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/sm4/GMSM4.c -o sm4/GMSM4.lo 
+utils/BCD.lo: /home/dev/javin/php/php-src/ext/gmsm/utils/BCD.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/utils/BCD.c -o utils/BCD.lo 
+gmsm.lo: /home/dev/javin/php/php-src/ext/gmsm/gmsm.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/dev/javin/php/php-src/ext/gmsm $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/dev/javin/php/php-src/ext/gmsm/gmsm.c -o gmsm.lo 
+$(phplibdir)/gmsm.la: ./gmsm.la
+	$(LIBTOOL) --mode=install cp ./gmsm.la $(phplibdir)
+
+./gmsm.la: $(shared_objects_gmsm) $(GMSM_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_gmsm) $(GMSM_SHARED_LIBADD)
+

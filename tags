@@ -1,0 +1,2757 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	miracl/miracl.h	/^big A,B;$/;"	m	struct:__anon19
+A163	miracl/bmark.c	/^int  A163=1;$/;"	v
+A233	miracl/bmark.c	/^int  A233=1;$/;"	v
+A283	miracl/bmark.c	/^int  A283=1;$/;"	v
+A571	miracl/bmark.c	/^int  A571=1;$/;"	v
+AA	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+AA	miracl/hilbert.c	/^static flash AA[50][50];$/;"	v	file:
+AA	miracl/miracl.h	/^int M,AA,BB,CC;     \/* for GF(2^m) curves *\/$/;"	m	struct:__anon19
+AA	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+ACTIVE	miracl/miracl.h	/^BOOL ACTIVE;$/;"	m	struct:__anon19
+ALPHA	miracl/kangaroo.c	17;"	d	file:
+ASM	miracl/miracl.h	1414;"	d
+ASM	miracl/miracl.h	1418;"	d
+ASM	miracl/miracl.h	1422;"	d
+AWK	Makefile	/^AWK = gawk$/;"	m
+Asize	miracl/miracl.h	/^int Asize,Bsize;$/;"	m	struct:__anon19
+B	miracl/ebrick.h	/^    ebrick B;$/;"	m	class:EBrick
+B	miracl/ebrick2.h	/^    ebrick2 B;$/;"	m	class:EBrick2
+B	miracl/miracl.h	/^big A,B;$/;"	m	struct:__anon19
+B163	miracl/bmark.c	/^char B163[]="20A601907B8C953CA1481EB10512F78744A3205FD";$/;"	v
+B233	miracl/bmark.c	/^char B233[]="66647EDE6C332C7F8C0923BB58213B333B20E9CE4281FE115F7D8F90AD";$/;"	v
+B283	miracl/bmark.c	/^char B283[]="27B680AC8B8596DA5A4AF8A19A0303FCA97FD7645309FA2A581485AF6263E313B79A2F5";$/;"	v
+B571	miracl/bmark.c	/^char B571[]="02F40E7E2221F295DE297117B7F3D62F5C6A97FFCB8CEFF1CD6BA8CE4A9A18AD84FFABBD8EFA59332BE7AD6756A66E294AFD185A78FF12AA520E4DE739BACA0C7FFEFF7F2955727A";$/;"	v
+BB	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+BB	miracl/miracl.h	/^int M,AA,BB,CC;     \/* for GF(2^m) curves *\/$/;"	m	struct:__anon19
+BB	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+BC	miracl/mrfpe.c	/^static void BC(int crypt,char *x,int len,int s,aes *a,UINT32 TL,UINT32 TR)$/;"	f	file:
+BCD2String	utils/BCD.c	/^int BCD2String(char *pcBCDData, int iBCDDataLen, char *strDigitBuf, int iBufLen)$/;"	f
+BCD_H	utils/BCD.h	6;"	d
+BELL	miracl/ratcalc.c	15;"	d	file:
+BGROUND	miracl/ratcalc.c	/^static int BGROUND =0x07; \/*   0x07        0x07    black-white       *\/$/;"	v	file:
+BIGS	miracl/miracl.h	146;"	d
+BIG_H	miracl/big.h	90;"	d
+BLHC	miracl/ratcalc.c	27;"	d	file:
+BLINKING	miracl/ratcalc.c	/^static int BLINKING=0xF4; \/*   0x87        0xF4    white-red (blink) *\/$/;"	v	file:
+BLOCK_SIZE	miracl/mrfpe.c	56;"	d	file:
+BOLD	miracl/ratcalc.c	/^static int BOLD    =0x70; \/*   0x0F        0x70    white-black       *\/$/;"	v	file:
+BOOL	miracl/miracl.h	/^typedef int BOOL;$/;"	t
+BRHC	miracl/ratcalc.c	28;"	d	file:
+BRICK_H	miracl/brick.h	14;"	d
+BTRIES	miracl/factor.c	30;"	d	file:
+BiToW	sm3/GMSM3.c	/^void BiToW( unsigned int Bi[], unsigned int W[] )$/;"	f
+Big	miracl/big.h	/^	Big(mr_utype ut) {MR_INIT_BIG tconvert(ut,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big()        {MR_INIT_BIG } $/;"	f	class:Big
+Big	miracl/big.h	/^    Big(big& c)  {MR_INIT_BIG copy(c,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(big* c)  { fn=*c; }$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(char* s) {MR_INIT_BIG cinstr(fn,s);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(char* s) {MR_INIT_BIG instr(fn,s);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(const Big& c)  {MR_INIT_BIG copy(c.fn,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(int j)   {MR_INIT_BIG convert(j,fn); }$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(long lg) {MR_INIT_BIG lgconv(lg,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(mr_dltype dl) {MR_INIT_BIG dlconv(dl,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(unsigned int j) {MR_INIT_BIG uconvert(j,fn); }$/;"	f	class:Big
+Big	miracl/big.h	/^    Big(unsigned long lg) {MR_INIT_BIG ulgconv(lg,fn);}$/;"	f	class:Big
+Big	miracl/big.h	/^class Big $/;"	c
+BigEndian	sm3/GMSM3.c	/^void BigEndian( unsigned char src[], unsigned int bytelen, unsigned char des[] )$/;"	f
+Brick	miracl/brick.h	/^    Brick(Big g,Big n,int window,int nb) $/;"	f	class:Brick
+Brick	miracl/brick.h	/^    Brick(brick *bb) { b=*bb; created=FALSE; }$/;"	f	class:Brick
+Brick	miracl/brick.h	/^class Brick $/;"	c
+Bsize	miracl/miracl.h	/^int Asize,Bsize;$/;"	m	struct:__anon19
+C	miracl/miracl.h	/^big *C;$/;"	m	struct:__anon2
+C	miracl/miracl.h	/^mr_utype *C;$/;"	m	struct:__anon3
+CC	Makefile	/^CC = cc$/;"	m
+CC	miracl/miracl.h	/^int M,AA,BB,CC;     \/* for GF(2^m) curves *\/$/;"	m	struct:__anon19
+CF	sm3/GMSM3.c	/^void CF( unsigned int W[], unsigned int W1[], unsigned int V[] )$/;"	f
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS_CLEAN	Makefile	/^CFLAGS_CLEAN = $(CFLAGS)$/;"	m
+COMMON_FLAGS	Makefile	/^COMMON_FLAGS = $(DEFS) $(INCLUDES) $(EXTRA_INCLUDES) $(CPPFLAGS) $(PHP_FRAMEWORKPATH)$/;"	m
+COMPILE_DL_GMSM	config.h	5;"	d
+CONFIGURE_COMMAND	Makefile	/^CONFIGURE_COMMAND = '.\/configure'$/;"	m
+CONFIGURE_OPTIONS	Makefile	/^CONFIGURE_OPTIONS =$/;"	m
+COS	miracl/mrflsh3.c	47;"	d	file:
+CPP	Makefile	/^CPP = cc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -DHAVE_CONFIG_H$/;"	m
+CRT_H	miracl/crt.h	12;"	d
+CURVE_A	miracl/ecdh2m.c	81;"	d	file:
+CURVE_A	miracl/ecdh2m16.c	95;"	d	file:
+CURVE_A	miracl/ecdh2m8.c	98;"	d	file:
+CURVE_B	miracl/ecdh2m.c	82;"	d	file:
+CURVE_B	miracl/ecdh2m16.c	96;"	d	file:
+CURVE_B	miracl/ecdh2m8.c	99;"	d	file:
+CURVE_BITS	miracl/ecdhp.c	77;"	d	file:
+CURVE_BITS	miracl/ecdhp16.c	187;"	d	file:
+CURVE_BITS	miracl/ecdhp32.c	120;"	d	file:
+CURVE_BITS	miracl/ecdhp8.c	111;"	d	file:
+CURVE_C	miracl/ecdh2m.c	83;"	d	file:
+CURVE_C	miracl/ecdh2m16.c	97;"	d	file:
+CURVE_C	miracl/ecdh2m8.c	100;"	d	file:
+CURVE_M	miracl/ecdh2m.c	80;"	d	file:
+CURVE_M	miracl/ecdh2m16.c	94;"	d	file:
+CURVE_M	miracl/ecdh2m8.c	97;"	d	file:
+CUR_DIR	run-tests.php	/^$CUR_DIR = getcwd();$/;"	v
+CXX	Makefile	/^CXX =$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS =$/;"	m
+CXXFLAGS_CLEAN	Makefile	/^CXXFLAGS_CLEAN = $(CXXFLAGS)$/;"	m
+Ch	miracl/mrshs256.c	74;"	d	file:
+Ch	miracl/mrshs512.c	101;"	d	file:
+Crt	miracl/crt.h	/^class Crt $/;"	c
+D	miracl/miracl.h	/^double D;$/;"	m	struct:__anon19
+DBLHC	miracl/ratcalc.c	21;"	d	file:
+DBRHC	miracl/ratcalc.c	22;"	d	file:
+DD	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+DD	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+DECRYPT	miracl/mrfpe.c	58;"	d	file:
+DEFS	Makefile	/^DEFS = -DPHP_ATOM_INC -I$(top_builddir)\/include -I$(top_builddir)\/main -I$(top_srcdir)$/;"	m
+DETAILED	run-tests.php	/^					$DETAILED = true;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = 0;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = getenv('TEST_PHP_DETAILED');$/;"	v
+DG	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+DG	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+DHORZ	miracl/ratcalc.c	18;"	d	file:
+DTLHC	miracl/ratcalc.c	19;"	d	file:
+DTRHC	miracl/ratcalc.c	20;"	d	file:
+DVERT	miracl/ratcalc.c	17;"	d	file:
+EBRICK2_H	miracl/ebrick2.h	13;"	d
+EBRICK_H	miracl/ebrick.h	14;"	d
+EBrick	miracl/ebrick.h	/^    EBrick(Big x,Big y,Big a,Big b,Big n,int window,int nb) $/;"	f	class:EBrick
+EBrick	miracl/ebrick.h	/^    EBrick(ebrick *b) {B=*b; created=FALSE;}  \/* set structure *\/$/;"	f	class:EBrick
+EBrick	miracl/ebrick.h	/^class EBrick $/;"	c
+EBrick2	miracl/ebrick2.h	/^    EBrick2(Big x,Big y,Big a2,Big a6,int m,int a,int b,int c,int window,int nb) $/;"	f	class:EBrick2
+EBrick2	miracl/ebrick2.h	/^    EBrick2(ebrick2 *b) {B=*b; created=FALSE;}  \/* set structure *\/$/;"	f	class:EBrick2
+EBrick2	miracl/ebrick2.h	/^class EBrick2 $/;"	c
+EC2	miracl/ec2.h	/^    EC2()                         { MR_INIT_EC2}$/;"	f	class:EC2
+EC2	miracl/ec2.h	/^    EC2(const Big &x,const Big& y)  {MR_INIT_EC2 $/;"	f	class:EC2
+EC2	miracl/ec2.h	/^    EC2(const Big& x,int cb)       {MR_INIT_EC2$/;"	f	class:EC2
+EC2	miracl/ec2.h	/^    EC2(const EC2 &b)             {MR_INIT_EC2 epoint2_copy(b.p,p);}$/;"	f	class:EC2
+EC2	miracl/ec2.h	/^class EC2$/;"	c
+EC2_H	miracl/ec2.h	51;"	d
+ECC_WORDSIZE	sm2/GMSM2.h	29;"	d
+ECNZZN_H	miracl/ecnzzn.h	7;"	d
+ECN_H	miracl/ecn.h	53;"	d
+ECn	miracl/ecn.h	/^    ECn()                           {MR_INIT_ECN }$/;"	f	class:ECn
+ECn	miracl/ecn.h	/^    ECn(const Big &x,const Big& y)  {MR_INIT_ECN $/;"	f	class:ECn
+ECn	miracl/ecn.h	/^    ECn(const Big& x,int cb)             {MR_INIT_ECN$/;"	f	class:ECn
+ECn	miracl/ecn.h	/^    ECn(const ECn &b)                   {MR_INIT_ECN epoint_copy(b.p,p);}$/;"	f	class:ECn
+ECn	miracl/ecn.h	/^class ECn$/;"	c
+EE	miracl/factor.c	/^static unsigned int **EE,**G;$/;"	v	file:
+EE	miracl/qsieve.c	/^static unsigned int **EE,**G;$/;"	v	file:
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENCRYPT	miracl/mrfpe.c	57;"	d	file:
+ERCON	miracl/miracl.h	/^BOOL ERCON;        \/* error control   *\/$/;"	m	struct:__anon19
+ERNUM	miracl/miracl.h	/^int  ERNUM;        \/* last error code *\/$/;"	m	struct:__anon19
+ERR_ARRAY_NULL	sm2/GMSM2.h	36;"	d
+ERR_C3_MATCH	sm2/GMSM2.h	37;"	d
+ERR_ECURVE_INIT	sm2/GMSM2.h	38;"	d
+ERR_INFINITY_POINT	sm2/GMSM2.h	32;"	d
+ERR_NOT_VALID_ELEMENT	sm2/GMSM2.h	33;"	d
+ERR_NOT_VALID_POINT	sm2/GMSM2.h	34;"	d
+ERR_ORDER	sm2/GMSM2.h	35;"	d
+ERR_SELFTEST_DEC	sm2/GMSM2.h	41;"	d
+ERR_SELFTEST_ENC	sm2/GMSM2.h	40;"	d
+ERR_SELFTEST_KG	sm2/GMSM2.h	39;"	d
+ESC	miracl/ratcalc.c	13;"	d	file:
+EXACT	miracl/miracl.h	/^BOOL EXACT;        \/* exact flag      *\/$/;"	m	struct:__anon19
+EXTENSION_DIR	Makefile	/^EXTENSION_DIR = \/apps\/php\/lib\/php\/extensions\/no-debug-non-zts-20100525$/;"	m
+EXTRA_LDFLAGS	Makefile	/^EXTRA_LDFLAGS =$/;"	m
+EXTRA_LIBS	Makefile	/^EXTRA_LIBS =$/;"	m
+F0	miracl/mrshs.c	76;"	d	file:
+F1	miracl/mrshs.c	77;"	d	file:
+F2	miracl/mrshs.c	78;"	d	file:
+F3	miracl/mrshs.c	79;"	d	file:
+FALSE	miracl/miracl.h	217;"	d
+FILE_BINARY	run-tests.php	/^		define('FILE_BINARY', 0);$/;"	d
+FIX	miracl/mrshs.c	48;"	d	file:
+FLASH_H	miracl/flash.h	12;"	d
+FLOAT_H	miracl/floating.h	11;"	d
+FPE_decrypt	miracl/mrfpe.c	/^void FPE_decrypt(int s,aes *a,UINT32 TL,UINT32 TR,char *x,int len)$/;"	f
+FPE_encrypt	miracl/mrfpe.c	/^void FPE_encrypt(int s,aes *a,UINT32 TL,UINT32 TR,char *x,int len)$/;"	f
+FUNC_BASE	miracl/mrzzn4.c	43;"	d	file:
+Flash	miracl/flash.h	/^    Flash()         {MR_FINIT_BIG}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(char* s)  {MR_FINIT_BIG cinstr(fn,s);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(const Big& c)   {MR_FINIT_BIG copy(c.fn, fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(const Big& n,const Big& d) {MR_FINIT_BIG mround(n.fn,d.fn,fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(const Flash& f) {MR_FINIT_BIG copy(f.fn, fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(double d) {MR_FINIT_BIG dconv(d,fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(int j)    {MR_FINIT_BIG convert(j,fn); }$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(int x,int y) {MR_FINIT_BIG fconv(x,y,fn); }$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(long lg)  {MR_FINIT_BIG lgconv(lg,fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(mr_dltype dl) {MR_FINIT_BIG dlconv(dl,fn);}$/;"	f	class:Flash
+Flash	miracl/flash.h	/^    Flash(unsigned int j) {MR_FINIT_BIG uconvert(j,fn); }$/;"	f	class:Flash
+Flash	miracl/flash.h	/^class Flash$/;"	c
+Float	miracl/floating.h	/^    Float()      { }$/;"	f	class:Float
+Float	miracl/floating.h	/^    Float(const Big &b) {m=b; e=length(b);}$/;"	f	class:Float
+Float	miracl/floating.h	/^    Float(const Big &b,int ex) {m=b; e=ex;}$/;"	f	class:Float
+Float	miracl/floating.h	/^    Float(const Float& f) {e=f.e; m=f.m; }$/;"	f	class:Float
+Float	miracl/floating.h	/^    Float(int i) {m=i; e=1;}$/;"	f	class:Float
+Float	miracl/floating.h	/^class Float$/;"	c
+G	miracl/factor.c	/^static unsigned int **EE,**G;$/;"	v	file:
+G	miracl/qsieve.c	/^static unsigned int **EE,**G;$/;"	v	file:
+G	sm2/GMSM2.h	/^epoint      *G;$/;"	v
+GCM_ACCEPTING_CIPHER	miracl/miracl.h	437;"	d
+GCM_ACCEPTING_HEADER	miracl/miracl.h	436;"	d
+GCM_DECRYPTING	miracl/miracl.h	441;"	d
+GCM_ENCRYPTING	miracl/miracl.h	440;"	d
+GCM_FINISHED	miracl/miracl.h	439;"	d
+GCM_NOT_ACCEPTING_MORE	miracl/miracl.h	438;"	d
+GF2MS	miracl/miracl.h	152;"	d
+GF2M_H	miracl/gf2m.h	47;"	d
+GF2m	miracl/gf2m.h	/^    GF2m()              {MR_INIT_GF2M MR_ZERO_GF2M}$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^    GF2m(big& c)        {MR_INIT_GF2M MR_CLONE_GF2M(c)}$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^    GF2m(char *s)       {MR_INIT_GF2M cinstr(fn,s); reduce2(fn,fn);}$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^    GF2m(const Big& c)  {MR_INIT_GF2M reduce2(c.getbig(),fn); }   \/* Big -> GF2m *\/$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^    GF2m(const GF2m& c) {MR_INIT_GF2M MR_CLONE_GF2M(c.fn)}$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^    GF2m(int j)         {MR_INIT_GF2M if (j==0) MR_ZERO_GF2M else {convert(j,fn); reduce2(fn,fn);}}$/;"	f	class:GF2m
+GF2m	miracl/gf2m.h	/^class GF2m$/;"	c
+GMSM_G	php_gmsm.h	75;"	d
+GMSM_G	php_gmsm.h	77;"	d
+H0	miracl/mrshs.c	58;"	d	file:
+H0	miracl/mrshs256.c	47;"	d	file:
+H0	miracl/mrshs512.c	51;"	d	file:
+H1	miracl/mrshs.c	59;"	d	file:
+H1	miracl/mrshs256.c	48;"	d	file:
+H1	miracl/mrshs512.c	52;"	d	file:
+H2	miracl/mrshs.c	60;"	d	file:
+H2	miracl/mrshs256.c	49;"	d	file:
+H2	miracl/mrshs512.c	53;"	d	file:
+H3	miracl/mrshs.c	61;"	d	file:
+H3	miracl/mrshs256.c	50;"	d	file:
+H3	miracl/mrshs512.c	54;"	d	file:
+H4	miracl/mrshs.c	62;"	d	file:
+H4	miracl/mrshs256.c	51;"	d	file:
+H4	miracl/mrshs512.c	55;"	d	file:
+H5	miracl/mrshs256.c	52;"	d	file:
+H5	miracl/mrshs512.c	56;"	d	file:
+H6	miracl/mrshs256.c	53;"	d	file:
+H6	miracl/mrshs512.c	57;"	d	file:
+H7	miracl/mrshs256.c	54;"	d	file:
+H7	miracl/mrshs512.c	58;"	d	file:
+H8	miracl/mrshs512.c	60;"	d	file:
+H9	miracl/mrshs512.c	61;"	d	file:
+HA	miracl/mrshs512.c	62;"	d	file:
+HAVE_DLFCN_H	config.h	8;"	d
+HAVE_INTTYPES_H	config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_STDINT_H	config.h	17;"	d
+HAVE_STDLIB_H	config.h	20;"	d
+HAVE_STRINGS_H	config.h	23;"	d
+HAVE_STRING_H	config.h	26;"	d
+HAVE_SYS_STAT_H	config.h	29;"	d
+HAVE_SYS_TYPES_H	config.h	32;"	d
+HAVE_UNISTD_H	config.h	35;"	d
+HB	miracl/mrshs512.c	63;"	d	file:
+HC	miracl/mrshs512.c	64;"	d	file:
+HD	miracl/mrshs512.c	65;"	d	file:
+HE	miracl/mrshs512.c	66;"	d	file:
+HELPCOL	miracl/ratcalc.c	/^static int HELPCOL =0x02; \/*   0x07        0x02    black-green       *\/$/;"	v	file:
+HEXDIGS	miracl/ecdh2m.c	74;"	d	file:
+HEXDIGS	miracl/ecdh2m16.c	89;"	d	file:
+HEXDIGS	miracl/ecdh2m8.c	92;"	d	file:
+HEXDIGS	miracl/ecdhp.c	76;"	d	file:
+HEXDIGS	miracl/ecdhp16.c	186;"	d	file:
+HEXDIGS	miracl/ecdhp32.c	119;"	d	file:
+HEXDIGS	miracl/ecdhp8.c	110;"	d	file:
+HF	miracl/mrshs512.c	67;"	d	file:
+HORZ	miracl/ratcalc.c	24;"	d	file:
+HexString2BCD	utils/BCD.c	/^int HexString2BCD(char *strDigitData, int strDigitDataLen, char *pcBCDBuf, int iBCDBufLen)$/;"	f
+HexToByte	sm2/GMSM2.c	/^void HexToByte(char s[], unsigned char *out)$/;"	f
+IG	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+IG	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+INCLUDES	Makefile	/^INCLUDES = -I\/apps\/php\/include\/php -I\/apps\/php\/include\/php\/main -I\/apps\/php\/include\/php\/TSRM -I\/apps\/php\/include\/php\/Zend -I\/apps\/php\/include\/php\/ext -I\/apps\/php\/include\/php\/ext\/date\/lib$/;"	m
+INLINE_ASM	miracl/miracl.h	1460;"	d
+INLINE_ASM	miracl/miracl.h	1466;"	d
+INLINE_ASM	miracl/miracl.h	1468;"	d
+INLINE_ASM	miracl/miracl.h	1485;"	d
+INLINE_ASM	miracl/miracl.h	1492;"	d
+INLINE_ASM	miracl/miracl.h	1504;"	d
+INPLEN	miracl/miracl.h	/^int  INPLEN;       \/* input length               *\/$/;"	m	struct:__anon19
+INSTALL	Makefile	/^INSTALL = $(top_srcdir)\/build\/shtool install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_HEADERS	Makefile	/^INSTALL_HEADERS =$/;"	m
+INVER	miracl/ratcalc.c	/^static int INVER   =0x40; \/*   0x70        0x40    red-black         *\/$/;"	v	file:
+IN_REDIRECT	run-tests.php	/^			$IN_REDIRECT = false;$/;"	v
+IN_REDIRECT	run-tests.php	/^		$IN_REDIRECT = eval($section_text['REDIRECTTEST']);$/;"	v
+IOBASE	miracl/miracl.h	/^int  IOBASE;       \/* base for input and output *\/$/;"	m	struct:__anon19
+IOBSIZ	miracl/miracl.h	/^int  IOBSIZ;       \/* size of i\/o buffer *\/$/;"	m	struct:__anon19
+IOBUFF	miracl/miracl.h	/^char *IOBUFF;       \/* i\/o buffer    *\/$/;"	m	struct:__anon19
+IOBUFF	miracl/miracl.h	/^char IOBUFF[MR_DEFAULT_BUFFER_SIZE];    \/* i\/o buffer    *\/$/;"	m	struct:__anon19
+InCo	miracl/mraes.c	/^static const MR_BYTE InCo[4]={0xB,0xD,0x9,0xE};  \/* Inverse Coefficients *\/$/;"	v	file:
+InvMixCol	miracl/mraes.c	/^static MR_WORD InvMixCol(MR_WORD x)$/;"	f	file:
+JUNIT	run-tests.php	/^		$JUNIT = FALSE;$/;"	v
+JUNIT	run-tests.php	/^		$JUNIT = array($/;"	v
+JUNIT	run-tests.php	/^	$JUNIT = getenv('TEST_PHP_JUNIT');$/;"	v
+K	miracl/mrshs256.c	/^static const mr_unsign32 K[64]={$/;"	v	file:
+K	miracl/mrshs512.c	/^static const mr_unsign64 K[80]=$/;"	v	file:
+K0	miracl/mrshs.c	64;"	d	file:
+K1	miracl/mrshs.c	65;"	d	file:
+K2	miracl/mrshs.c	66;"	d	file:
+K3	miracl/mrshs.c	67;"	d	file:
+KA163	miracl/bmark.c	/^int KA163=1;$/;"	v
+KA233	miracl/bmark.c	/^int  KA233=0;$/;"	v
+KA283	miracl/bmark.c	/^int  KA283=0;$/;"	v
+KA571	miracl/bmark.c	/^int  KA571=0;$/;"	v
+KB163	miracl/bmark.c	/^char KB163[]="1";$/;"	v
+KB233	miracl/bmark.c	/^char KB233[]="1";$/;"	v
+KB283	miracl/bmark.c	/^char KB283[]="1";$/;"	v
+KB571	miracl/bmark.c	/^char KB571[]="1";$/;"	v
+KOBLITZ	miracl/miracl.h	/^BOOL KOBLITZ;          \/* True for a Koblitz curve *\/$/;"	m	struct:__anon19
+Kx163	miracl/bmark.c	/^char Kx163[]="396C30B475EF87A2B37CA911D272DE90E109CA80F";$/;"	v
+Kx233	miracl/bmark.c	/^char Kx233[]="17232ba853a7e731af129f22ff4149563a419c26bf50a4c9d6eefad6126";$/;"	v
+Kx283	miracl/bmark.c	/^char Kx283[]="503213f78ca44883f1a3b8162f188e553cd265f23c1567a16876913b0c2ac2458492836";$/;"	v
+Kx571	miracl/bmark.c	/^char Kx571[]="026EB7A859923FBC82189631F8103FE4AC9CA2970012D5D46024804801841CA44370958493B205E647DA304DB4CEB08CBBD1BA39494776FB988B47174DCA88C7E2945283A01C8972";$/;"	v
+Ky163	miracl/bmark.c	/^char Ky163[]="3947D0E4C8BB41DC3BABB142D2923A253D6E76391";$/;"	v
+Ky233	miracl/bmark.c	/^char Ky233[]="1db537dece819b7f70f555a67c427a8cd9bf18aeb9b56e0c11056fae6a3";$/;"	v
+Ky283	miracl/bmark.c	/^char Ky283[]="1ccda380f1c9e318d90f95d07e5426fe87e45c0e8184698e45962364e34116177dd2259";$/;"	v
+Ky571	miracl/bmark.c	/^char Ky571[]="0349DC807F4FBF374F4AEADE3BCA95314DD58CEC9F307A54FFC61EFC006D8A2C9D4979C0AC44AEA74FBEBBB9F772AEDCB620B01A7BA7AF1B320430C8591984F601CD4C143EF1C7A3";$/;"	v
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LEAPS	miracl/kangaroo.c	16;"	d	file:
+LFLAGS	Makefile	/^LFLAGS =$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIMIT	miracl/brute.c	8;"	d	file:
+LIMIT	miracl/factor.c	29;"	d	file:
+LIMIT	miracl/kangaroo.c	15;"	d	file:
+LIMIT	miracl/mersenne.c	11;"	d	file:
+LIMIT1	miracl/lenstra.c	13;"	d	file:
+LIMIT1	miracl/pollard.c	14;"	d	file:
+LIMIT1	miracl/williams.c	13;"	d	file:
+LIMIT2	miracl/lenstra.c	14;"	d	file:
+LIMIT2	miracl/pollard.c	15;"	d	file:
+LIMIT2	miracl/williams.c	14;"	d	file:
+LSIDE	miracl/ratcalc.c	29;"	d	file:
+M	miracl/miracl.h	/^big *M;$/;"	m	struct:__anon2
+M	miracl/miracl.h	/^int M,AA,BB,CC;     \/* for GF(2^m) curves *\/$/;"	m	struct:__anon19
+M	miracl/miracl.h	/^mr_utype *M;$/;"	m	struct:__anon3
+M1	miracl/miracl.h	225;"	d
+M2	miracl/miracl.h	226;"	d
+M3	miracl/miracl.h	227;"	d
+M4	miracl/miracl.h	228;"	d
+M8	miracl/miracl.h	232;"	d
+MAXBASE	miracl/mirdef.h	13;"	d
+MINUS	miracl/miracl.h	223;"	d
+MIN_ITERS	miracl/bmark.c	48;"	d	file:
+MIN_TIME	miracl/bmark.c	47;"	d	file:
+MIN_TIME	miracl/imratio.c	10;"	d	file:
+MIN_TIME	miracl/imratio2.c	12;"	d	file:
+MIRACL	miracl/mirdef.h	6;"	d
+MIRACL_CLASS	miracl/big.h	114;"	d
+MIRACL_H	miracl/miracl.h	36;"	d
+MONTY	miracl/miracl.h	/^BOOL MONTY;$/;"	m	struct:__anon19
+MR_ADD	miracl/miracl.h	466;"	d
+MR_AFFINE	miracl/miracl.h	461;"	d
+MR_BEST	miracl/miracl.h	462;"	d
+MR_BIG_RESERVE	miracl/miracl.h	111;"	d
+MR_BITSINCHAR	miracl/mirdef.h	14;"	d
+MR_BOT	miracl/miracl.h	340;"	d
+MR_BOT	miracl/miracl.h	344;"	d
+MR_BTS	miracl/miracl.h	321;"	d
+MR_BYTE	miracl/miracl.h	245;"	d
+MR_CBC	miracl/miracl.h	413;"	d
+MR_CFB1	miracl/miracl.h	414;"	d
+MR_CFB2	miracl/miracl.h	415;"	d
+MR_CFB4	miracl/miracl.h	416;"	d
+MR_CLONE_GF2M	miracl/gf2m.h	66;"	d
+MR_CLONE_GF2M	miracl/gf2m.h	70;"	d
+MR_CLONE_ZZN	miracl/zzn.h	79;"	d
+MR_CLONE_ZZN	miracl/zzn.h	83;"	d
+MR_CRT_BIG	miracl/crt.h	16;"	d
+MR_CRT_SMALL	miracl/crt.h	17;"	d
+MR_CUBIC_D	miracl/miracl.h	473;"	d
+MR_CUBIC_M	miracl/miracl.h	472;"	d
+MR_DEFAULT_BUFFER_SIZE	miracl/miracl.h	49;"	d
+MR_DEFAULT_BUFFER_SIZE	miracl/miracl.h	51;"	d
+MR_DIV	miracl/miracl.h	264;"	d
+MR_DIV	miracl/miracl.h	287;"	d
+MR_DOS_2	miracl/ecn2_opt.c	1021;"	d	file:
+MR_DOUBLE	miracl/miracl.h	467;"	d
+MR_EBITS	miracl/miracl.h	319;"	d
+MR_ECB	miracl/miracl.h	412;"	d
+MR_ECC_STORE_2M	miracl/miracl.h	490;"	d
+MR_ECC_STORE_2M	miracl/miracl.h	494;"	d
+MR_ECC_STORE_N	miracl/miracl.h	489;"	d
+MR_ECC_STORE_N	miracl/miracl.h	493;"	d
+MR_ECC_STORE_N2	miracl/miracl.h	491;"	d
+MR_ECC_STORE_N2	miracl/miracl.h	495;"	d
+MR_ECP_RESERVE	miracl/miracl.h	118;"	d
+MR_ECP_RESERVE_A	miracl/miracl.h	121;"	d
+MR_EPOINT_GENERAL	miracl/miracl.h	455;"	d
+MR_EPOINT_INFINITY	miracl/miracl.h	457;"	d
+MR_EPOINT_NORMALIZED	miracl/miracl.h	456;"	d
+MR_ERR_BAD_BASE	miracl/miracl.h	182;"	d
+MR_ERR_BAD_FORMAT	miracl/miracl.h	181;"	d
+MR_ERR_BAD_MODULUS	miracl/miracl.h	195;"	d
+MR_ERR_BAD_PARAMETERS	miracl/miracl.h	183;"	d
+MR_ERR_BAD_ROOT	miracl/miracl.h	187;"	d
+MR_ERR_BASE_TOO_BIG	miracl/miracl.h	177;"	d
+MR_ERR_COMPOSITE_MODULUS	miracl/miracl.h	204;"	d
+MR_ERR_DEV_RANDOM	miracl/miracl.h	205;"	d
+MR_ERR_DIV_BY_ZERO	miracl/miracl.h	178;"	d
+MR_ERR_DOUBLE_FAIL	miracl/miracl.h	192;"	d
+MR_ERR_EXP_TOO_BIG	miracl/miracl.h	197;"	d
+MR_ERR_FLASH_OVERFLOW	miracl/miracl.h	189;"	d
+MR_ERR_INT_OP	miracl/miracl.h	188;"	d
+MR_ERR_IO_OVERFLOW	miracl/miracl.h	193;"	d
+MR_ERR_NEG_LOG	miracl/miracl.h	191;"	d
+MR_ERR_NEG_POWER	miracl/miracl.h	186;"	d
+MR_ERR_NEG_RESULT	miracl/miracl.h	180;"	d
+MR_ERR_NEG_ROOT	miracl/miracl.h	185;"	d
+MR_ERR_NOT_BINARY	miracl/miracl.h	202;"	d
+MR_ERR_NOT_DOUBLE_LEN	miracl/miracl.h	199;"	d
+MR_ERR_NOT_IRREDUC	miracl/miracl.h	200;"	d
+MR_ERR_NOT_SUPPORTED	miracl/miracl.h	198;"	d
+MR_ERR_NO_BASIS	miracl/miracl.h	203;"	d
+MR_ERR_NO_MIRSYS	miracl/miracl.h	194;"	d
+MR_ERR_NO_MODULUS	miracl/miracl.h	196;"	d
+MR_ERR_NO_ROUNDING	miracl/miracl.h	201;"	d
+MR_ERR_OUT_OF_MEMORY	miracl/miracl.h	184;"	d
+MR_ERR_OVERFLOW	miracl/miracl.h	179;"	d
+MR_ERR_TOO_BIG	miracl/miracl.h	190;"	d
+MR_ESIZE	miracl/miracl.h	114;"	d
+MR_ESIZE	miracl/miracl.h	116;"	d
+MR_ESIZE_A	miracl/miracl.h	120;"	d
+MR_FINIT_BIG	miracl/flash.h	19;"	d
+MR_FINIT_BIG	miracl/flash.h	21;"	d
+MR_FLASH	miracl/mirdef.h	12;"	d
+MR_GENERIC_AND_STATIC	miracl/miracl.h	790;"	d
+MR_HASH_BYTES	miracl/miracl.h	327;"	d
+MR_IBITS	miracl/mirdef.h	9;"	d
+MR_IMPASM	miracl/mrfast.c	248;"	d	file:
+MR_IMPASM	miracl/mrfast.c	289;"	d	file:
+MR_IMPASM	miracl/mrfast.c	395;"	d	file:
+MR_IMPASM	miracl/mrfast.c	434;"	d	file:
+MR_IMPASM	miracl/mrscrt.c	161;"	d	file:
+MR_IMPASM	miracl/mrscrt.c	198;"	d	file:
+MR_IN	miracl/miracl.h	816;"	d
+MR_IN	miracl/miracl.h	819;"	d
+MR_INIT_BIG	miracl/big.h	149;"	d
+MR_INIT_BIG	miracl/big.h	151;"	d
+MR_INIT_EC2	miracl/ec2.h	57;"	d
+MR_INIT_EC2	miracl/ec2.h	59;"	d
+MR_INIT_ECN	miracl/ecn.h	59;"	d
+MR_INIT_ECN	miracl/ecn.h	61;"	d
+MR_INIT_GF2M	miracl/gf2m.h	65;"	d
+MR_INIT_GF2M	miracl/gf2m.h	69;"	d
+MR_INIT_ZZN	miracl/zzn.h	78;"	d
+MR_INIT_ZZN	miracl/zzn.h	82;"	d
+MR_ITANIUM	miracl/miracl.h	158;"	d
+MR_KARATSUBA	miracl/miracl.h	57;"	d
+MR_LBITS	miracl/mirdef.h	10;"	d
+MR_LITTLE_ENDIAN	miracl/mirdef.h	5;"	d
+MR_LMM	miracl/miracl.h	1456;"	d
+MR_LMM	miracl/miracl.h	1480;"	d
+MR_LROUND	miracl/miracl.h	270;"	d
+MR_LROUND	miracl/miracl.h	272;"	d
+MR_LROUND	miracl/miracl.h	289;"	d
+MR_MAXDEPTH	miracl/miracl.h	234;"	d
+MR_MAXPRIME	miracl/mrprime.c	46;"	d	file:
+MR_MAXPRIME	miracl/mrprime.c	48;"	d	file:
+MR_MAX_M_T_S	miracl/miracl.h	502;"	d
+MR_MIP_EXISTS	miracl/mrcore.c	132;"	d	file:
+MR_MIP_EXISTS	miracl/mrcore.c	62;"	d	file:
+MR_MSBIT	miracl/miracl.h	308;"	d
+MR_MSK	miracl/miracl.h	322;"	d
+MR_MUL2_GLS_RESERVE	miracl/ecn2_opt.c	1525;"	d	file:
+MR_MUL2_GLS_RESERVE	miracl/mrecn2.c	1357;"	d	file:
+MR_MUL2_GLS_RESERVE	miracl/mrecn2.c	2734;"	d	file:
+MR_MUL2_JSF_RESERVE	miracl/ecn2_opt.c	1288;"	d	file:
+MR_MUL2_JSF_RESERVE	miracl/mrecn2.c	1121;"	d	file:
+MR_MUL2_JSF_RESERVE	miracl/mrecn2.c	2489;"	d	file:
+MR_MUL2_RESERVE	miracl/ecn2_opt.c	1653;"	d	file:
+MR_MUL2_RESERVE	miracl/ecn2_opt.c	1655;"	d	file:
+MR_MUL2_RESERVE	miracl/mrecn2.c	1481;"	d	file:
+MR_MUL2_RESERVE	miracl/mrecn2.c	1483;"	d	file:
+MR_MUL2_RESERVE	miracl/mrecn2.c	2862;"	d	file:
+MR_MUL2_RESERVE	miracl/mrecn2.c	2864;"	d	file:
+MR_MUL4_GLS_V_RESERVE	miracl/ecn2_opt.c	1578;"	d	file:
+MR_MUL4_GLS_V_RESERVE	miracl/mrecn2.c	1410;"	d	file:
+MR_MUL4_GLS_V_RESERVE	miracl/mrecn2.c	2789;"	d	file:
+MR_MUL_RESERVE	miracl/ecn2_opt.c	1211;"	d	file:
+MR_MUL_RESERVE	miracl/ecn2_opt.c	1213;"	d	file:
+MR_MUL_RESERVE	miracl/mrecn2.c	1029;"	d	file:
+MR_MUL_RESERVE	miracl/mrecn2.c	1031;"	d	file:
+MR_MUL_RESERVE	miracl/mrecn2.c	2397;"	d	file:
+MR_MUL_RESERVE	miracl/mrecn2.c	2399;"	d	file:
+MR_NOTSET	miracl/miracl.h	459;"	d
+MR_OBITS	miracl/miracl.h	310;"	d
+MR_OFB1	miracl/miracl.h	420;"	d
+MR_OFB16	miracl/miracl.h	424;"	d
+MR_OFB2	miracl/miracl.h	421;"	d
+MR_OFB4	miracl/miracl.h	422;"	d
+MR_OFB8	miracl/miracl.h	423;"	d
+MR_OS_THREADS	miracl/miracl.h	767;"	d
+MR_OS_THREADS	miracl/miracl.h	771;"	d
+MR_OS_THREADS	miracl/miracl.h	775;"	d
+MR_OUT	miracl/miracl.h	815;"	d
+MR_OUT	miracl/miracl.h	818;"	d
+MR_OVER	miracl/miracl.h	465;"	d
+MR_PCFB1	miracl/miracl.h	417;"	d
+MR_PCFB2	miracl/miracl.h	418;"	d
+MR_PCFB4	miracl/miracl.h	419;"	d
+MR_PRE_2	miracl/mrecn2.c	2346;"	d	file:
+MR_PRE_2	miracl/mrecn2.c	813;"	d	file:
+MR_PROJECTIVE	miracl/miracl.h	460;"	d
+MR_QUADRATIC	miracl/miracl.h	471;"	d
+MR_QUARTIC_D	miracl/miracl.h	475;"	d
+MR_QUARTIC_M	miracl/miracl.h	474;"	d
+MR_REMAIN	miracl/miracl.h	275;"	d
+MR_REMAIN	miracl/miracl.h	288;"	d
+MR_ROUNDUP	miracl/miracl.h	104;"	d
+MR_SEXTIC_D	miracl/miracl.h	477;"	d
+MR_SEXTIC_M	miracl/miracl.h	476;"	d
+MR_SIZE	miracl/miracl.h	110;"	d
+MR_SL	miracl/miracl.h	106;"	d
+MR_SPACES	miracl/miracl.h	64;"	d
+MR_SPACES	miracl/miracl.h	66;"	d
+MR_SPACES	miracl/miracl.h	70;"	d
+MR_SPACES	miracl/miracl.h	72;"	d
+MR_SPACES	miracl/miracl.h	80;"	d
+MR_SPACES	miracl/miracl.h	82;"	d
+MR_SPACES	miracl/miracl.h	86;"	d
+MR_SPACES	miracl/miracl.h	88;"	d
+MR_SSE2_64	miracl/mrgf2m.c	90;"	d	file:
+MR_SSE2_INTRINSICS	miracl/mrgf2m.c	72;"	d	file:
+MR_SSE2_INTRINSICS	miracl/mrgf2m.c	79;"	d	file:
+MR_TOBYTE	miracl/miracl.h	249;"	d
+MR_TOBYTE	miracl/miracl.h	251;"	d
+MR_TOBYTE	miracl/miracl.h	254;"	d
+MR_TOOBIG	miracl/miracl.h	313;"	d
+MR_TOOBIG	miracl/miracl.h	315;"	d
+MR_TOP	miracl/miracl.h	341;"	d
+MR_TOP	miracl/miracl.h	345;"	d
+MR_TWIST	miracl/miracl.h	463;"	d
+MR_WIN64	miracl/miracl.h	166;"	d
+MR_WORD	miracl/mraes.c	59;"	d	file:
+MR_WORD	miracl/mrgcm.c	59;"	d	file:
+MR_ZERO_GF2M	miracl/gf2m.h	67;"	d
+MR_ZERO_GF2M	miracl/gf2m.h	71;"	d
+MR_ZERO_ZZN	miracl/zzn.h	80;"	d
+MR_ZERO_ZZN	miracl/zzn.h	84;"	d
+MULT	miracl/factor.c	31;"	d	file:
+MULT	miracl/lenstra.c	15;"	d	file:
+MULT	miracl/pollard.c	16;"	d	file:
+MULT	miracl/williams.c	15;"	d	file:
+Maj	miracl/mrshs256.c	75;"	d	file:
+Maj	miracl/mrshs512.c	102;"	d	file:
+Miracl	miracl/big.h	/^    Miracl(int nd,mr_small nb=0)$/;"	f	class:Miracl
+Miracl	miracl/big.h	/^class Miracl$/;"	c
+N	miracl/mr87f.c	106;"	d	file:
+N	miracl/mr87f.c	88;"	d	file:
+N	miracl/mr87f.c	97;"	d	file:
+N	miracl/mr87v.c	105;"	d	file:
+NB	miracl/mraes.c	62;"	d	file:
+NB	miracl/mrgcm.c	58;"	d	file:
+NCURVES	miracl/lenstra.c	17;"	d	file:
+NEXT	miracl/factor.c	32;"	d	file:
+NEXT	miracl/lenstra.c	16;"	d	file:
+NEXT	miracl/pollard.c	17;"	d	file:
+NEXT	miracl/williams.c	16;"	d	file:
+NJ	miracl/miracl.h	332;"	d
+NK	miracl/miracl.h	331;"	d
+NN	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+NN	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+NO_CARRY	miracl/miracl.h	/^BOOL NO_CARRY;$/;"	m	struct:__anon19
+NO_EXTENDED	miracl/mrarth1.c	72;"	d	file:
+NP	miracl/decode.c	13;"	d	file:
+NP	miracl/genkey.c	20;"	d	file:
+NP	miracl/miracl.h	/^int NP;$/;"	m	struct:__anon2
+NP	miracl/miracl.h	/^int NP;$/;"	m	struct:__anon3
+NPRIMES	miracl/genprime.c	14;"	d	file:
+NPRIMES	miracl/identity.c	16;"	d	file:
+NPRIMES	miracl/index.c	13;"	d	file:
+NTRY	miracl/miracl.h	/^int  NTRY;         \/* no. of tries for probablistic primality testing   *\/$/;"	m	struct:__anon19
+NTRYS	miracl/williams.c	17;"	d	file:
+NV	miracl/miracl.h	333;"	d
+Nk	miracl/miracl.h	/^int Nk,Nr;$/;"	m	struct:__anon8
+Nr	miracl/miracl.h	/^int Nk,Nr;$/;"	m	struct:__anon8
+OBITS	miracl/limlee.c	28;"	d	file:
+OFF	miracl/miracl.h	220;"	d
+ON	miracl/miracl.h	221;"	d
+ORDINARY	miracl/ratcalc.c	/^static int ORDINARY=0x17; \/*   0x07        0x17    blue-white        *\/$/;"	v	file:
+PACKAGE_BUGREPORT	config.h	41;"	d
+PACKAGE_NAME	config.h	44;"	d
+PACKAGE_STRING	config.h	47;"	d
+PACKAGE_TARNAME	config.h	50;"	d
+PACKAGE_VERSION	config.h	53;"	d
+PAD	miracl/mrshs.c	69;"	d	file:
+PAD	miracl/mrshs256.c	66;"	d	file:
+PAD	miracl/mrshs512.c	93;"	d	file:
+PADDING	miracl/factor.c	/^static int PADDING;$/;"	v	file:
+PAX	miracl/mr87v.c	109;"	d	file:
+PAX	miracl/mr87v.c	119;"	d	file:
+PAX	miracl/mr87v.c	129;"	d	file:
+PBITS	miracl/dssetup.c	17;"	d	file:
+PBITS	miracl/limlee.c	26;"	d	file:
+PBP	miracl/mr87v.c	110;"	d	file:
+PBP	miracl/mr87v.c	120;"	d	file:
+PBP	miracl/mr87v.c	130;"	d	file:
+PBX	miracl/mr87f.c	108;"	d	file:
+PBX	miracl/mr87f.c	90;"	d	file:
+PBX	miracl/mr87f.c	99;"	d	file:
+PBX	miracl/mr87v.c	111;"	d	file:
+PBX	miracl/mr87v.c	121;"	d	file:
+PBX	miracl/mr87v.c	131;"	d	file:
+PCX	miracl/mr87f.c	102;"	d	file:
+PCX	miracl/mr87f.c	111;"	d	file:
+PCX	miracl/mr87f.c	93;"	d	file:
+PCX	miracl/mr87v.c	114;"	d	file:
+PCX	miracl/mr87v.c	124;"	d	file:
+PCX	miracl/mr87v.c	134;"	d	file:
+PDI	miracl/mr87f.c	101;"	d	file:
+PDI	miracl/mr87f.c	110;"	d	file:
+PDI	miracl/mr87f.c	92;"	d	file:
+PDI	miracl/mr87v.c	113;"	d	file:
+PDI	miracl/mr87v.c	123;"	d	file:
+PDI	miracl/mr87v.c	133;"	d	file:
+PDX	miracl/mr87v.c	115;"	d	file:
+PDX	miracl/mr87v.c	125;"	d	file:
+PDX	miracl/mr87v.c	135;"	d	file:
+PHP_DEPRECATED_DIRECTIVES_REGEX	Makefile	/^PHP_DEPRECATED_DIRECTIVES_REGEX = '^(magic_quotes_(gpc|runtime|sybase)?|(zend_)?extension(_debug)?(_ts)?)[\\t\\ ]*='$/;"	m
+PHP_EXECUTABLE	Makefile	/^PHP_EXECUTABLE = \/apps\/php\/bin\/php$/;"	m
+PHP_FAILED_TESTS	run-tests.php	/^$PHP_FAILED_TESTS = array('BORKED' => array(), 'FAILED' => array(), 'WARNED' => array(), 'LEAKED' => array(), 'XFAILED' => array());$/;"	v
+PHP_FUNCTION	gmsm.c	/^PHP_FUNCTION(sm2_decrypt)$/;"	f
+PHP_FUNCTION	gmsm.c	/^PHP_FUNCTION(sm2_encrypt)$/;"	f
+PHP_FUNCTION	gmsm.c	/^PHP_FUNCTION(sm3_hash)$/;"	f
+PHP_FUNCTION	gmsm.c	/^PHP_FUNCTION(sm4_decrypt)$/;"	f
+PHP_FUNCTION	gmsm.c	/^PHP_FUNCTION(sm4_encrypt)$/;"	f
+PHP_GMSM_API	php_gmsm.h	30;"	d
+PHP_GMSM_API	php_gmsm.h	32;"	d
+PHP_GMSM_API	php_gmsm.h	34;"	d
+PHP_GMSM_H	php_gmsm.h	22;"	d
+PHP_GMSM_VERSION	php_gmsm.h	27;"	d
+PHP_MAJOR_VERSION	run-tests.php	/^	define("PHP_MAJOR_VERSION", $major);$/;"	d
+PHP_MINFO_FUNCTION	gmsm.c	/^PHP_MINFO_FUNCTION(gmsm)$/;"	f
+PHP_MODULES	Makefile	/^PHP_MODULES = $(phplibdir)\/gmsm.la$/;"	m
+PHP_MSHUTDOWN_FUNCTION	gmsm.c	/^PHP_MSHUTDOWN_FUNCTION(gmsm)$/;"	f
+PHP_PECL_EXTENSION	Makefile	/^PHP_PECL_EXTENSION = gmsm$/;"	m
+PHP_QA_EMAIL	run-tests.php	/^define('PHP_QA_EMAIL', 'qa-reports@lists.php.net');$/;"	d
+PHP_RINIT_FUNCTION	gmsm.c	/^PHP_RINIT_FUNCTION(gmsm)$/;"	f
+PHP_RSHUTDOWN_FUNCTION	gmsm.c	/^PHP_RSHUTDOWN_FUNCTION(gmsm)$/;"	f
+PHP_TEST_SETTINGS	Makefile	/^PHP_TEST_SETTINGS = -d 'open_basedir=' -d 'output_buffering=0' -d 'memory_limit=-1'$/;"	m
+PHP_TEST_SHARED_EXTENSIONS	Makefile	/^PHP_TEST_SHARED_EXTENSIONS =  ` \\$/;"	m
+PHP_VERSION_ID	run-tests.php	/^	define("PHP_VERSION_ID", "{$major}0{$minor}$bug");$/;"	d
+PHP_ZEND_EX	Makefile	/^PHP_ZEND_EX =$/;"	m
+PLUS	miracl/miracl.h	222;"	d
+POINTER	miracl/mr87f.c	107;"	d	file:
+POINTER	miracl/mr87f.c	89;"	d	file:
+POINTER	miracl/mr87f.c	98;"	d	file:
+POINTER	miracl/mr87v.c	106;"	d	file:
+POOL_SIZE	miracl/limlee.c	29;"	d	file:
+PP	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+PP	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+PRESSED	miracl/ratcalc.c	/^static int PRESSED =0x4F; \/*   0x0F        0x4F    red-white (bold)  *\/$/;"	v	file:
+PRIMES	miracl/miracl.h	/^const int *PRIMES;                      \/* small primes array         *\/$/;"	m	struct:__anon19
+PRIMES	miracl/miracl.h	/^int *PRIMES;        \/* small primes array         *\/$/;"	m	struct:__anon19
+PRIME_BITS	miracl/genkey.c	21;"	d	file:
+PROOT	miracl/genprime.c	15;"	d	file:
+PROOT	miracl/identity.c	17;"	d	file:
+PROOT	miracl/index.c	14;"	d	file:
+PSI	miracl/mr87f.c	100;"	d	file:
+PSI	miracl/mr87f.c	109;"	d	file:
+PSI	miracl/mr87f.c	91;"	d	file:
+PSI	miracl/mr87v.c	112;"	d	file:
+PSI	miracl/mr87v.c	122;"	d	file:
+PSI	miracl/mr87v.c	132;"	d	file:
+QA_REPORTS_PAGE	run-tests.php	/^define('QA_REPORTS_PAGE', 'http:\/\/qa.php.net\/reports');$/;"	d
+QA_SUBMISSION_PAGE	run-tests.php	/^define('QA_SUBMISSION_PAGE', 'http:\/\/qa.php.net\/buildtest-process.php');$/;"	d
+QBITS	miracl/dssetup.c	16;"	d	file:
+QBITS	miracl/limlee.c	27;"	d	file:
+R	miracl/mrshs256.c	72;"	d	file:
+R	miracl/mrshs512.c	99;"	d	file:
+RAISE	miracl/factor.c	1377;"	d	file:
+RAISE	miracl/factor.c	1380;"	d	file:
+RC	miracl/mrsha3.c	/^static const mr_unsign64 RC[24]={$/;"	v	file:
+RD	miracl/miracl.h	/^int RS,RD;$/;"	m	struct:__anon19
+RE2C	Makefile	/^RE2C = exit 0;$/;"	m
+ROTL	miracl/mraes.c	66;"	d	file:
+ROTL16	miracl/mraes.c	71;"	d	file:
+ROTL24	miracl/mraes.c	72;"	d	file:
+ROTL8	miracl/mraes.c	70;"	d	file:
+RPOINT	miracl/miracl.h	/^BOOL RPOINT;       \/* =ON for radix point, =OFF for fractions in output *\/$/;"	m	struct:__anon19
+RR	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+RR	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+RS	miracl/miracl.h	/^int RS,RD;$/;"	m	struct:__anon19
+RSIDE	miracl/ratcalc.c	30;"	d	file:
+S	miracl/miracl.h	/^mr_unsign64 S[5][5];$/;"	m	struct:__anon7
+S	miracl/mrshs.c	74;"	d	file:
+S	miracl/mrshs256.c	71;"	d	file:
+S	miracl/mrshs512.c	98;"	d	file:
+SECBIT	miracl/miracl.h	230;"	d
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SHA3_ROUNDS	miracl/mrsha3.c	60;"	d	file:
+SHARED_LIBTOOL	Makefile	/^SHARED_LIBTOOL =$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHLIB_DL_SUFFIX_NAME	Makefile	/^SHLIB_DL_SUFFIX_NAME = so$/;"	m
+SHLIB_SUFFIX_NAME	Makefile	/^SHLIB_SUFFIX_NAME = so$/;"	m
+SHOW_ONLY_GROUPS	run-tests.php	/^					$SHOW_ONLY_GROUPS = explode(",", $argv[++$i]);;$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = array();$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = explode(",", getenv('SHOW_ONLY_GROUPS'));$/;"	v
+SIN	miracl/mrflsh3.c	46;"	d	file:
+SM2_Decrypt	sm2/GMSM2.c	/^int SM2_Decrypt( big dB, unsigned char C[], int Clen, unsigned char M[] )$/;"	f
+SM2_Decrypt_New	sm2/GMSM2.c	/^int SM2_Decrypt_New(unsigned char *cipher, int cipher_len, unsigned char *private_key, unsigned char *data)$/;"	f
+SM2_ENC_H	sm2/GMSM2.h	24;"	d
+SM2_ENC_SelfTest	sm2/GMSM2.c	/^int SM2_ENC_SelfTest()$/;"	f
+SM2_Encrypt	sm2/GMSM2.c	/^int SM2_Encrypt( unsigned char* randK, epoint *pubKey, unsigned char M[], int klen, unsigned char C[] )$/;"	f
+SM2_Encrypt_New	sm2/GMSM2.c	/^int SM2_Encrypt_New(unsigned char *data, int data_len, unsigned char *pub_key_x, unsigned char *pub_key_y, unsigned char *cipher)$/;"	f
+SM2_Gx	sm2/GMSM2.h	/^unsigned char   SM2_Gx[32] = { 0x32, 0xC4, 0xAE, 0x2C, 0x1F, 0x19, 0x81, 0x19, 0x5F, 0x99, 0x04, 0x46, 0x6A, 0x39, 0xC9, 0x94,$/;"	v
+SM2_Gy	sm2/GMSM2.h	/^unsigned char   SM2_Gy[32] = { 0xBC, 0x37, 0x36, 0xA2, 0xF4, 0xF6, 0x77, 0x9C, 0x59, 0xBD, 0xCE, 0xE3, 0x6B, 0x69, 0x21, 0x53,$/;"	v
+SM2_Init	sm2/GMSM2.c	/^int SM2_Init()$/;"	f
+SM2_KeyGeneration	sm2/GMSM2.c	/^int SM2_KeyGeneration( big priKey, epoint *pubKey )$/;"	f
+SM2_NUMBITS	sm2/GMSM2.h	30;"	d
+SM2_NUMWORD	sm2/GMSM2.h	31;"	d
+SM2_a	sm2/GMSM2.h	/^unsigned char   SM2_a[32] = { 0xFF, 0xFF, 0xFF, 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,$/;"	v
+SM2_b	sm2/GMSM2.h	/^unsigned char   SM2_b[32] = { 0x28, 0xE9, 0xFA, 0x9E, 0x9D, 0x9F, 0x5E, 0x34, 0x4D, 0x5A, 0x9E, 0x4B, 0xCF, 0x65, 0x09, 0xA7,$/;"	v
+SM2_h	sm2/GMSM2.h	/^unsigned char   SM2_h[32] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,$/;"	v
+SM2_n	sm2/GMSM2.h	/^unsigned char   SM2_n[32] = { 0xFF, 0xFF, 0xFF, 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,$/;"	v
+SM2_p	sm2/GMSM2.h	/^unsigned char   SM2_p[32] = { 0xFF, 0xFF, 0xFF, 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,$/;"	v
+SM3_256	sm3/GMSM3.c	/^void SM3_256( unsigned char buf[], int len, unsigned char hash[] )$/;"	f
+SM3_IVA	sm3/GMSM3.h	34;"	d
+SM3_IVB	sm3/GMSM3.h	35;"	d
+SM3_IVC	sm3/GMSM3.h	36;"	d
+SM3_IVD	sm3/GMSM3.h	37;"	d
+SM3_IVE	sm3/GMSM3.h	38;"	d
+SM3_IVF	sm3/GMSM3.h	39;"	d
+SM3_IVG	sm3/GMSM3.h	40;"	d
+SM3_IVH	sm3/GMSM3.h	41;"	d
+SM3_KDF	sm2/GMSM2.c	/^void SM3_KDF( unsigned char Z[], unsigned short zlen, unsigned short klen, unsigned char K[] )$/;"	f
+SM3_STATE	sm3/GMSM3.h	/^} SM3_STATE;$/;"	t	typeref:struct:__anon1
+SM3_SelfTest	sm3/GMSM3.c	/^int SM3_SelfTest()$/;"	f
+SM3_T1	sm3/GMSM3.h	32;"	d
+SM3_T2	sm3/GMSM3.h	33;"	d
+SM3_compress	sm3/GMSM3.c	/^void SM3_compress( SM3_STATE * md )$/;"	f
+SM3_done	sm3/GMSM3.c	/^void SM3_done( SM3_STATE *md, unsigned char hash[] )$/;"	f
+SM3_ff0	sm3/GMSM3.h	45;"	d
+SM3_ff1	sm3/GMSM3.h	46;"	d
+SM3_gg0	sm3/GMSM3.h	47;"	d
+SM3_gg1	sm3/GMSM3.h	48;"	d
+SM3_init	sm3/GMSM3.c	/^void SM3_init( SM3_STATE *md )$/;"	f
+SM3_len	sm3/GMSM3.h	31;"	d
+SM3_p0	sm3/GMSM3.h	44;"	d
+SM3_p1	sm3/GMSM3.h	43;"	d
+SM3_process	sm3/GMSM3.c	/^void SM3_process( SM3_STATE * md, unsigned char *buf, int len )$/;"	f
+SM3_rotl32	sm3/GMSM3.h	49;"	d
+SM3_rotr32	sm3/GMSM3.h	50;"	d
+SM4_CK	sm4/GMSM4.h	/^unsigned int SM4_CK[32] ={0x00070e15, 0x1c232a31, 0x383f464d, 0x545b6269,$/;"	v
+SM4_Decrypt	sm4/GMSM4.c	/^void SM4_Decrypt(unsigned char MK[],unsigned char CipherText[],unsigned char PlainText[])$/;"	f
+SM4_Encrypt	sm4/GMSM4.c	/^void SM4_Encrypt(unsigned char MK[],unsigned char PlainText[],unsigned char CipherText[])$/;"	f
+SM4_FK	sm4/GMSM4.h	/^unsigned int SM4_FK[4] = {0xA3B1BAC6, 0x56AA3350, 0x677D9197, 0xB27022DC};$/;"	v
+SM4_KeySchedule	sm4/GMSM4.c	/^void SM4_KeySchedule(unsigned char MK[],unsigned int rk[])$/;"	f
+SM4_Rotl32	sm4/GMSM4.h	27;"	d
+SM4_Sbox	sm4/GMSM4.h	/^unsigned char SM4_Sbox[256] = {0xd6,0x90,0xe9,0xfe,0xcc,0xe1,0x3d,0xb7,0x16,0xb6,0x14,0xc2,0x28,0xfb,0x2c,0x05,$/;"	v
+SM4_SelfCheck	sm4/GMSM4.c	/^int SM4_SelfCheck()$/;"	f
+SPACE	miracl/ratcalc.c	14;"	d	file:
+SQR_FASTER_THRESHOLD	miracl/mrarth2.c	54;"	d	file:
+SS	miracl/miracl.h	/^BOOL SS;               \/* True for Super-Singular  *\/$/;"	m	struct:__anon19
+SSIZE	miracl/factor.c	842;"	d	file:
+SSIZE	miracl/qsieve.c	13;"	d	file:
+STATCOL	miracl/ratcalc.c	/^static int STATCOL =0x74; \/*   0x07        0x74    white-red         *\/$/;"	v	file:
+STDC_HEADERS	config.h	56;"	d
+Sig0	miracl/mrshs256.c	76;"	d	file:
+Sig0	miracl/mrshs512.c	103;"	d	file:
+Sig1	miracl/mrshs256.c	77;"	d	file:
+Sig1	miracl/mrshs512.c	104;"	d	file:
+String2BCD	utils/BCD.c	/^int String2BCD(char *strDigitData, int strDigitDataLen, char *pcBCDBuf, int iBCDBufLen)$/;"	f
+SubByte	miracl/mraes.c	/^static MR_WORD SubByte(MR_WORD a)$/;"	f	file:
+TAN	miracl/mrflsh3.c	45;"	d	file:
+TESTED_PHP_VERSION	run-tests.php	/^	define('TESTED_PHP_VERSION', `$php -n -r "echo PHP_VERSION;"`);$/;"	d
+THDBIT	miracl/miracl.h	231;"	d
+TIMES	miracl/factor.c	1376;"	d	file:
+TIMES	miracl/factor.c	1379;"	d	file:
+TLHC	miracl/ratcalc.c	25;"	d	file:
+TOPBIT	miracl/miracl.h	229;"	d
+TRACER	miracl/miracl.h	/^BOOL TRACER;       \/* turns trace tracker on\/off *\/$/;"	m	struct:__anon19
+TRHC	miracl/ratcalc.c	26;"	d	file:
+TRUE	miracl/miracl.h	214;"	d
+TT	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+TT	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+TWIST	miracl/miracl.h	/^int TWIST; \/* set to twisted curve *\/$/;"	m	struct:__anon19
+Test_Null	sm2/GMSM2.c	/^int Test_Null( unsigned char array[], int len )$/;"	f
+Test_Point	sm2/GMSM2.c	/^int Test_Point( epoint* point )$/;"	f
+Test_PubKey	sm2/GMSM2.c	/^int Test_PubKey( epoint *pubKey )$/;"	f
+UINT32	miracl/mrfpe.c	54;"	d	file:
+UNWOUNDM	miracl/mrgf2m.c	428;"	d	file:
+UNWOUNDM	miracl/mrgf2m.c	436;"	d	file:
+UNWOUNDM	miracl/mrgf2m.c	448;"	d	file:
+UNWOUNDM	miracl/mrgf2m.c	468;"	d	file:
+UNWOUNDS	miracl/mrgf2m.c	664;"	d	file:
+UNWOUNDS	miracl/mrgf2m.c	670;"	d	file:
+UNWOUNDS	miracl/mrgf2m.c	676;"	d	file:
+UZZNS	miracl/zzn.h	71;"	d
+UZZNS	miracl/zzn.h	73;"	d
+V	miracl/miracl.h	/^big *V;$/;"	m	struct:__anon2
+V	miracl/miracl.h	/^mr_utype *V;$/;"	m	struct:__anon3
+VERT	miracl/ratcalc.c	23;"	d	file:
+VV	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+VV	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+W	miracl/mrfpe.c	55;"	d	file:
+WINDOW	miracl/bmark.c	52;"	d	file:
+WINDOW	miracl/ecdh2m.c	94;"	d	file:
+WINDOW	miracl/ecdh2m16.c	118;"	d	file:
+WINDOW	miracl/ecdh2m8.c	113;"	d	file:
+WINDOW	miracl/ecdhp.c	89;"	d	file:
+WINDOW	miracl/ecdhp16.c	199;"	d	file:
+WINDOW	miracl/ecdhp32.c	132;"	d	file:
+WINDOW	miracl/ecdhp8.c	129;"	d	file:
+WORDS	miracl/ecdh2m.c	133;"	d	file:
+WORDS	miracl/ecdh2m16.c	196;"	d	file:
+WORDS	miracl/ecdh2m8.c	158;"	d	file:
+WORDS	miracl/ecdhp.c	131;"	d	file:
+WORDS	miracl/ecdhp16.c	241;"	d	file:
+WORDS	miracl/ecdhp32.c	173;"	d	file:
+WORDS	miracl/ecdhp8.c	174;"	d	file:
+WORDS	miracl/rsat.c	61;"	d	file:
+WToW1	sm3/GMSM3.c	/^void WToW1( unsigned int W[], unsigned int W1[] )$/;"	f
+X	miracl/miracl.h	/^big X;$/;"	m	struct:__anon10
+XX	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+XX	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+Y	miracl/miracl.h	/^big Y;$/;"	m	struct:__anon10
+YY	miracl/factor.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+YY	miracl/qsieve.c	/^static big NN,TT,DD,RR,VV,PP,XX,YY,DG,IG,AA,BB;$/;"	v	file:
+Y_0	miracl/miracl.h	/^MR_BYTE Y_0[16];$/;"	m	struct:__anon9
+Z	miracl/miracl.h	/^big Z;$/;"	m	struct:__anon10
+ZEND_EXT_TYPE	Makefile	/^ZEND_EXT_TYPE = zend_extension$/;"	m
+ZEND_GET_MODULE	gmsm.c	/^ZEND_GET_MODULE(gmsm)$/;"	f
+ZERO	miracl/mrshs.c	70;"	d	file:
+ZERO	miracl/mrshs256.c	67;"	d	file:
+ZERO	miracl/mrshs512.c	94;"	d	file:
+ZZNS	miracl/miracl.h	149;"	d
+ZZN_H	miracl/zzn.h	51;"	d
+ZZn	miracl/zzn.h	/^    ZZn()               {MR_INIT_ZZN MR_ZERO_ZZN} $/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^    ZZn(big& c)         {MR_INIT_ZZN MR_CLONE_ZZN(c);}$/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^    ZZn(char* s)        {MR_INIT_ZZN cinstr(fn,s); nres(fn,fn);}$/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^    ZZn(const Big& c)   {MR_INIT_ZZN nres(c.getbig(),fn); }   \/* Big -> ZZn *\/$/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^    ZZn(const ZZn& c)   {MR_INIT_ZZN MR_CLONE_ZZN(c.fn);}$/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^    ZZn(int i)          {MR_INIT_ZZN if (i==0) MR_ZERO_ZZN else {convert(i,fn); nres(fn,fn);} }$/;"	f	class:ZZn
+ZZn	miracl/zzn.h	/^class ZZn $/;"	c
+_MIPDO_	miracl/miracl.h	796;"	d
+_MIPDO_	miracl/miracl.h	805;"	d
+_MIPD_	miracl/miracl.h	795;"	d
+_MIPD_	miracl/miracl.h	804;"	d
+_MIPPO_	miracl/miracl.h	798;"	d
+_MIPPO_	miracl/miracl.h	807;"	d
+_MIPP_	miracl/miracl.h	797;"	d
+_MIPP_	miracl/miracl.h	806;"	d
+_MIPTO_	miracl/miracl.h	794;"	d
+_MIPTO_	miracl/miracl.h	803;"	d
+_MIPT_	miracl/miracl.h	793;"	d
+_MIPT_	miracl/miracl.h	802;"	d
+__DIR__	run-tests.php	/^	define('__DIR__', realpath(dirname(__FILE__)));$/;"	d
+a	miracl/big.h	/^    mr_small a[BIGS];$/;"	m	class:Big
+a	miracl/flash.h	/^    mr_small a[BIGS];$/;"	m	class:Flash
+a	miracl/gf2m.h	/^    mr_small a[GF2MS];$/;"	m	class:GF2m
+a	miracl/imratio2.c	/^int  a[]={9,   99,159,249,121,317,507};$/;"	v
+a	miracl/miracl.h	/^	zzn2 a;$/;"	m	struct:__anon18
+a	miracl/miracl.h	/^    big a,b,n;$/;"	m	struct:__anon12
+a	miracl/miracl.h	/^    big a;$/;"	m	struct:__anon14
+a	miracl/miracl.h	/^    big a;$/;"	m	struct:__anon17
+a	miracl/miracl.h	/^    int m,a,b,c;$/;"	m	struct:__anon13
+a	miracl/miracl.h	/^    zzn2 a;$/;"	m	struct:__anon15
+a	miracl/miracl.h	/^aes a;$/;"	m	struct:__anon9
+a	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+a	miracl/zzn.h	/^    mr_small a[UZZNS];$/;"	m	class:ZZn
+a	run-tests.php	/^	$a = test_name($a);$/;"	v
+a163	miracl/bmark.c	/^int  a163=7;$/;"	v
+a2	miracl/miracl.h	/^    big a6,a2;$/;"	m	struct:__anon13
+a233	miracl/bmark.c	/^int  a233=74;$/;"	v
+a283	miracl/bmark.c	/^int  a283=12;\/* 119; these are faster.. *\/$/;"	v
+a571	miracl/bmark.c	/^int  a571=10;$/;"	v
+a6	miracl/miracl.h	/^    big a6,a2;$/;"	m	struct:__anon13
+absol	miracl/mrcore.c	/^void absol(flash x,flash y)$/;"	f
+act	miracl/ratcalc.c	/^static BOOL act(int p,int q)$/;"	f	file:
+active	miracl/miracl.h	/^BOOL  active;$/;"	m	struct:__anon19
+add	miracl/ec2.h	/^    big add(const EC2& b)         {return ecurve2_add(b.p,p); } $/;"	f	class:EC2
+add	miracl/mrarth0.c	/^void add(_MIPD_ big x,big y,big z)$/;"	f
+add2	miracl/mrgf2m.c	/^void add2(big x,big y,big z)$/;"	f
+addition	miracl/factor.c	/^void addition(big xd,big zd,big sm1,big df1,big sm2,big df2,big x,big z)$/;"	f
+addition	miracl/lenstra.c	/^void addition(big xd,big zd,big sm1,big df1,big sm2,big df2,big x,big z)$/;"	f
+aes	miracl/miracl.h	/^} aes;$/;"	t	typeref:struct:__anon8
+aes_decrypt	miracl/mraes.c	/^mr_unsign32 aes_decrypt(aes *a,char *buff)$/;"	f
+aes_ecb_decrypt	miracl/mraes.c	/^void aes_ecb_decrypt(aes *a,MR_BYTE *buff)$/;"	f
+aes_ecb_encrypt	miracl/mraes.c	/^void aes_ecb_encrypt(aes *a,MR_BYTE *buff)$/;"	f
+aes_encrypt	miracl/mraes.c	/^mr_unsign32 aes_encrypt(aes* a,char *buff)$/;"	f
+aes_end	miracl/mraes.c	/^void aes_end(aes *a)$/;"	f
+aes_getreg	miracl/mraes.c	/^void aes_getreg(aes *a,char *ir)$/;"	f
+aes_init	miracl/mraes.c	/^BOOL aes_init(aes* a,int mode,int nk,char *key,char *iv)$/;"	f
+aes_reset	miracl/mraes.c	/^void aes_reset(aes *a,int mode,char *iv)$/;"	f
+ak	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+ak	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+all_targets	Makefile	/^all_targets = $(PHP_MODULES) $(PHP_ZEND_EX)$/;"	m
+answer	miracl/romaker.c	/^static int answer(void)$/;"	f	file:
+answer	miracl/romaker2.c	/^static int answer(void)$/;"	f	file:
+apbase	miracl/miracl.h	/^mr_small apbase;     \/* apparent base   *\/$/;"	m	struct:__anon19
+apchar	miracl/ratcalc.c	/^static void apchar(int attr,int x,int y,char ch)$/;"	f	file:
+aprint	miracl/ratcalc.c	/^static void aprint(int attr,int x,int y,char *text)$/;"	f	file:
+argc	run-tests.php	/^	$argc = count($argv);$/;"	v
+args	run-tests.php	/^	$args = isset($section_text['ARGS']) ? ' -- ' . $section_text['ARGS'] : '';$/;"	v
+argv	run-tests.php	/^		$argv = array(__FILE__);$/;"	v
+argv	run-tests.php	/^	$argv = array_merge($argv, explode(' ', getenv('TEST_PHP_ARGS')));$/;"	v
+arrow	miracl/ratcalc.c	/^static int arrow(int c)$/;"	f	file:
+as_func_failure	configure	/^as_func_failure () {$/;"	f
+as_func_ret_failure	configure	/^as_func_ret_failure () {$/;"	f
+as_func_ret_success	configure	/^as_func_ret_success () {$/;"	f
+as_func_success	configure	/^as_func_success () {$/;"	f
+autoconf	run-tests.php	/^					$autoconf = shell_exec('autoconf --version');$/;"	v
+autoconf	run-tests.php	/^					$autoconf = shell_exec(getenv('PHP_AUTOCONF') . ' --version');$/;"	v
+b	miracl/big.h	/^    bigtype b;$/;"	m	class:Big
+b	miracl/brick.h	/^    brick b;$/;"	m	class:Brick
+b	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+b	miracl/flash.h	/^    bigtype b;$/;"	m	class:Flash
+b	miracl/gf2m.h	/^    bigtype b;$/;"	m	class:GF2m
+b	miracl/imratio2.c	/^int  b[]={0,   97,  0,219,  0,315,475};$/;"	v
+b	miracl/miracl.h	/^	zzn2 b;$/;"	m	struct:__anon18
+b	miracl/miracl.h	/^    big a,b,n;$/;"	m	struct:__anon12
+b	miracl/miracl.h	/^    big b;$/;"	m	struct:__anon14
+b	miracl/miracl.h	/^    big b;$/;"	m	struct:__anon17
+b	miracl/miracl.h	/^    int m,a,b,c;$/;"	m	struct:__anon13
+b	miracl/miracl.h	/^    zzn2 b;$/;"	m	struct:__anon15
+b	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+b	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+b	miracl/zzn.h	/^    bigtype b;$/;"	m	class:ZZn
+b	run-tests.php	/^	$b = test_name($b);$/;"	v
+b160	miracl/bmark.c	/^char b160[]="547961736808018748879088091015409822321903727720";$/;"	v
+b163	miracl/bmark.c	/^int  b163=6;$/;"	v
+b192	miracl/bmark.c	/^char b192[]="4061049254666112630970447728594959377821841236338949398359";$/;"	v
+b224	miracl/bmark.c	/^char b224[]="17383927112623192126321700675122043803151281370446907580591543997888";$/;"	v
+b233	miracl/bmark.c	/^int  b233=0;$/;"	v
+b256	miracl/bmark.c	/^char b256[]="25389140340672155341527372976612393184553582461816899055687141548002290977046";$/;"	v
+b283	miracl/bmark.c	/^int  b283=7; \/* 97; *\/$/;"	v
+b571	miracl/bmark.c	/^int  b571=5;$/;"	v
+base	miracl/miracl.h	/^mr_small base;       \/* number base     *\/$/;"	m	struct:__anon19
+base2	miracl/miracl.h	/^mr_small base2;      \/* 2^mr_lg2b          *\/$/;"	m	struct:__anon19
+bb	miracl/hilbert.c	/^static flash bb[50];$/;"	v	file:
+bc	miracl/crt.h	/^    big_chinese bc;$/;"	m	class:Crt
+big	miracl/miracl.h	/^typedef struct bigtype *big;$/;"	t	typeref:struct:bigtype
+big_chinese	miracl/miracl.h	/^} big_chinese;$/;"	t	typeref:struct:__anon2
+big_ndash	miracl/miracl.h	/^big big_ndash;$/;"	m	struct:__anon19
+big_to_bytes	miracl/mrarth1.c	/^int big_to_bytes(_MIPD_ int max,big x,char *ptr,BOOL justify)$/;"	f
+bigbits	miracl/mrbits.c	/^void bigbits(_MIPD_ int n,big x)$/;"	f
+bigdig	miracl/mrrand.c	/^void bigdig(_MIPD_ int n,int b,big x)$/;"	f
+bigrand	miracl/mrrand.c	/^void bigrand(_MIPD_ big w,big x)$/;"	f
+bigtype	miracl/miracl.h	/^struct bigtype$/;"	s
+bin_env	run-tests.php	/^	$bin_env = array();$/;"	v
+bit	miracl/big.h	/^    friend int bit(const Big& b,int i)  {return mr_testbit(b.fn,i);}$/;"	f	class:Big
+bits	miracl/big.h	/^    friend int bits(const Big& b) {return logb2(b.fn);}$/;"	f	class:Big
+bmul	miracl/mraes.c	/^static MR_BYTE bmul(MR_BYTE x,MR_BYTE y)$/;"	f	file:
+bork_info	run-tests.php	/^					$bork_info = "could not load --FILE_EXTERNAL-- " . dirname($file) . '\/' . trim($section_text['FILE_EXTERNAL']);$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "Can't redirect a test from within a redirected test";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "duplicated $section section";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --EXPECT--, --EXPECTF-- or --EXPECTREGEX--";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --FILE--";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "Redirect info must contain exactly one TEST string to be used as redirect directory.";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "cannot read test";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "Redirected test did not contain redirection info";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "empty test [$file]";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "tests must start with --TEST-- [$file]";$/;"	v
+bork_info	run-tests.php	/^	$bork_info = '';$/;"	v
+borked	run-tests.php	/^					$borked = true;$/;"	v
+borked	run-tests.php	/^				$borked    = true;$/;"	v
+borked	run-tests.php	/^				$borked = false;$/;"	v
+borked	run-tests.php	/^				$borked = true;$/;"	v
+borked	run-tests.php	/^			$borked = true;$/;"	v
+borked	run-tests.php	/^		$borked = true;$/;"	v
+borked	run-tests.php	/^	$borked = false;$/;"	v
+borrow	miracl/miracl.h	/^mr_unsign32 borrow;$/;"	m	struct:__anon19
+borrow	miracl/miracl.h	/^mr_unsign32 borrow;$/;"	m	struct:__anon4
+bprint	miracl/romaker.c	/^void bprint(mr_small *n,int len,int words,int wsize,BOOL last)$/;"	f
+bprint	miracl/romaker2.c	/^void bprint(mr_small *n,int len,int words,int wsize,BOOL last)$/;"	f
+br	gmsm.php	/^$br = (php_sapi_name() == "cli")? "":"<br>";$/;"	v
+brand	miracl/mrcore.c	/^mr_small brand(_MIPDO_ )$/;"	f
+brent	miracl/factor.c	/^void brent(void)$/;"	f
+brick	miracl/miracl.h	/^} brick;$/;"	t	typeref:struct:__anon11
+brick_end	miracl/mrbrick.c	/^void brick_end(brick *b)$/;"	f
+brick_init	miracl/mrbrick.c	/^BOOL brick_init(_MIPD_ brick *b,big g,big n,int window,int nb)$/;"	f
+brick_init	miracl/mrbrick.c	/^void brick_init(brick *b,const mr_small *table,big n,int window,int nb)$/;"	f
+brkt	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+brute	miracl/factor.c	/^void brute(void)$/;"	f
+buf	sm3/GMSM3.h	/^    unsigned char   buf[64];$/;"	m	struct:__anon1
+bug	run-tests.php	/^		$bug = "0$bug";$/;"	v
+bug	run-tests.php	/^	$bug = (int)$bug; \/\/ Many distros make up their own versions$/;"	v
+build	miracl/mrbuild.c	/^void build(_MIPD_ flash x,int (*gen)(_MIPT_ big,int))$/;"	f
+builddir	Makefile	/^builddir = \/home\/dev\/javin\/php\/php-src\/ext\/gmsm$/;"	m
+bytes_to_big	miracl/mrarth1.c	/^void bytes_to_big(_MIPD_ int len,const char *ptr,big x)$/;"	f
+c	miracl/imratio2.c	/^int  c[]={0,    3,  0, 27,  0,283,417};$/;"	v
+c	miracl/miracl.h	/^	zzn2 c;$/;"	m	struct:__anon18
+c	miracl/miracl.h	/^    big c;$/;"	m	struct:__anon17
+c	miracl/miracl.h	/^    int m,a,b,c;$/;"	m	struct:__anon13
+c	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+c1	run-tests.php	/^			$c1 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1+1, $idx2, $cnt1, $cnt2, 10);$/;"	v
+c163	miracl/bmark.c	/^int  c163=3;$/;"	v
+c2	run-tests.php	/^			$c2 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2+1, $cnt1,  $cnt2, 10);$/;"	v
+c233	miracl/bmark.c	/^int  c233=0;$/;"	v
+c283	miracl/bmark.c	/^int  c283=5; \/* 93; *\/$/;"	v
+c571	miracl/bmark.c	/^int  c571=2;$/;"	v
+calc_n	miracl/ecn2_opt.c	/^static int calc_n(int w)$/;"	f	file:
+carryon	miracl/miracl.h	/^BOOL last,carryon;$/;"	m	struct:__anon19
+cbase	miracl/mrio2.c	/^static void cbase(_MIPD_ big x,mr_small oldbase,big y)$/;"	f	file:
+cc_status	run-tests.php	/^				$cc_status = 0;$/;"	v
+ceps	miracl/ratcalc.c	/^static char ceps[]="1\/100000000000000000000000000000000000";$/;"	v	file:
+cf163	miracl/bmark.c	/^int cf163=2;$/;"	v
+cf233	miracl/bmark.c	/^int cf233=2;$/;"	v
+cf283	miracl/bmark.c	/^int cf283=2;$/;"	v
+cf571	miracl/bmark.c	/^int  cf571=2;$/;"	v
+cfg	run-tests.php	/^$cfg = array();$/;"	v
+cfgfiles	run-tests.php	/^$cfgfiles = array('skip', 'php', 'clean', 'out', 'diff', 'exp');$/;"	v
+cfgtypes	run-tests.php	/^$cfgtypes = array('show', 'keep');$/;"	v
+check	miracl/miracl.h	/^BOOL  check;         \/* overflow check  *\/$/;"	m	struct:__anon19
+chekit	miracl/ratcalc.c	/^static void chekit(int no)$/;"	f	file:
+chin	miracl/miracl.h	/^small_chinese chin;$/;"	m	struct:__anon19
+cinnum	miracl/mrio2.c	/^int cinnum(_MIPD_ flash x,FILE *filep)$/;"	f
+cinstr	miracl/mrio2.c	/^int cinstr(_MIPD_ flash x,char *string)$/;"	f
+clean_params	run-tests.php	/^				$clean_params = array();$/;"	v
+clear	miracl/ec2.h	/^    void clear() {epoint2_set(NULL,NULL,0,p);}$/;"	f	class:EC2
+clear	miracl/ecn.h	/^    void clear() {epoint_set(NULL,NULL,0,p);}$/;"	f	class:ECn
+clg10	miracl/ratcalc.c	/^static char clg10[]="2379577069267877188193568690\/1033437190446551110271192309";$/;"	v	file:
+clg10	miracl/ratcalc.c	/^static char clg10[]="979037493951642967431763\/425190581199586827388880";$/;"	v	file:
+clg2	miracl/ratcalc.c	/^static char clg2[]= "16574595208316928044019202463\/23912086311780807469140302041";$/;"	v	file:
+clg2	miracl/ratcalc.c	/^static char clg2[]= "505741081295988878347013\/729630149959545241557174";$/;"	v	file:
+clr	miracl/ratcalc.c	/^static void clr(void)$/;"	f	file:
+clrall	miracl/ratcalc.c	/^static void clrall(void)$/;"	f	file:
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file-exactly=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" $args 2>&1";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+cmd	run-tests.php	/^        $cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+cnr	miracl/miracl.h	/^int cnr;    \/* a cubic non-residue *\/$/;"	m	struct:__anon19
+code	run-tests.php	/^	$code = proc_close($proc);$/;"	v
+comp_line	run-tests.php	/^function comp_line($l1, $l2, $is_reg)$/;"	f
+compare	miracl/miracl.h	96;"	d
+compiler	run-tests.php	/^						$compiler = shell_exec(getenv('CC') . " $flag 2>&1");$/;"	v
+compression	run-tests.php	/^$compression = 0;$/;"	v
+compute_summary	run-tests.php	/^function compute_summary()$/;"	f
+conf_passed	run-tests.php	/^					$conf_passed = $argv[++$i];$/;"	v
+conf_passed	run-tests.php	/^$conf_passed = null;$/;"	v
+const1	miracl/miracl.h	/^mr_utype const1,const2,const3;$/;"	m	struct:__anon19
+const2	miracl/miracl.h	/^mr_utype const1,const2,const3;$/;"	m	struct:__anon19
+const3	miracl/miracl.h	/^mr_utype const1,const2,const3;$/;"	m	struct:__anon19
+content_length	run-tests.php	/^		$content_length = strlen($post);$/;"	v
+content_length	run-tests.php	/^        $content_length = strlen($post);$/;"	v
+convert	miracl/mrcore.c	/^void convert(_MIPD_ int n ,big x)$/;"	f
+coord	miracl/miracl.h	/^int coord;$/;"	m	struct:__anon19
+copy	miracl/mrcore.c	/^void copy(flash x,flash y)$/;"	f
+copy_file	run-tests.php	/^		$copy_file     = $temp_dir . DIRECTORY_SEPARATOR . basename(is_array($file) ? $file[1] : $file) . '.phps';$/;"	v
+cotnum	miracl/mrio2.c	/^int cotnum(_MIPD_ flash x,FILE *filep)$/;"	f
+cotstr	miracl/mrio2.c	/^int cotstr(_MIPD_ flash x,char *string)$/;"	f
+count_array_diff	run-tests.php	/^function count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2, $cnt1, $cnt2, $steps)$/;"	f
+counter	miracl/miracl.h	/^mr_unsign32 counter;$/;"	m	struct:__anon9
+cp	miracl/factor.c	/^static BOOL *cp,*plus,*minus;$/;"	v	file:
+cpi	miracl/ratcalc.c	/^static char cpi[] = "636254619847503442989626\/202526135627569822173415";$/;"	v	file:
+cpi	miracl/ratcalc.c	/^static char cpi[] = "67165660610256098973103849091\/21379493784309731162770152371";$/;"	v	file:
+cr	miracl/miracl.h	/^mr_utype *prime,*cr;$/;"	m	struct:__anon19
+created	miracl/brick.h	/^    BOOL created;$/;"	m	class:Brick
+created	miracl/ebrick.h	/^    BOOL created;$/;"	m	class:EBrick
+created	miracl/ebrick2.h	/^    BOOL created;$/;"	m	class:EBrick2
+crt	miracl/mrcrt.c	/^void crt(_MIPD_ big_chinese *c,big *u,big x)$/;"	f
+crt_end	miracl/mrcrt.c	/^void crt_end(big_chinese *c)$/;"	f
+crt_init	miracl/mrcrt.c	/^BOOL crt_init(_MIPD_ big_chinese *c,int r,big *moduli)$/;"	f
+cset	miracl/ratcalc.c	/^static void cset(int k)$/;"	f	file:
+csprng	miracl/miracl.h	/^} csprng;$/;"	t	typeref:struct:__anon4
+curlen	sm3/GMSM3.h	/^    unsigned int    curlen;$/;"	m	struct:__anon1
+curser	miracl/ratcalc.c	/^static void curser(int x,int y)$/;"	f	file:
+cwd	run-tests.php	/^$cwd = getcwd();$/;"	v
+d	miracl/miracl.h	/^    mr_large d;$/;"	m	union:doubleword
+d	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+d1	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+d1	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+d2	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+d2	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+data	run-tests.php	/^	$data = "php_test_data=" . urlencode(base64_encode(str_replace("\\00", '[0x0]', $data)));$/;"	v
+data	run-tests.php	/^	$data = '';$/;"	v
+data_length	run-tests.php	/^	$data_length = strlen($data);$/;"	v
+db	miracl/miracl.h	/^double db,n,p;$/;"	m	struct:__anon19
+dbeg	miracl/ratcalc.c	/^static int dbeg=2;$/;"	v	file:
+dconv	miracl/mrdouble.c	/^void dconv(_MIPD_ double d,flash w)$/;"	f
+debug	miracl/miracl.h	/^BOOL debug;$/;"	m	struct:__anon19
+decr	miracl/mrarth0.c	/^void decr(_MIPD_ big x,int n,big z)$/;"	f
+degree	miracl/gf2m.h	/^    friend int degree(const GF2m& x) {return degree2(x.fn);}$/;"	f	class:GF2m
+degree	miracl/gf2m.h	/^    int degree() {return degree2(fn);}$/;"	f	class:GF2m
+degree	miracl/miracl.h	/^int nprimes,degree;$/;"	m	struct:__anon19
+degree2	miracl/mrgf2m.c	/^int degree2(big x)$/;"	f
+degrees	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+delim	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+denom	miracl/mrcore.c	/^void denom(_MIPD_ flash x,big y)$/;"	f
+depth	miracl/miracl.h	/^int   depth;                 \/* error tracing ..*\/$/;"	m	struct:__anon19
+diff	run-tests.php	/^			$diff = "# original source file: $shortname\\n" . $diff;$/;"	v
+diff	run-tests.php	/^			$diff = "&nbsp;";$/;"	v
+diff	run-tests.php	/^			$diff = "<a href='$url'>diff<\/a>";$/;"	v
+diff	run-tests.php	/^		$diff = generate_diff($wanted, $wanted_re, $output);$/;"	v
+diff	run-tests.php	/^	$diff = array();$/;"	v
+diff	run-tests.php	/^	$diff = empty($diff) ? '' : preg_replace('\/\\e\/', '<esc>', $diff);$/;"	v
+diff	run-tests.php	/^	$diff = generate_array_diff($r, $o, !is_null($wanted_re), $w);$/;"	v
+diff_filename	run-tests.php	/^	$diff_filename     = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'diff';$/;"	v
+digits	miracl/factor.c	/^int digits(void)$/;"	f
+display	miracl/ratcalc.c	/^static char display[]=   "   MIRACL RATIONAL CALCULATOR V3.2   ";$/;"	v	file:
+divide	miracl/mrarth2.c	/^void divide(_MIPD_ big x,big y,big z)$/;"	f
+divisible	miracl/mrarth2.c	/^BOOL divisible(_MIPD_ big x,big y)$/;"	f
+dlconv	miracl/mrcore.c	/^void dlconv(_MIPD_ mr_dltype n,big x)$/;"	f
+dlen	miracl/ratcalc.c	/^static int dlen=37;$/;"	v	file:
+dmode	miracl/ratcalc.c	/^static int dmode;$/;"	v	file:
+do_lenstra	miracl/factor.c	/^void do_lenstra(int lim1,long lim2,int ncurves)$/;"	f
+double_inverse	miracl/mrxgcd.c	/^BOOL double_inverse(_MIPD_ big n,big x,big y,big w,big z)$/;"	f
+doubleword	miracl/miracl.h	/^union doubleword$/;"	u
+dquot	miracl/mrdouble.c	/^static int dquot(_MIPD_ big x,int num)$/;"	f	file:
+drawit	miracl/ratcalc.c	/^static void drawit(void)$/;"	f	file:
+duplication	miracl/factor.c	/^void duplication(big sum,big diff,big x,big z)$/;"	f
+duplication	miracl/lenstra.c	/^void duplication(big sum,big diff,big x,big z)$/;"	f
+e	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+e	miracl/floating.h	/^    int e;      \/\/ exponent$/;"	m	class:Float
+e	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+e	run-tests.php	/^			$e = explode('=', trim($e), 2);$/;"	v
+e	run-tests.php	/^		$e = null;$/;"	v
+ebrick	miracl/miracl.h	/^} ebrick;$/;"	t	typeref:struct:__anon12
+ebrick2	miracl/miracl.h	/^} ebrick2;$/;"	t	typeref:struct:__anon13
+ebrick2_end	miracl/mrec2m.c	/^void ebrick2_end(ebrick2 *B)$/;"	f
+ebrick2_init	miracl/mrec2m.c	/^BOOL ebrick2_init(_MIPD_ ebrick2 *B,big x,big y,big a2,big a6,int m,int a,int b,int c,int window,int nb)$/;"	f
+ebrick2_init	miracl/mrec2m.c	/^void ebrick2_init(ebrick2 *B,const mr_small* rom,big a2,big a6,int m,int a,int b,int c,int window,int nb)$/;"	f
+ebrick_end	miracl/mrebrick.c	/^void ebrick_end(ebrick *B)$/;"	f
+ebrick_init	miracl/mrebrick.c	/^BOOL ebrick_init(_MIPD_ ebrick *B,big x,big y,big a,big b,big n,int window,int nb)$/;"	f
+ebrick_init	miracl/mrebrick.c	/^void ebrick_init(ebrick *B,const mr_small* rom,big a,big b,big n,int window,int nb)$/;"	f
+ecb	miracl/pk-demo.c	/^char *ecb="64210519E59C80E70FA7E9AB72243049FEB8DEECC146B9B1";$/;"	v
+ecn2	miracl/miracl.h	/^} ecn2;$/;"	t	typeref:struct:__anon16
+ecn2_add	miracl/ecn2_opt.c	/^BOOL ecn2_add(_MIPD_ ecn2 *Q,ecn2 *P)$/;"	f
+ecn2_add	miracl/mrecn2.c	/^BOOL ecn2_add(_MIPD_ ecn2 *Q,ecn2 *P)$/;"	f
+ecn2_add1	miracl/mrecn2.c	/^BOOL ecn2_add1(_MIPD_ ecn2 *Q,ecn2 *P,zzn2 *lam)$/;"	f
+ecn2_add2	miracl/mrecn2.c	/^BOOL ecn2_add2(_MIPD_ ecn2 *Q,ecn2 *P,zzn2 *lam,zzn2 *ex1)$/;"	f
+ecn2_add3	miracl/mrecn2.c	/^BOOL ecn2_add3(_MIPD_ ecn2 *Q,ecn2 *P,zzn2 *lam,zzn2 *ex1,zzn2 *ex2)$/;"	f
+ecn2_add_sub	miracl/ecn2_opt.c	/^BOOL ecn2_add_sub(_MIPD_ ecn2 *P,ecn2 *Q,ecn2 *PP,ecn2 *PM)$/;"	f
+ecn2_add_sub	miracl/mrecn2.c	/^BOOL ecn2_add_sub(_MIPD_ ecn2 *P,ecn2 *Q,ecn2 *PP,ecn2 *PM)$/;"	f
+ecn2_brick_end	miracl/ecn2_opt.c	/^void ecn2_brick_end(ebrick *B)$/;"	f
+ecn2_brick_end	miracl/mrecn2.c	/^void ecn2_brick_end(ebrick *B)$/;"	f
+ecn2_brick_init	miracl/ecn2_opt.c	/^BOOL ecn2_brick_init(_MIPD_ ebrick *B,zzn2 *x,zzn2 *y,big a,big b,big n,int window,int nb)$/;"	f
+ecn2_brick_init	miracl/ecn2_opt.c	/^void ecn2_brick_init(ebrick *B,const mr_small* rom,big a,big b,big n,int window,int nb)$/;"	f
+ecn2_brick_init	miracl/mrecn2.c	/^BOOL ecn2_brick_init(_MIPD_ ebrick *B,zzn2 *x,zzn2 *y,big a,big b,big n,int window,int nb)$/;"	f
+ecn2_brick_init	miracl/mrecn2.c	/^void ecn2_brick_init(ebrick *B,const mr_small* rom,big a,big b,big n,int window,int nb)$/;"	f
+ecn2_compare	miracl/ecn2_opt.c	/^BOOL ecn2_compare(_MIPD_ ecn2 *a,ecn2 *b)$/;"	f
+ecn2_compare	miracl/mrecn2.c	/^BOOL ecn2_compare(_MIPD_ ecn2 *a,ecn2 *b)$/;"	f
+ecn2_copy	miracl/ecn2_opt.c	/^void ecn2_copy(ecn2 *a,ecn2 *b)$/;"	f
+ecn2_copy	miracl/mrecn2.c	/^void ecn2_copy(ecn2 *a,ecn2 *b)$/;"	f
+ecn2_dos	miracl/ecn2_opt.c	/^static void ecn2_dos(_MIPD_ int win,ecn2 *PT)$/;"	f	file:
+ecn2_get	miracl/ecn2_opt.c	/^void ecn2_get(_MIPD_ ecn2 *e,zzn2 *x,zzn2 *y,zzn2 *z)$/;"	f
+ecn2_get	miracl/mrecn2.c	/^void ecn2_get(_MIPD_ ecn2 *e,zzn2 *x,zzn2 *y,zzn2 *z)$/;"	f
+ecn2_getx	miracl/ecn2_opt.c	/^void ecn2_getx(ecn2 *e,zzn2 *x)$/;"	f
+ecn2_getx	miracl/mrecn2.c	/^void ecn2_getx(ecn2 *e,zzn2 *x)$/;"	f
+ecn2_getxy	miracl/ecn2_opt.c	/^void ecn2_getxy(ecn2 *e,zzn2 *x,zzn2 *y)$/;"	f
+ecn2_getxy	miracl/mrecn2.c	/^void ecn2_getxy(ecn2 *e,zzn2 *x,zzn2 *y)$/;"	f
+ecn2_getz	miracl/ecn2_opt.c	/^void ecn2_getz(_MIPD_ ecn2 *e,zzn2 *z)$/;"	f
+ecn2_getz	miracl/mrecn2.c	/^void ecn2_getz(_MIPD_ ecn2 *e,zzn2 *z)$/;"	f
+ecn2_iszero	miracl/ecn2_opt.c	/^BOOL ecn2_iszero(ecn2 *a)$/;"	f
+ecn2_iszero	miracl/mrecn2.c	/^BOOL ecn2_iszero(ecn2 *a)$/;"	f
+ecn2_mul	miracl/ecn2_opt.c	/^int ecn2_mul(_MIPD_ big k,ecn2 *P)$/;"	f
+ecn2_mul	miracl/mrecn2.c	/^int ecn2_mul(_MIPD_ big k,ecn2 *P)$/;"	f
+ecn2_mul2	miracl/ecn2_opt.c	/^int ecn2_mul2(_MIPD_ big a,ecn2 *FT,big b,ecn2 *Q,ecn2 *R)$/;"	f
+ecn2_mul2	miracl/mrecn2.c	/^int ecn2_mul2(_MIPD_ big a,int ns,ecn2 *FT,big b,ecn2 *Q,ecn2 *R)$/;"	f
+ecn2_mul2_gls	miracl/ecn2_opt.c	/^int ecn2_mul2_gls(_MIPD_ big *a,ecn2 *P,zzn2 *psi,ecn2 *R)$/;"	f
+ecn2_mul2_gls	miracl/mrecn2.c	/^int ecn2_mul2_gls(_MIPD_ big *a,ecn2 *P,zzn2 *psi,ecn2 *R)$/;"	f
+ecn2_mul2_jsf	miracl/ecn2_opt.c	/^int ecn2_mul2_jsf(_MIPD_ big a,ecn2 *P,big b,ecn2 *Q,ecn2 *R)$/;"	f
+ecn2_mul2_jsf	miracl/mrecn2.c	/^int ecn2_mul2_jsf(_MIPD_ big a,ecn2 *P,big b,ecn2 *Q,ecn2 *R)$/;"	f
+ecn2_mul4_gls_v	miracl/ecn2_opt.c	/^int ecn2_mul4_gls_v(_MIPD_ big *a,ecn2 *FT,big *b,ecn2 *Q,zzn2 *psi,ecn2 *R)$/;"	f
+ecn2_mul4_gls_v	miracl/mrecn2.c	/^int ecn2_mul4_gls_v(_MIPD_ big *a,int ns,ecn2 *FT,big *b,ecn2 *Q,zzn2 *psi,ecn2 *R)$/;"	f
+ecn2_mul_brick_gls	miracl/ecn2_opt.c	/^void ecn2_mul_brick_gls(_MIPD_ ebrick *B,big *e,zzn2 *psi,zzn2 *x,zzn2 *y)$/;"	f
+ecn2_mul_brick_gls	miracl/mrecn2.c	/^void ecn2_mul_brick_gls(_MIPD_ ebrick *B,big *e,zzn2 *psi,zzn2 *x,zzn2 *y)$/;"	f
+ecn2_muln_engine	miracl/ecn2_opt.c	/^int ecn2_muln_engine(_MIPD_ int wa,int wina,int wb,int winb,big *ma,big *ma3,big *mb,big *mb3,ecn2 *Ta,ecn2 *Tb,ecn2 *R)$/;"	f
+ecn2_muln_engine	miracl/mrecn2.c	/^int ecn2_muln_engine(_MIPD_ int wa,int sza,int wb,int szb,big *ma,big *ma3,big *mb,big *mb3,ecn2 *Ta,ecn2 *Tb,ecn2 *R)$/;"	f
+ecn2_mult4	miracl/mrecn2.c	/^void ecn2_mult4(_MIPD_ big *e,ecn2 *P,ecn2 *R)$/;"	f
+ecn2_multi_norm	miracl/mrecn2.c	/^BOOL ecn2_multi_norm(_MIPD_ int m,zzn2 *work,ecn2 *p)$/;"	f
+ecn2_multn	miracl/mrecn2.c	/^void ecn2_multn(_MIPD_ int n,big *e,ecn2 *P,ecn2 *R)$/;"	f
+ecn2_negate	miracl/ecn2_opt.c	/^void ecn2_negate(_MIPD_ ecn2 *u,ecn2 *w)$/;"	f
+ecn2_negate	miracl/mrecn2.c	/^void ecn2_negate(_MIPD_ ecn2 *u,ecn2 *w)$/;"	f
+ecn2_norm	miracl/ecn2_opt.c	/^void ecn2_norm(_MIPD_ ecn2 *a)$/;"	f
+ecn2_norm	miracl/mrecn2.c	/^void ecn2_norm(_MIPD_ ecn2 *a)$/;"	f
+ecn2_pre	miracl/mrecn2.c	/^static void ecn2_pre(_MIPD_ int sz,BOOL norm,ecn2 *PT)$/;"	f	file:
+ecn2_precomp	miracl/ecn2_opt.c	/^void ecn2_precomp(_MIPD_ int win,ecn2 *P,ecn2 *T)$/;"	f
+ecn2_precomp	miracl/mrecn2.c	/^void ecn2_precomp(_MIPD_ int sz,BOOL norm,ecn2 *P,ecn2 *T)$/;"	f
+ecn2_precomp_gls	miracl/ecn2_opt.c	/^void ecn2_precomp_gls(_MIPD_ int win,ecn2 *P,zzn2 *psi,ecn2 *T)$/;"	f
+ecn2_precomp_gls	miracl/mrecn2.c	/^void ecn2_precomp_gls(_MIPD_ int sz,BOOL norm,ecn2 *P,zzn2 *psi,ecn2 *T)$/;"	f
+ecn2_psi	miracl/ecn2_opt.c	/^void ecn2_psi(_MIPD_ zzn2 *psi,ecn2 *P)$/;"	f
+ecn2_psi	miracl/mrecn2.c	/^void ecn2_psi(_MIPD_ zzn2 *psi,ecn2 *P)$/;"	f
+ecn2_rhs	miracl/ecn2_opt.c	/^void ecn2_rhs(_MIPD_ zzn2 *x,zzn2 *rhs)$/;"	f
+ecn2_rhs	miracl/mrecn2.c	/^void ecn2_rhs(_MIPD_ zzn2 *x,zzn2 *rhs)$/;"	f
+ecn2_set	miracl/ecn2_opt.c	/^BOOL ecn2_set(_MIPD_ zzn2 *x,zzn2 *y,ecn2 *e)$/;"	f
+ecn2_set	miracl/mrecn2.c	/^BOOL ecn2_set(_MIPD_ zzn2 *x,zzn2 *y,ecn2 *e)$/;"	f
+ecn2_setx	miracl/ecn2_opt.c	/^BOOL ecn2_setx(_MIPD_ zzn2 *x,ecn2 *e)$/;"	f
+ecn2_setx	miracl/mrecn2.c	/^BOOL ecn2_setx(_MIPD_ zzn2 *x,ecn2 *e)$/;"	f
+ecn2_setxyz	miracl/ecn2_opt.c	/^void ecn2_setxyz(zzn2 *x,zzn2 *y,zzn2 *z,ecn2 *e)$/;"	f
+ecn2_setxyz	miracl/mrecn2.c	/^void ecn2_setxyz(_MIPD_ zzn2 *x,zzn2 *y,zzn2 *z,ecn2 *e)$/;"	f
+ecn2_setxyz	miracl/mrecn2.c	/^void ecn2_setxyz(zzn2 *x,zzn2 *y,zzn2 *z,ecn2 *e)$/;"	f
+ecn2_sub	miracl/ecn2_opt.c	/^BOOL ecn2_sub(_MIPD_ ecn2 *Q,ecn2 *P)$/;"	f
+ecn2_sub	miracl/mrecn2.c	/^BOOL ecn2_sub(_MIPD_ ecn2 *Q,ecn2 *P)$/;"	f
+ecn2_zero	miracl/ecn2_opt.c	/^void ecn2_zero(ecn2 *a)$/;"	f
+ecn2_zero	miracl/mrecn2.c	/^void ecn2_zero(ecn2 *a)$/;"	f
+ecp	miracl/pk-demo.c	/^char *ecp="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFF";$/;"	v
+ecp_memalloc	miracl/mrcore.c	/^void *ecp_memalloc(_MIPD_ int num)$/;"	f
+ecp_memkill	miracl/mrcore.c	/^void ecp_memkill(_MIPD_ char *mem,int num)$/;"	f
+ecurve2_add	miracl/mrec2m.c	/^big ecurve2_add(_MIPD_ epoint *p,epoint *pa)$/;"	f
+ecurve2_double	miracl/mrec2m.c	/^void ecurve2_double(_MIPD_ epoint *p)$/;"	f
+ecurve2_init	miracl/mrec2m.c	/^BOOL ecurve2_init(_MIPD_ int m,int a,int b,int c,big a2,big a6,BOOL check,int type)$/;"	f
+ecurve2_mult	miracl/mrec2m.c	/^void ecurve2_mult(_MIPD_ big e,epoint *pa,epoint *pt)$/;"	f
+ecurve2_mult2	miracl/mrec2m.c	/^void ecurve2_mult2(_MIPD_ big e,epoint *p,big ea,epoint *pa,epoint *pt)$/;"	f
+ecurve2_multi_add	miracl/mrec2m.c	/^void ecurve2_multi_add(_MIPD_ int m,epoint **x,epoint **w)$/;"	f
+ecurve2_multn	miracl/mrec2m.c	/^void ecurve2_multn(_MIPD_ int n,big *y,epoint **x,epoint *w)$/;"	f
+ecurve2_padd	miracl/mrec2m.c	/^static BOOL ecurve2_padd(_MIPD_ epoint *p,epoint *pa)$/;"	f	file:
+ecurve2_sub	miracl/mrec2m.c	/^big ecurve2_sub(_MIPD_ epoint *p,epoint *pa)$/;"	f
+ecurve_add	miracl/mrcurve.c	/^int ecurve_add(_MIPD_ epoint *p,epoint *pa)$/;"	f
+ecurve_add_sub	miracl/mrcurve.c	/^static BOOL ecurve_add_sub(_MIPD_ epoint *P,epoint *Q,epoint *PP,epoint *PM)$/;"	f	file:
+ecurve_double	miracl/mrcurve.c	/^void ecurve_double(_MIPD_ epoint *p)$/;"	f
+ecurve_double_add	miracl/mrcurve.c	/^void ecurve_double_add(_MIPD_ epoint *a,epoint*b,epoint *c,epoint *d,big *s1,big *s2)$/;"	f
+ecurve_init	miracl/mrmonty.c	/^void ecurve_init(_MIPD_ big a,big b,big p,int type)$/;"	f
+ecurve_mult	miracl/mrcurve.c	/^int ecurve_mult(_MIPD_ big e,epoint *pa,epoint *pt)$/;"	f
+ecurve_mult2	miracl/mrcurve.c	/^void ecurve_mult2(_MIPD_ big e,epoint *p,big ea,epoint *pa,epoint *pt)$/;"	f
+ecurve_multi_add	miracl/mrcurve.c	/^void ecurve_multi_add(_MIPD_ int m,epoint **x,epoint**w)$/;"	f
+ecurve_multn	miracl/mrcurve.c	/^void ecurve_multn(_MIPD_ int n,big *y,epoint **x,epoint *w)$/;"	f
+ecurve_padd	miracl/mrcurve.c	/^static BOOL ecurve_padd(_MIPD_ epoint *p,epoint *pa)$/;"	f	file:
+ecurve_sub	miracl/mrcurve.c	/^int ecurve_sub(_MIPD_ epoint *p,epoint *pa)$/;"	f
+ecx	miracl/pk-demo.c	/^char *ecx="188DA80EB03090F67CBF20EB43A18800F4FF0AFD82FF1012";$/;"	v
+ecy	miracl/pk-demo.c	/^char *ecy="07192B95FFC8DA78631011ED6B24CDD573F977A11E794811";$/;"	v
+egcd	miracl/mrgcd.c	/^int egcd(_MIPD_ big x,big y,big z)$/;"	f
+ellipse	miracl/factor.c	/^void ellipse(big x,big z,int r,big x1,big z1,big x2,big z2)$/;"	f
+ellipse	miracl/lenstra.c	/^void ellipse(big x,big z,int r,big x1,big z1,big x2,big z2)$/;"	f
+end	run-tests.php	/^						$end = $start = $length;$/;"	v
+end	run-tests.php	/^					$end = strpos($wanted_re, $r, $start+2);$/;"	v
+end_time	run-tests.php	/^		$end_time = time();$/;"	v
+end_time	run-tests.php	/^$end_time = time();$/;"	v
+env	run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	v
+environment	run-tests.php	/^$environment = isset($_ENV) ? $_ENV : array();$/;"	v
+epoint	miracl/miracl.h	/^} epoint;$/;"	t	typeref:struct:__anon10
+epoint2_comp	miracl/mrec2m.c	/^BOOL epoint2_comp(_MIPD_ epoint *a,epoint *b)$/;"	f
+epoint2_copy	miracl/mrec2m.c	/^void epoint2_copy(epoint *a,epoint *b)$/;"	f
+epoint2_get	miracl/mrec2m.c	/^int epoint2_get(_MIPD_ epoint* p,big x,big y)$/;"	f
+epoint2_getxyz	miracl/mrec2m.c	/^void epoint2_getxyz(_MIPD_ epoint* p,big x,big y,big z)$/;"	f
+epoint2_multi_norm	miracl/mrec2m.c	/^BOOL epoint2_multi_norm(_MIPD_ int m,big *work,epoint **p)$/;"	f
+epoint2_negate	miracl/mrec2m.c	/^void epoint2_negate(_MIPD_ epoint *p)$/;"	f
+epoint2_norm	miracl/mrec2m.c	/^BOOL epoint2_norm(_MIPD_ epoint *p)$/;"	f
+epoint2_set	miracl/mrec2m.c	/^BOOL epoint2_set(_MIPD_ big x,big y,int cb,epoint *p)$/;"	f
+epoint_comp	miracl/mrcurve.c	/^BOOL epoint_comp(_MIPD_ epoint *a,epoint *b)$/;"	f
+epoint_copy	miracl/mrcurve.c	/^void epoint_copy(epoint *a,epoint *b)$/;"	f
+epoint_free	miracl/mrcore.c	/^void epoint_free(epoint *p)$/;"	f
+epoint_get	miracl/mrcurve.c	/^int epoint_get(_MIPD_ epoint* p,big x,big y)$/;"	f
+epoint_getrhs	miracl/mrcurve.c	/^static void epoint_getrhs(_MIPD_ big x,big y)$/;"	f	file:
+epoint_getxyz	miracl/mrcurve.c	/^void epoint_getxyz(_MIPD_ epoint *p,big x,big y,big z)$/;"	f
+epoint_init	miracl/mrcore.c	/^epoint* epoint_init(_MIPDO_ )$/;"	f
+epoint_init_mem	miracl/mrcore.c	/^epoint* epoint_init_mem(_MIPD_ char *mem,int index)$/;"	f
+epoint_init_mem_variable	miracl/mrcore.c	/^epoint* epoint_init_mem_variable(_MIPD_ char *mem,int index,int sz)$/;"	f
+epoint_multi_norm	miracl/mrcurve.c	/^BOOL epoint_multi_norm(_MIPD_ int m,big *work,epoint **p)$/;"	f
+epoint_negate	miracl/mrcurve.c	/^void epoint_negate(_MIPD_ epoint *p)$/;"	f
+epoint_norm	miracl/mrcurve.c	/^BOOL epoint_norm(_MIPD_ epoint *p)$/;"	f
+epoint_set	miracl/mrcurve.c	/^BOOL epoint_set(_MIPD_ big x,big y,int cb,epoint *p)$/;"	f
+epoint_x	miracl/mrcurve.c	/^BOOL epoint_x(_MIPD_ big x)$/;"	f
+epr	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+epr	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+eps	miracl/ratcalc.c	/^static flash radeg,loge2,loge10,eps;$/;"	v	file:
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $ofs2, $cnt1, $cnt2, $st);$/;"	v
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $ofs1, $idx2, $cnt1, $cnt2, $st);$/;"	v
+eq1	run-tests.php	/^				$eq1 = $eq;$/;"	v
+eq1	run-tests.php	/^		$eq1 = 0;$/;"	v
+eq2	run-tests.php	/^				$eq2 = $eq;$/;"	v
+eq2	run-tests.php	/^		$eq2 = 0;$/;"	v
+equal	run-tests.php	/^	$equal = 0;$/;"	v
+equals	miracl/ratcalc.c	/^static void equals(int no)$/;"	f	file:
+erptr	miracl/ratcalc.c	/^static int erptr=0;$/;"	v	file:
+error	run-tests.php	/^function error($message)$/;"	f
+error_report	run-tests.php	/^function error_report($testname, $logname, $tested)$/;"	f
+escaped_details	run-tests.php	/^	$escaped_details = htmlspecialchars($details, ENT_QUOTES, 'UTF-8');$/;"	v
+escaped_details	run-tests.php	/^	$escaped_details = preg_replace_callback('\/[\\0-\\x08\\x0B\\x0C\\x0E-\\x1F]\/', function ($c) {$/;"	v
+escaped_message	run-tests.php	/^	$escaped_message = htmlspecialchars($message, ENT_QUOTES, 'UTF-8');$/;"	v
+escaped_test_name	run-tests.php	/^    $escaped_test_name = basename($file_name) . ' - ' . htmlspecialchars($test_name, ENT_QUOTES);$/;"	v
+euclid	miracl/mrround.c	/^static int euclid(_MIPD_ big x,int num)$/;"	f	file:
+eval	miracl/factor.c	/^void eval (void)$/;"	f
+eval_power	miracl/factor.c	/^void eval_power (big oldn,big n,char op)$/;"	f
+eval_product	miracl/factor.c	/^void eval_product (big oldn,big n,char op)$/;"	f
+eval_sum	miracl/factor.c	/^void eval_sum (big oldn,big n,char op)$/;"	f
+exec_prefix	Makefile	/^exec_prefix = $(prefix)$/;"	m
+exp_filename	run-tests.php	/^	$exp_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'exp';$/;"	v
+expb2	miracl/mrbits.c	/^void expb2(_MIPD_ int n,big x)$/;"	f
+expint	miracl/mrarth3.c	/^void expint(_MIPD_ int b,int n,big x)$/;"	f
+expon	miracl/mrflsh2.c	/^static int expon(_MIPD_ big w,int n)$/;"	f	file:
+exptr	miracl/ratcalc.c	/^static int exptr=10;$/;"	v	file:
+exsign	miracl/mrcore.c	/^int exsign(flash x)$/;"	f
+ext	run-tests.php	/^	foreach($info_params_ex as $ext => $ini_overwrites_ex) {$/;"	v
+ext_dir	run-tests.php	/^		$ext_dir=`$php -r 'echo ini_get("extension_dir");'`;$/;"	v
+extensions	run-tests.php	/^		$extensions = preg_split("\/[\\n\\r]+\/", trim($section_text['EXTENSIONS']));$/;"	v
+extra	run-tests.php	/^				$extra = "skipif";$/;"	v
+extra	run-tests.php	/^				$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	run-tests.php	/^			$extra = "&nbsp;";$/;"	v
+extra	run-tests.php	/^			$extra = "<a href='$url'>$extra<\/a>";$/;"	v
+extra	run-tests.php	/^			$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	v
+exts_skipped	run-tests.php	/^$exts_skipped = 0;$/;"	v
+exts_tested	run-tests.php	/^$exts_tested = count($exts_to_test);$/;"	v
+exts_to_test	run-tests.php	/^	$exts_to_test = explode(',',`$php $pass_options $info_params "$info_file"`);$/;"	v
+exts_to_test	run-tests.php	/^$exts_to_test = array();$/;"	v
+f	miracl/miracl.h	/^char f[16];$/;"	m	struct:__anon8
+facos	miracl/mrflsh3.c	/^void facos(_MIPD_ flash x,flash y)$/;"	f
+facosh	miracl/mrflsh4.c	/^void facosh(_MIPD_ flash x,flash y)$/;"	f
+factored	miracl/factor.c	/^BOOL factored(long lptr,big T)$/;"	f
+factored	miracl/qsieve.c	/^BOOL factored(long lptr,big T)$/;"	f
+fadd	miracl/mrflash.c	/^void fadd(_MIPD_ flash x,flash y,flash z)$/;"	f
+failed_headers	run-tests.php	/^				$failed_headers = true;$/;"	v
+failed_headers	run-tests.php	/^	$failed_headers = false;$/;"	v
+failed_test_summary	run-tests.php	/^	$failed_test_summary = '';$/;"	v
+failed_tests_data	run-tests.php	/^			$failed_tests_data = '';$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'a+t');$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'w+t');$/;"	v
+failed_tests_file	run-tests.php	/^$failed_tests_file= false;$/;"	v
+fasin	miracl/mrflsh3.c	/^void fasin(_MIPD_ flash x,flash y)$/;"	f
+fasinh	miracl/mrflsh4.c	/^void fasinh(_MIPD_ flash x,flash y)$/;"	f
+fastmodmult	miracl/mr87f.c	/^void fastmodmult(_MIPD_ big x,big y,big z)$/;"	f
+fastmodmult	miracl/mr87v.c	/^void fastmodmult(_MIPD_ big x,big y,big z)$/;"	f
+fastmodsquare	miracl/mr87v.c	/^void fastmodsquare(_MIPD_ big x,big z)$/;"	f
+fastmultop	miracl/mrfast.c	/^BOOL fastmultop(_MIPD_ int n,big x,big y,big z)$/;"	f
+fatan	miracl/mrflsh3.c	/^void fatan(_MIPD_ flash x,flash y)$/;"	f
+fatanh	miracl/mrflsh4.c	/^void fatanh(_MIPD_ flash x,flash y)$/;"	f
+fbsub	miracl/mraes.c	/^static const MR_BYTE fbsub[]=$/;"	v	file:
+fcomp	miracl/mrflash.c	/^int fcomp(_MIPD_ flash x,flash y)$/;"	f
+fconv	miracl/mrflash.c	/^void fconv(_MIPD_ int n,int d,flash x)$/;"	f
+fcos	miracl/mrflsh3.c	/^void fcos(_MIPD_ flash x,flash y)$/;"	f
+fcosh	miracl/mrflsh4.c	/^void fcosh(_MIPD_ flash x,flash y)$/;"	f
+fdiv	miracl/mrflash.c	/^void fdiv(_MIPD_ flash x,flash y,flash z)$/;"	f
+fdsize	miracl/mrdouble.c	/^double fdsize(_MIPD_ flash w)$/;"	f
+fexp	miracl/mrflsh2.c	/^void fexp(_MIPD_ flash x,flash y)$/;"	f
+fft_mult	miracl/mrfast.c	/^void fft_mult(_MIPD_ big x,big y,big z)$/;"	f
+fft_reset	miracl/mrfast.c	/^void fft_reset(_MIPDO_ )$/;"	f
+file	run-tests.php	/^			$file = $org_file[0];$/;"	v
+file	run-tests.php	/^		$file = $file[0];$/;"	v
+filename_copy	run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	v
+fill_pool	miracl/mrstrong.c	/^static void fill_pool(csprng *rng)$/;"	f	file:
+fin	miracl/miracl.h	/^BOOL  fin;           \/* Input from file  *\/$/;"	m	struct:__anon19
+fincr	miracl/mrflash.c	/^void fincr(_MIPD_ flash x,int n,int d,flash y)$/;"	f
+find_files	run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	f
+first_one	miracl/miracl.h	/^BOOL first_one;$/;"	m	struct:__anon19
+fit	miracl/mrcore.c	/^BOOL fit(big x,big y,int f)$/;"	f
+fkey	miracl/miracl.h	/^mr_unsign32 fkey[60];$/;"	m	struct:__anon8
+flag	miracl/identity.c	/^static BOOL flag=FALSE;$/;"	v	file:
+flag	miracl/index.c	/^static BOOL flag=FALSE;$/;"	v	file:
+flag	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+flags	run-tests.php	/^				$flags = array('-v', '-V', '--version');$/;"	v
+flash	miracl/miracl.h	/^typedef big flash;$/;"	t
+flog	miracl/mrflsh2.c	/^void flog(_MIPD_ flash x,flash y)$/;"	f
+flop	miracl/mrflash.c	/^void flop(_MIPD_ flash x,flash y,int *op,flash z)$/;"	f
+fmodulo	miracl/mrflash.c	/^void fmodulo(_MIPD_ flash x,flash y,flash z)$/;"	f
+fmul	miracl/mrflash.c	/^void fmul(_MIPD_ flash x,flash y,flash z)$/;"	f
+fn	miracl/big.h	/^    big fn;$/;"	m	class:Big
+fn	miracl/flash.h	/^    flash fn;      \/* pointer to actual data *\/$/;"	m	class:Flash
+fn	miracl/gf2m.h	/^    big fn;$/;"	m	class:GF2m
+fn	miracl/zzn.h	/^    big fn;$/;"	m	class:ZZn
+forever	miracl/miracl.h	209;"	d
+fout	miracl/miracl.h	/^BOOL  fout;          \/* Output to file   *\/$/;"	m	struct:__anon19
+fp	run-tests.php	/^		$fp = fopen("php:\/\/stdin", "r+");$/;"	v
+fp	run-tests.php	/^	$fp = fopen($file, "rb") or error("Cannot open test file: $file");$/;"	v
+fpa	miracl/ecsign.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpa	miracl/ecsign2.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpa	miracl/ecsver.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpa	miracl/ecsver2.c	/^int fpa;$/;"	v
+fpack	miracl/mrcore.c	/^void fpack(_MIPD_ big n,big d,flash x)$/;"	f
+fpc	miracl/ecsign.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpc	miracl/ecsign2.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpc	miracl/ecsver.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpc	miracl/ecsver2.c	/^int fpc;$/;"	v
+fpi	miracl/mrpi.c	/^void fpi(_MIPD_ flash pi)$/;"	f
+fpi2	miracl/ecsgen2.c	/^int fpm2,fpi2,lpz; $/;"	v
+fpi2	miracl/ecsign.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpi2	miracl/ecsign2.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpi2	miracl/ecsver.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpi2	miracl/ecsver2.c	/^int fpi2;$/;"	v
+fpm2	miracl/ecsgen2.c	/^int fpm2,fpi2,lpz; $/;"	v
+fpm2	miracl/ecsign.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpm2	miracl/ecsign2.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpm2	miracl/ecsver.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpm2	miracl/ecsver2.c	/^int fpm2;$/;"	v
+fpmul	miracl/mrflash.c	/^void fpmul(_MIPD_ flash x,int n,int d,flash y)$/;"	f
+fpower	miracl/mrflsh1.c	/^void fpower(_MIPD_ flash x,int n,flash w)$/;"	f
+fpowf	miracl/mrflsh2.c	/^void fpowf(_MIPD_ flash x,flash y,flash z)$/;"	f
+fpx	miracl/ecsign.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpx	miracl/ecsign2.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpx	miracl/ecsver.c	/^int fpm2,fpi2,fpc,fpa,fpx;$/;"	v
+fpx	miracl/ecsver2.c	/^int fpx;$/;"	v
+frand	miracl/mrfrnd.c	/^void frand(_MIPD_ flash x)$/;"	f
+frecip	miracl/mrflash.c	/^void frecip(_MIPD_ flash x,flash y)$/;"	f
+frobenius	miracl/mrec2m.c	/^static void frobenius(_MIPD_ epoint *P)$/;"	f	file:
+from_base_256	miracl/mrfpe.c	/^static void from_base_256(int addsub,MR_BYTE *y,int len,int s,char *x)$/;"	f	file:
+froot	miracl/mrflsh1.c	/^BOOL froot(_MIPD_ flash x,int n,flash w)$/;"	f
+fs	run-tests.php	/^	$fs = fsockopen($host, $port, $errno, $errstr, 10);$/;"	v
+fsin	miracl/mrflsh3.c	/^void fsin(_MIPD_ flash x,flash y)$/;"	f
+fsinh	miracl/mrflsh4.c	/^void fsinh(_MIPD_ flash x,flash y)$/;"	f
+fsub	miracl/mrflash.c	/^void fsub(_MIPD_ flash x,flash y,flash z)$/;"	f
+ftable	miracl/mraes.c	/^static const MR_WORD ftable[]=$/;"	v	file:
+ftable1	miracl/mraes.c	/^static const MR_WORD ftable1[]=$/;"	v	file:
+ftable2	miracl/mraes.c	/^static const MR_WORD ftable2[]=$/;"	v	file:
+ftable3	miracl/mraes.c	/^static const MR_WORD ftable3[]=$/;"	v	file:
+ftan	miracl/mrflsh3.c	/^void ftan(_MIPD_ flash x,flash y)$/;"	f
+ftanh	miracl/mrflsh4.c	/^void ftanh(_MIPD_ flash x,flash y)$/;"	f
+ftrunc	miracl/mrflash.c	/^void ftrunc(_MIPD_ flash x,big y,flash z)$/;"	f
+fu	miracl/factor.c	/^static big *fu;$/;"	v	file:
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+function	gmsm.php	/^$function = 'confirm_' . $module . '_compiled';$/;"	v
+functions	gmsm.php	/^$functions = get_extension_funcs($module);$/;"	v
+gauss	miracl/hilbert.c	/^BOOL gauss(flash A[][50],flash b[],int n)$/;"	f
+gcd2	miracl/mrgf2m.c	/^void gcd2(_MIPD_ big x,big y,big g)$/;"	f
+gcm	miracl/miracl.h	/^} gcm;$/;"	t	typeref:struct:__anon9
+gcm_add_cipher	miracl/mrgcm.c	/^BOOL gcm_add_cipher(gcm *g,int mode,char *plain,int len,char *cipher)$/;"	f
+gcm_add_header	miracl/mrgcm.c	/^BOOL gcm_add_header(gcm* g,char *header,int len)$/;"	f
+gcm_finish	miracl/mrgcm.c	/^void gcm_finish(gcm *g,char *tag)$/;"	f
+gcm_init	miracl/mrgcm.c	/^void gcm_init(gcm* g,int nk,char *key,int niv,char *iv)$/;"	f
+gcm_wrap	miracl/mrgcm.c	/^static void gcm_wrap(gcm *g)$/;"	f	file:
+generate_array_diff	run-tests.php	/^function generate_array_diff($ar1, $ar2, $is_reg, $w)$/;"	f
+generate_diff	run-tests.php	/^function generate_diff($wanted, $wanted_re, $output)$/;"	f
+get	miracl/big.h	/^    int get(int index)          { int m; m=getdig(fn,index); return m; }$/;"	f	class:Big
+get	miracl/brick.h	/^    brick *get(void) {return &b;}$/;"	f	class:Brick
+get	miracl/ebrick.h	/^    ebrick *get(void) {return &B;} \/* get address of structure *\/$/;"	f	class:EBrick
+get	miracl/ebrick2.h	/^    ebrick2 *get(void) {return &B;} \/* get address of structure *\/$/;"	f	class:EBrick2
+get_mip	miracl/mrcore.c	/^        miracl *get_mip()$/;"	f
+get_mip	miracl/mrcore.c	/^    miracl *get_mip()$/;"	f
+get_status	miracl/ecn.h	/^    int get_status() {return p->marker;}$/;"	f	class:ECn
+get_summary	run-tests.php	/^function get_summary($show_ext_summary, $show_html)$/;"	f
+getbig	miracl/gf2m.h	/^    friend big getbig(GF2m& z) {return z.fn;}$/;"	f	class:GF2m
+getbig	miracl/zzn.h	/^    friend big getbig(ZZn& z) {return z.fn;}$/;"	f	class:ZZn
+getdig	miracl/mrcore.c	/^int getdig(_MIPD_ big x,int i)$/;"	f
+gethit	miracl/ratcalc.c	/^static int gethit(void)$/;"	f	file:
+getprime	miracl/identity.c	/^void getprime(char *fname)$/;"	f
+getstat	miracl/ratcalc.c	/^static void getstat(void)$/;"	f	file:
+gf2m_dotprod	miracl/mrgf2m.c	/^void gf2m_dotprod(_MIPD_ int n,big *x,big *y,big w)$/;"	f
+gf2mul	miracl/mrgcm.c	/^static void gf2mul(gcm *g)$/;"	f	file:
+gmsm	php_gmsm.h	/^PHP_MINFO_FUNCTION(gmsm);$/;"	v
+gmsm	php_gmsm.h	/^PHP_MINIT_FUNCTION(gmsm);$/;"	v
+gmsm	php_gmsm.h	/^PHP_MSHUTDOWN_FUNCTION(gmsm);$/;"	v
+gmsm	php_gmsm.h	/^PHP_RINIT_FUNCTION(gmsm);$/;"	v
+gmsm	php_gmsm.h	/^PHP_RSHUTDOWN_FUNCTION(gmsm);$/;"	v
+gmsm_functions	gmsm.c	/^const zend_function_entry gmsm_functions[] = {$/;"	v
+gmsm_module_entry	gmsm.c	/^zend_module_entry gmsm_module_entry = {$/;"	v
+gotcha	miracl/factor.c	/^BOOL gotcha(void)$/;"	f
+gotcha	miracl/qsieve.c	/^BOOL gotcha(void)$/;"	f
+gprime	miracl/mrprime.c	/^void gprime(_MIPD_ int maxp)$/;"	f
+h	miracl/miracl.h	/^    mr_small h[2];$/;"	m	union:doubleword
+h	miracl/miracl.h	/^mr_unsign32 h[8];$/;"	m	struct:__anon5
+h	miracl/miracl.h	/^mr_unsign64 h[8];$/;"	m	struct:__anon6
+halftrace2	miracl/mrgf2m.c	/^void halftrace2(_MIPD_ big b,big w)$/;"	f
+ham	miracl/big.h	/^    friend int ham(const Big& b)  {return hamming(b.fn);}$/;"	f	class:Big
+hamming	miracl/mrarth1.c	/^int hamming(_MIPD_ big x)$/;"	f
+hash	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+hash	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+hashing	miracl/dssign.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/dssver.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsign.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsign2.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsign2s.c	/^static void hashing(miracl *mip,FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsign_s.c	/^static void hashing(miracl *mip,FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsver.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsver2.c	/^static void hashing(FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsver2s.c	/^static void hashing(miracl *mip,FILE *fp,big hash)$/;"	f	file:
+hashing	miracl/ecsver_s.c	/^static void hashing(miracl *mip,FILE *fp,big hash)$/;"	f	file:
+headers	run-tests.php	/^				$headers = $org_headers[$k];$/;"	v
+headers	run-tests.php	/^		$headers = array();$/;"	v
+headers	run-tests.php	/^	$headers = "";$/;"	v
+hmod	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+hmod	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+hmod2	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+hmod2	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+host	run-tests.php	/^		$host = $proxy['host'];$/;"	v
+host	run-tests.php	/^		$host = $url_bits['host'];$/;"	v
+htext	miracl/ratcalc.c	/^static char *htext[]=  $/;"	v	file:
+html_file	run-tests.php	/^					$html_file = fopen($argv[++$i], 'wt');$/;"	v
+html_file	run-tests.php	/^$html_file = null;$/;"	v
+html_output	run-tests.php	/^					$html_output = is_resource($html_file);$/;"	v
+html_output	run-tests.php	/^$html_output = false;$/;"	v
+hyp	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+idx1	run-tests.php	/^	$idx1 = 0; $ofs1 = 0; $cnt1 = @count($ar1);$/;"	v
+idx2	run-tests.php	/^	$idx2 = 0; $ofs2 = 0; $cnt2 = @count($ar2);$/;"	v
+igcd	miracl/mrcore.c	/^unsigned int igcd(unsigned int x,unsigned int y)$/;"	f
+ignored_by_ext	run-tests.php	/^$ignored_by_ext = 0;$/;"	v
+imuldiv	miracl/mrcore.c	/^mr_small imuldiv(mr_small a,mr_small b,mr_small c,mr_small m,mr_large im,mr_small *rp)$/;"	f
+in_range	miracl/mrscrt.c	/^static mr_utype in_range(mr_utype x,mr_utype y)$/;"	f	file:
+incr	miracl/mrarth0.c	/^void incr(_MIPD_ big x,int n,big z)$/;"	f
+incr2	miracl/mrgf2m.c	/^void incr2(big x,int n,big w)$/;"	f
+increment	miracl/limlee.c	/^static long increment(long permutation)$/;"	f	file:
+index	run-tests.php	/^			$index = "# $name[1]: $name[0]";$/;"	v
+index	run-tests.php	/^			$index = "# $redir_tested: $name";$/;"	v
+index	run-tests.php	/^			$index = $name;$/;"	v
+infile	miracl/miracl.h	/^FILE  *infile;       \/* Input file       *\/$/;"	m	struct:__anon19
+info	run-tests.php	/^					$info = " (info: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: XFAIL section but test passes)";$/;"	v
+info	run-tests.php	/^			$info = '  XFAIL REASON: ' . rtrim($section_text['XFAIL']);$/;"	v
+info	run-tests.php	/^	$info = '';$/;"	v
+info_file	run-tests.php	/^	$info_file = __DIR__ . '\/run-test-info.php';$/;"	v
+info_params	run-tests.php	/^	$info_params = array();$/;"	v
+info_params_ex	run-tests.php	/^	$info_params_ex = array($/;"	v
+ini_overwrites	run-tests.php	/^			$ini_overwrites = array_merge($ini_overwrites, $ini_overwrites_ex);$/;"	v
+ini_overwrites	run-tests.php	/^$ini_overwrites = array($/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = $settings;$/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = array();$/;"	v
+init_big_from_rom	miracl/mrcore.c	/^BOOL init_big_from_rom(big x,int len,const mr_small *rom,int romsize,int *romptr)$/;"	f
+init_it	miracl/mrfast.c	/^static BOOL init_it(_MIPD_ int logn)$/;"	f	file:
+init_point_from_rom	miracl/mrcore.c	/^BOOL init_point_from_rom(epoint *P,int len,const mr_small *rom,int romsize,int *romptr)$/;"	f
+initv	miracl/factor.c	/^int initv(int d)$/;"	f
+initv	miracl/qsieve.c	/^int initv(void)$/;"	f
+innum	miracl/mrio1.c	/^int innum(_MIPD_ flash x,FILE *filep)$/;"	f
+insign	miracl/mrcore.c	/^void insign(int s,flash x)$/;"	f
+install_targets	Makefile	/^install_targets = install-modules install-headers$/;"	m
+instat	miracl/ratcalc.c	/^static void instat(int ptr,char *strg)$/;"	f	file:
+instr	miracl/mrio1.c	/^int instr(_MIPD_ flash x,char *string)$/;"	f
+invers	miracl/mrsmall.c	/^mr_small invers(mr_small x,mr_small y)$/;"	f
+inverse	miracl/gf2m.h	/^    GF2m& inverse() {inverse2(fn,fn); return *this;} $/;"	f	class:GF2m
+inverse	miracl/miracl.h	/^mr_utype *inverse,**roots;$/;"	m	struct:__anon19
+inverse2	miracl/mrgf2m.c	/^BOOL inverse2(_MIPD_ big x,big w)$/;"	f
+inverse_base	miracl/miracl.h	/^mr_large inverse_base;$/;"	m	struct:__anon19
+invmodp	miracl/mrxgcd.c	/^int invmodp(_MIPD_ big a,big p,big z)$/;"	f
+invmodp	miracl/mrxgcd.c	/^int invmodp(_MIPD_ big x,big y,big z)$/;"	f
+ipt	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+ira	miracl/miracl.h	/^mr_unsign32 ira[NK];  \/* random number...   *\/$/;"	m	struct:__anon19
+ira	miracl/miracl.h	/^mr_unsign32 ira[NK];  \/* random number...   *\/$/;"	m	struct:__anon4
+irand	miracl/mrcore.c	/^void irand(_MIPD_ mr_unsign32 seed)$/;"	f
+is_ext_dir	run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	v
+is_switch	run-tests.php	/^								$is_switch = false;$/;"	v
+is_switch	run-tests.php	/^				$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^			$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^		$is_switch = false;$/;"	v
+isprime	miracl/mrprime.c	/^BOOL isprime(_MIPD_ big x)$/;"	f
+isqrt	miracl/mrcore.c	/^unsigned int isqrt(unsigned int num,unsigned int guess)$/;"	f
+iterate	miracl/identity.c	/^void iterate(big x,big q,big r,big a,big b)$/;"	f
+iterate	miracl/index.c	/^void iterate(big x,big q,big r,big a,big b)$/;"	f
+itnaf	miracl/mrec2m.c	/^static int itnaf(int mu,int a,int b,signed char *tm)$/;"	f	file:
+jac	miracl/mrsmall.c	/^int jac(mr_small x,mr_small n)$/;"	f
+jack	miracl/mrjack.c	/^int jack(_MIPD_ big a,big n)$/;"	f
+jacobi	miracl/big.h	/^    friend int jacobi(const Big& b1,const Big& b2) {return jack(b1.fn,b2.fn);}$/;"	f	class:Big
+jj	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+jj	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+junit_enabled	run-tests.php	/^function junit_enabled() {$/;"	f
+junit_finish_timer	run-tests.php	/^function junit_finish_timer($file_name) {$/;"	f
+junit_get_suite_xml	run-tests.php	/^function junit_get_suite_xml($suite_name = '') {$/;"	f
+junit_get_suitename_for	run-tests.php	/^function junit_get_suitename_for($file_name) {$/;"	f
+junit_get_timer	run-tests.php	/^function junit_get_timer($file_name) {$/;"	f
+junit_init	run-tests.php	/^function junit_init() {$/;"	f
+junit_init_suite	run-tests.php	/^function junit_init_suite($suite_name) {$/;"	f
+junit_mark_test_as	run-tests.php	/^function junit_mark_test_as($type, $file_name, $test_name, $time = null, $message = '', $details = '') {$/;"	f
+junit_path_to_classname	run-tests.php	/^function junit_path_to_classname($file_name) {$/;"	f
+junit_save_xml	run-tests.php	/^function junit_save_xml() {$/;"	f
+junit_start_timer	run-tests.php	/^function junit_start_timer($file_name) {$/;"	f
+junit_suite_record	run-tests.php	/^function junit_suite_record($suite, $param, $value = 1) {$/;"	f
+just	miracl/ratcalc.c	/^static void just(char *buff)$/;"	f	file:
+just_save_results	run-tests.php	/^					$just_save_results = true;$/;"	v
+just_save_results	run-tests.php	/^		$just_save_results = (strtolower($user_input[0]) == 's');$/;"	v
+just_save_results	run-tests.php	/^$just_save_results = false;$/;"	v
+k	run-tests.php	/^		foreach($want as $k => $v) {$/;"	v
+k1	run-tests.php	/^			$k1 = next($old1) ? key($old1) : null;$/;"	v
+k1	run-tests.php	/^		} else if ($k2 == $l2 + 1 || $k1 === null) {$/;"	v
+k1	run-tests.php	/^	reset($old1); $k1 = key($old1); $l1 = -2;$/;"	v
+k2	run-tests.php	/^			$k2 = next($old2) ? key($old2) : null;$/;"	v
+k2	run-tests.php	/^		if ($k1 == $l1 + 1 || $k2 === null) {$/;"	v
+k2	run-tests.php	/^	reset($old2); $k2 = key($old2); $l2 = -2;$/;"	v
+karmul2	miracl/mrgf2m.c	/^void karmul2(int n,mr_small *t,mr_small *x,mr_small *y,mr_small *z)$/;"	f
+karmul2_poly	miracl/mrgf2m.c	/^void karmul2_poly(_MIPD_ int n,big *t,big *x,big *y,big *z)$/;"	f
+karmul2_poly_upper	miracl/mrgf2m.c	/^void karmul2_poly_upper(_MIPD_ int n,big *t,big *x,big *y,big *z)$/;"	f
+key	run-tests.php	/^	foreach((array)$env as $key => $value) {$/;"	v
+key	run-tests.php	/^foreach ($exts_to_test as $key => $val) {$/;"	v
+keys	miracl/ratcalc.c	/^static char *keys[6][7]= $/;"	v	file:
+kill_monty	miracl/mrmonty.c	/^void kill_monty(_MIPDO_ )$/;"	f
+knuth	miracl/factor.c	/^int knuth(int mm,int *epr,big N,big D)$/;"	f
+knuth	miracl/qsieve.c	/^int knuth(int mm,int *epr,big N,big D)$/;"	f
+ku	miracl/miracl.h	/^mr_small u,v,ku,kv;$/;"	m	struct:__anon19
+kv	miracl/miracl.h	/^mr_small u,v,ku,kv;$/;"	m	struct:__anon19
+l1	run-tests.php	/^			$l1 = $k1;$/;"	v
+l2	run-tests.php	/^			$l2 = $k2;$/;"	v
+last	miracl/miracl.h	/^BOOL last,carryon;$/;"	m	struct:__anon19
+last	run-tests.php	/^				$last = 1;$/;"	v
+last	run-tests.php	/^				$last = 2;$/;"	v
+lclr	miracl/ratcalc.c	/^static void lclr(int x,int y)$/;"	f	file:
+ldd	run-tests.php	/^				$ldd = shell_exec("ldd $php 2>\/dev\/null");$/;"	v
+ldd	run-tests.php	/^			$ldd = $autoconf = $sys_libtool = $libtool = $compiler = 'N\/A';$/;"	v
+le_gmsm	gmsm.c	/^static int le_gmsm;$/;"	v	file:
+leak_check	run-tests.php	/^					$leak_check = true;$/;"	v
+leak_check	run-tests.php	/^$leak_check = false;$/;"	v
+leaked	run-tests.php	/^		$leaked = filesize($memcheck_filename) > 0;$/;"	v
+leaked	run-tests.php	/^	$leaked = false;$/;"	v
+len	miracl/miracl.h	/^    mr_lentype len;$/;"	m	struct:bigtype
+len	miracl/miracl.h	/^int rate,len;$/;"	m	struct:__anon7
+len	run-tests.php	/^				$len = strlen($value);$/;"	v
+lenA	miracl/miracl.h	/^mr_unsign32 lenA[2],lenC[2];$/;"	m	struct:__anon9
+lenC	miracl/miracl.h	/^mr_unsign32 lenA[2],lenC[2];$/;"	m	struct:__anon9
+length	miracl/miracl.h	/^mr_unsign32 length[2];$/;"	m	struct:__anon5
+length	miracl/miracl.h	/^mr_unsign64 length;$/;"	m	struct:__anon7
+length	miracl/miracl.h	/^mr_unsign64 length[2];$/;"	m	struct:__anon6
+length	run-tests.php	/^			$length = strlen($wanted_re);$/;"	v
+length	sm3/GMSM3.h	/^    unsigned int    length;$/;"	m	struct:__anon1
+lenstra	miracl/factor.c	/^int lenstra(int lim1,long lim2,int nc,int kurve,int ncurves)$/;"	f
+lg2b	miracl/miracl.h	/^int   lg2b;          \/* bits in base    *\/$/;"	m	struct:__anon19
+lgbase	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+lgcd	miracl/mrcore.c	/^unsigned long lgcd(unsigned long x,unsigned long y)$/;"	f
+lgconv	miracl/mrcore.c	/^void lgconv(_MIPD_ long n,big x)$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libtool	run-tests.php	/^				$libtool = shell_exec($CUR_DIR . '\/libtool --version');$/;"	v
+lim1	miracl/identity.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+lim1	miracl/index.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+lim2	miracl/identity.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+lim2	miracl/index.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+line	run-tests.php	/^				$line = explode(':', $line, 2);$/;"	v
+line	run-tests.php	/^			$line = fread($pipes[1], 8192);$/;"	v
+line	run-tests.php	/^		$line = fgets($fp);$/;"	v
+line_length	run-tests.php	/^	$line_length = strlen($str);$/;"	v
+lines	run-tests.php	/^		$lines = preg_split("\/[\\n\\r]+\/", $section_text['EXPECTHEADERS']);$/;"	v
+loaded	run-tests.php	/^		$loaded = explode(",", `$php -n -r 'echo join(",", get_loaded_extensions());'`);$/;"	v
+logN	miracl/miracl.h	/^int logN;           \/* constants for fast fourier fft multiplication *\/$/;"	m	struct:__anon19
+log_filename	run-tests.php	/^	$log_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'log';$/;"	v
+log_format	run-tests.php	/^	$log_format = 'LEODS';$/;"	v
+log_format	run-tests.php	/^	$log_format = strtoupper(getenv('TEST_PHP_LOG_FORMAT'));$/;"	v
+logb2	miracl/mrbits.c	/^int logb2(_MIPD_ big x)$/;"	f
+loge10	miracl/ratcalc.c	/^static flash radeg,loge2,loge10,eps;$/;"	v	file:
+loge2	miracl/ratcalc.c	/^static flash radeg,loge2,loge10,eps;$/;"	v	file:
+logname	run-tests.php	/^	$logname  = realpath($logname);$/;"	v
+logp	miracl/factor.c	/^static unsigned char *logp,*sieve;$/;"	v	file:
+logp	miracl/qsieve.c	/^static unsigned char *logp,*sieve;$/;"	v	file:
+lp	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+lp	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+lpz	miracl/ecsgen2.c	/^int fpm2,fpi2,lpz; $/;"	v
+lsw	miracl/miracl.h	/^mr_small msw,lsw;$/;"	m	struct:__anon19
+ltab	miracl/mraes.c	/^static const MR_BYTE ltab[]=$/;"	v	file:
+lucas	miracl/mrlucas.c	/^void lucas(_MIPD_ big p,big r,big n,big vp,big v)$/;"	f
+m	miracl/floating.h	/^    Big m;      \/\/ mantissa$/;"	m	class:Float
+m	miracl/imratio2.c	/^int  m[]={103,163,233,283,313,379,571};$/;"	v
+m	miracl/miracl.h	/^    int m,a,b,c;$/;"	m	struct:__anon13
+m	miracl/ratcalc.c	/^static flash x,y[8],m,t;$/;"	v	file:
+m163	miracl/bmark.c	/^int  m163=163;$/;"	v
+m233	miracl/bmark.c	/^int  m233=233;$/;"	v
+m283	miracl/bmark.c	/^int  m283=283;$/;"	v
+m571	miracl/bmark.c	/^int  m571=571;$/;"	v
+mad	miracl/mrarth2.c	/^void mad(_MIPD_ big x,big y,big z,big w,big q,big r)$/;"	f
+mail_qa_team	run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	f
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	miracl/brent.c	/^int main()$/;"	f
+main	miracl/brent_mt.c	/^int main()$/;"	f
+main	miracl/brick.c	/^int main()$/;"	f
+main	miracl/brute.c	/^int main()$/;"	f
+main	miracl/deciph.c	/^int main()$/;"	f
+main	miracl/decode.c	/^int main()$/;"	f
+main	miracl/dssetup.c	/^int main()$/;"	f
+main	miracl/dssgen.c	/^int main()$/;"	f
+main	miracl/dssign.c	/^int main()$/;"	f
+main	miracl/dssver.c	/^int main()$/;"	f
+main	miracl/ebrick.c	/^int main()$/;"	f
+main	miracl/ebrick2.c	/^int main()$/;"	f
+main	miracl/ecdh2m.c	/^int main()$/;"	f
+main	miracl/ecdh2m16.c	/^int main()$/;"	f
+main	miracl/ecdh2m8.c	/^int main()$/;"	f
+main	miracl/ecdhp.c	/^int main()$/;"	f
+main	miracl/ecdhp16.c	/^int main()$/;"	f
+main	miracl/ecdhp32.c	/^int main()$/;"	f
+main	miracl/ecdhp8.c	/^int main()$/;"	f
+main	miracl/ecsgen.c	/^int main()$/;"	f
+main	miracl/ecsgen2.c	/^int main()$/;"	f
+main	miracl/ecsgen2s.c	/^int main()$/;"	f
+main	miracl/ecsgen_s.c	/^int main()$/;"	f
+main	miracl/ecsign.c	/^int main()$/;"	f
+main	miracl/ecsign2.c	/^int main()$/;"	f
+main	miracl/ecsign2s.c	/^int main()$/;"	f
+main	miracl/ecsign_s.c	/^int main()$/;"	f
+main	miracl/ecsver.c	/^int main()$/;"	f
+main	miracl/ecsver2.c	/^int main()$/;"	f
+main	miracl/ecsver2s.c	/^int main()$/;"	f
+main	miracl/ecsver_s.c	/^int main()$/;"	f
+main	miracl/enciph.c	/^int main()$/;"	f
+main	miracl/encode.c	/^int main()$/;"	f
+main	miracl/factor.c	/^int main(int argc,char **argv)$/;"	f
+main	miracl/genkey.c	/^int main()$/;"	f
+main	miracl/genprime.c	/^int main()$/;"	f
+main	miracl/hail.c	/^int main ()$/;"	f
+main	miracl/hilbert.c	/^int main()$/;"	f
+main	miracl/identity.c	/^int main()$/;"	f
+main	miracl/imratio.c	/^int main()$/;"	f
+main	miracl/imratio2.c	/^int main()$/;"	f
+main	miracl/index.c	/^int main()$/;"	f
+main	miracl/kangaroo.c	/^int main()$/;"	f
+main	miracl/lenstra.c	/^int main()$/;"	f
+main	miracl/limlee.c	/^int main()$/;"	f
+main	miracl/mersenne.c	/^int main()$/;"	f
+main	miracl/mrfpe.c	/^int main()$/;"	f
+main	miracl/palin.c	/^int main()$/;"	f
+main	miracl/pk-demo.c	/^int main()$/;"	f
+main	miracl/pollard.c	/^int main()$/;"	f
+main	miracl/qsieve.c	/^int main()$/;"	f
+main	miracl/ratcalc.c	/^int main()$/;"	f
+main	miracl/romaker.c	/^int main()$/;"	f
+main	miracl/romaker2.c	/^int main()$/;"	f
+main	miracl/roots.c	/^int main()$/;"	f
+main	miracl/rsat.c	/^int main()$/;"	f
+main	miracl/sample.c	/^int main()$/;"	f
+main	miracl/williams.c	/^int main()$/;"	f
+main_file_name	run-tests.php	/^	$main_file_name = basename($file,'phpt');$/;"	v
+marker	miracl/miracl.h	/^    int marker;$/;"	m	struct:__anon16
+marker	miracl/miracl.h	/^int marker;$/;"	m	struct:__anon10
+marks	miracl/factor.c	/^void marks(long start)$/;"	f
+marks	miracl/lenstra.c	/^void marks(long start)$/;"	f
+marks	miracl/pollard.c	/^void marks(long start)$/;"	f
+marks	miracl/williams.c	/^void marks(long start)$/;"	f
+matches	run-tests.php	/^							$matches = array();$/;"	v
+max	miracl/miracl.h	/^    int max;$/;"	m	struct:__anon11
+max	miracl/miracl.h	/^    int max;$/;"	m	struct:__anon12
+max	miracl/miracl.h	/^    int max;$/;"	m	struct:__anon13
+maxb	miracl/mrfpe.c	/^static int maxb(int s)$/;"	f	file:
+mem	miracl/ec2.h	/^    char *mem;$/;"	m	class:EC2
+mem	miracl/ec2.h	/^    char mem[mr_ecp_reserve(1,GF2MS)];$/;"	m	class:EC2
+mem	miracl/ecn.h	/^    char *mem;$/;"	m	class:ECn
+mem	miracl/ecn.h	/^    char mem[mr_ecp_reserve(1,ZZNS)];$/;"	m	class:ECn
+mem	run-tests.php	/^			$mem = "&nbsp;";$/;"	v
+mem	run-tests.php	/^			$mem = "<a href='$url'>leaks<\/a>";$/;"	v
+memalloc	miracl/mrcore.c	/^void *memalloc(_MIPD_ int num)$/;"	f
+memcheck_filename	run-tests.php	/^	$memcheck_filename = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'mem';$/;"	v
+memkill	miracl/mrcore.c	/^void memkill(_MIPD_ char *mem,int len)$/;"	f
+message	run-tests.php	/^				$message = !empty($m[1]) ? $m[1] : '';$/;"	v
+message	run-tests.php	/^		$message = "ext\/zlib required";$/;"	v
+minus	miracl/factor.c	/^static BOOL *cp,*plus,*minus;$/;"	v	file:
+minus	miracl/lenstra.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+minus	miracl/pollard.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+minus	miracl/williams.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+mip	miracl/decode.c	/^miracl *mip;$/;"	v
+mip	miracl/encode.c	/^miracl *mip;$/;"	v
+mip	miracl/factor.c	/^static miracl *mip;$/;"	v	file:
+mip	miracl/genkey.c	/^static miracl *mip;$/;"	v	file:
+mip	miracl/lenstra.c	/^miracl *mip;$/;"	v
+mip	miracl/mrcore.c	/^          miracl mip;$/;"	v
+mip	miracl/pollard.c	/^miracl *mip;$/;"	v
+mip	miracl/qsieve.c	/^static miracl *mip;$/;"	v	file:
+mip	miracl/ratcalc.c	/^static miracl *mip;$/;"	v	file:
+mip	miracl/williams.c	/^miracl *mip;$/;"	v
+mip	sm2/GMSM2.h	/^miracl      *mip;$/;"	v
+miracl	miracl/miracl.h	/^} miracl;$/;"	t	typeref:struct:__anon19
+mirexit	miracl/mrcore.c	/^void mirexit(_MIPDO_ )$/;"	f
+mirkill	miracl/mrcore.c	/^void mirkill(big x)$/;"	f
+mirsys	miracl/mrcore.c	/^miracl *mirsys(miracl *mr_mip,int nd,mr_small nb)$/;"	f
+mirsys_basic	miracl/mrcore.c	/^miracl *mirsys_basic(miracl *mr_mip,int nd,mr_small nb)$/;"	f
+mirvar	miracl/mrcore.c	/^flash mirvar(_MIPD_ int iv)$/;"	f
+mirvar_mem	miracl/mrcore.c	/^flash mirvar_mem(_MIPD_ char *mem,int index)$/;"	f
+mirvar_mem_variable	miracl/mrcore.c	/^flash mirvar_mem_variable(char *mem,int index,int sz)$/;"	f
+mkinstalldirs	Makefile	/^mkinstalldirs = $(top_srcdir)\/build\/shtool mkdir -p$/;"	m
+mlf	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+mlf	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+mm	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+mm	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+mmptr	miracl/ratcalc.c	/^static int mmptr=6;$/;"	v	file:
+mode	miracl/miracl.h	/^int mode;$/;"	m	struct:__anon8
+modmult2	miracl/mrgf2m.c	/^void modmult2(_MIPD_ big x,big y,big w)$/;"	f
+modsquare2	miracl/mrgf2m.c	/^void modsquare2(_MIPD_ big x,big w)$/;"	f
+module	gmsm.php	/^$module = 'gmsm';$/;"	v
+modulus	miracl/kangaroo.c	/^static char *modulus=$/;"	v	file:
+modulus	miracl/miracl.h	/^big modulus;$/;"	m	struct:__anon19
+modxn_1	miracl/mrfast.c	/^static void modxn_1(_MIPD_ int n,int deg,big *x)$/;"	f	file:
+mputs	miracl/mrcore.c	/^static void mputs(char *s)$/;"	f	file:
+mr	miracl/big.h	/^    miracl *mr;$/;"	m	class:Miracl
+mr_abs	miracl/miracl.h	211;"	d
+mr_addbit	miracl/mrcore.c	/^void mr_addbit(_MIPD_ big x,int n)$/;"	f
+mr_alloc	miracl/mralloc.c	/^void *mr_alloc(_MIPD_ int num,int size)$/;"	f
+mr_and	miracl/mrcore.c	/^void mr_and(big x,big y,big z)$/;"	f
+mr_berror	miracl/mrcore.c	/^void mr_berror(_MIPD_ int nerr)$/;"	f
+mr_big_reserve	miracl/miracl.h	129;"	d
+mr_bottom2	miracl/mrgf2m.c	/^static void mr_bottom2(mr_small *x,mr_small *y,mr_small *z)$/;"	f	file:
+mr_bottom3	miracl/mrgf2m.c	/^static void mr_bottom3(mr_small *x,mr_small *y,mr_small *z)$/;"	f	file:
+mr_bottom4	miracl/mrgf2m.c	/^static void mr_bottom4(mr_small *x,mr_small *y,mr_small *z)$/;"	f	file:
+mr_bottom5	miracl/mrgf2m.c	/^static void mr_bottom5(mr_small *x,mr_small *y,mr_small *z)$/;"	f	file:
+mr_compare	miracl/mrcore.c	/^int mr_compare(big x,big y)$/;"	f
+mr_dif_fft	miracl/mrfast.c	/^void mr_dif_fft(_MIPD_ int logn,int pr,mr_utype *data)$/;"	f
+mr_dit_fft	miracl/mrfast.c	/^void mr_dit_fft(_MIPD_ int logn,int pr,mr_utype *data)$/;"	f
+mr_ecp_reserve	miracl/miracl.h	139;"	d
+mr_ecp_reserve_a	miracl/miracl.h	132;"	d
+mr_end_threading	miracl/mrcore.c	/^    void mr_end_threading()$/;"	f
+mr_esize	miracl/miracl.h	135;"	d
+mr_esize	miracl/miracl.h	137;"	d
+mr_esize_a	miracl/miracl.h	131;"	d
+mr_fft_init	miracl/mrfast.c	/^int mr_fft_init(_MIPD_ int logn,big m1,big m2,BOOL cr)$/;"	f
+mr_first_alloc	miracl/mralloc.c	/^miracl *mr_first_alloc()$/;"	f
+mr_free	miracl/mralloc.c	/^void mr_free(void *addr)$/;"	f
+mr_init_threading	miracl/mrcore.c	/^    void mr_init_threading()$/;"	f
+mr_invert	miracl/mrarth1.c	/^mr_large mr_invert(mr_small n)$/;"	f
+mr_jsf	miracl/mrarth1.c	/^void mr_jsf(_MIPD_ big k0,big k1,big u0p,big u0m,big u1p,big u1m)$/;"	f
+mr_key	miracl/mrcore.c	/^    DWORD mr_key;   $/;"	v
+mr_key	miracl/mrcore.c	/^    pthread_key_t mr_key;$/;"	v
+mr_large	miracl/miracl.h	/^    typedef unsigned mr_dltype mr_large;$/;"	t
+mr_large	miracl/miracl.h	/^  typedef mr_dltype mr_large;$/;"	t
+mr_lent	miracl/mrcore.c	/^int mr_lent(flash x)$/;"	f
+mr_lentype	miracl/miracl.h	/^typedef unsigned int mr_lentype;$/;"	t
+mr_lsqrt	miracl/mrcore.c	/^unsigned long mr_lsqrt(unsigned long num,unsigned long guess)$/;"	f
+mr_lzero	miracl/mrcore.c	/^void mr_lzero(big x)$/;"	f
+mr_min	miracl/brent.c	15;"	d	file:
+mr_min	miracl/brent_mt.c	10;"	d	file:
+mr_min	miracl/factor.c	33;"	d	file:
+mr_mip	miracl/mrcore.c	/^          miracl *mr_mip=&mip;$/;"	v
+mr_mip	miracl/mrcore.c	/^          miracl *mr_mip=NULL;  \/* MIRACL's one and only global variable *\/$/;"	v
+mr_mip	miracl/mrcore.c	/^    miracl *mr_mip;$/;"	v
+mr_mul2	miracl/mrgf2m.c	/^static mr_small mr_mul2(mr_small a,mr_small b,mr_small *r)$/;"	f	file:
+mr_naf_window	miracl/mrcore.c	/^int mr_naf_window(_MIPD_ big x,big x3,int i,int *nbs,int *nzs,int store)$/;"	f
+mr_notint	miracl/mrcore.c	/^BOOL mr_notint(flash x)$/;"	f
+mr_padd	miracl/mrarth0.c	/^void mr_padd(_MIPD_ big x,big y,big z)$/;"	f
+mr_pmul	miracl/mrarth1.c	/^void mr_pmul(_MIPD_ big x,mr_small sn,big z)$/;"	f
+mr_poly_mul	miracl/mrfast.c	/^int mr_poly_mul(_MIPD_ int degx,big *x,int degy,big *y,big *z)$/;"	f
+mr_poly_rem	miracl/mrfast.c	/^BOOL mr_poly_rem(_MIPD_ int dg,big *G,big *R)$/;"	f
+mr_poly_sqr	miracl/mrfast.c	/^int mr_poly_sqr(_MIPD_ int degx,big *x,big *z)$/;"	f
+mr_polymod_set	miracl/mrfast.c	/^void mr_polymod_set(_MIPD_ int n, big *rf,big *f)$/;"	f
+mr_ps_big_mul	miracl/mrfast.c	/^int mr_ps_big_mul(_MIPD_ int deg,big *x,big *y,big *z)$/;"	f
+mr_ps_zzn_mul	miracl/mrfast.c	/^int mr_ps_zzn_mul(_MIPD_ int deg,big *x,big *y,big *z)$/;"	f
+mr_psub	miracl/mrarth0.c	/^void mr_psub(_MIPD_ big x,big y,big z)$/;"	f
+mr_sdiv	miracl/mrarth1.c	/^mr_small mr_sdiv(_MIPD_ big x,mr_small sn,mr_large isn,big z)$/;"	f
+mr_select	miracl/mrarth0.c	/^static void mr_select(_MIPD_ big x,int d,big y,big z)$/;"	f	file:
+mr_setbase	miracl/mrcore.c	/^mr_small mr_setbase(_MIPD_ mr_small nb)$/;"	f
+mr_shift	miracl/mrcore.c	/^void mr_shift(_MIPD_ big x,int n,big w)$/;"	f
+mr_shiftbits	miracl/mrcore.c	/^mr_small mr_shiftbits(mr_small x,int n)$/;"	f
+mr_size	miracl/miracl.h	128;"	d
+mr_small	miracl/miracl.h	/^  typedef mr_utype mr_small;$/;"	t
+mr_small	miracl/miracl.h	/^  typedef unsigned mr_utype mr_small;$/;"	t
+mr_small_primes	miracl/mrcore.c	/^static const int mr_small_primes[]=$/;"	v	file:
+mr_testbit	miracl/mrcore.c	/^int mr_testbit(_MIPD_ big x,int n)$/;"	f
+mr_track	miracl/mrcore.c	/^void mr_track(_MIPDO_ )$/;"	f
+mr_unsign32	miracl/mirdef.h	11;"	d
+mr_unsign64	miracl/mirdef.h	8;"	d
+mr_utype	miracl/mirdef.h	7;"	d
+mr_vlarge	miracl/miracl.h	/^    typedef unsigned mr_qltype mr_vlarge;$/;"	t
+mr_window	miracl/mrcore.c	/^int mr_window(_MIPD_ big x,int i,int *nbs,int * nzs,int window_size)$/;"	f
+mr_window2	miracl/mrcore.c	/^int mr_window2(_MIPD_ big x,big y,int i,int *nbs,int *nzs)$/;"	f
+mr_xor	miracl/mrcore.c	/^void mr_xor(big x,big y,big z)$/;"	f
+mround	miracl/mrround.c	/^void mround(_MIPD_ big num,big den,flash z)$/;"	f
+msw	miracl/miracl.h	/^mr_small msw,lsw;$/;"	m	struct:__anon19
+mul	miracl/ebrick.h	/^    int mul(Big &e,Big &x,Big &y) {int d=mul_brick(&B,e.getbig(),x.getbig(),y.getbig()); return d;}       $/;"	f	class:EBrick
+mul	miracl/ebrick2.h	/^    int mul(Big &e,Big &x,Big &y) {int d=mul2_brick(&B,e.getbig(),x.getbig(),y.getbig()); return d;}       $/;"	f	class:EBrick2
+mul2_brick	miracl/mrec2m.c	/^int mul2_brick(_MIPD_ ebrick2 *B,big e,big x,big y)$/;"	f
+mul_brick	miracl/mrebrick.c	/^int mul_brick(_MIPD_ ebrick *B,big e,big x,big y)$/;"	f
+muldiv	miracl/mrcore.c	/^mr_small muldiv(mr_small a,mr_small b,mr_small c,mr_small m,mr_small *rp)$/;"	f
+muldiv	miracl/mrmuldv.c	/^mr_small muldiv(mr_small a,mr_small b,mr_small c,mr_small m,mr_small *rp)$/;"	f
+muldvd	miracl/miracl.h	1430;"	d
+muldvd	miracl/miracl.h	1437;"	d
+muldvd	miracl/mrcore.c	/^mr_small muldvd(mr_small a,mr_small b,mr_small c,mr_small *rp)$/;"	f
+muldvd	miracl/mrmuldv.c	/^mr_small muldvd(mr_small a,mr_small b,mr_small c,mr_small *rp)$/;"	f
+muldvd2	miracl/miracl.h	1431;"	d
+muldvd2	miracl/miracl.h	1438;"	d
+muldvd2	miracl/mrcore.c	/^void muldvd2(mr_small a,mr_small b,mr_small *c,mr_small *rp)$/;"	f
+muldvd2	miracl/mrmuldv.c	/^void muldvd2(mr_small a,mr_small b,mr_small *c,mr_small *rp)$/;"	f
+muldvm	miracl/mrcore.c	/^mr_small muldvm(mr_small a,mr_small c,mr_small m,mr_small *rp)$/;"	f
+muldvm	miracl/mrmuldv.c	/^mr_small muldvm(mr_small a,mr_small c,mr_small m,mr_small *rp)$/;"	f
+mult2_double	miracl/bmark.c	/^double mult2_double(int eb,epoint *g)$/;"	f
+mult2_precomp	miracl/bmark.c	/^double mult2_precomp(int eb,big x,big y,big a2,big a6,int M,int A,int B,int C)$/;"	f
+mult_double	miracl/bmark.c	/^double mult_double(int eb,epoint *g)$/;"	f
+mult_precomp	miracl/bmark.c	/^double mult_precomp(int eb,big x,big y,big a,big b,big p)$/;"	f
+multi_inverse	miracl/mrxgcd.c	/^BOOL multi_inverse(_MIPD_ int m,big *x,big n,big *w)$/;"	f
+multi_inverse2	miracl/mrgf2m.c	/^BOOL multi_inverse2(_MIPD_ int m,big *x,big *w)$/;"	f
+multiply	miracl/mrarth2.c	/^void multiply(_MIPD_ big x,big y,big z)$/;"	f
+multiply2	miracl/mrgf2m.c	/^void multiply2(_MIPD_ big x,big y,big w)$/;"	f
+mults	miracl/bmark.c	/^double mults(int eb,epoint *g)$/;"	f
+mults2	miracl/bmark.c	/^double mults2(int eb,epoint *g)$/;"	f
+mybuff	miracl/ratcalc.c	/^static char mybuff[40];$/;"	v	file:
+n	miracl/factor.c	/^big n;$/;"	v
+n	miracl/miracl.h	/^    big a,b,n;$/;"	m	struct:__anon12
+n	miracl/miracl.h	/^    big n; $/;"	m	struct:__anon11
+n	miracl/miracl.h	/^double db,n,p;$/;"	m	struct:__anon19
+n	run-tests.php	/^		$n = @stream_select($r, $w, $e, $timeout);$/;"	v
+n_total	run-tests.php	/^	$n_total = count($test_results);$/;"	v
+name	run-tests.php	/^				$name = $name[0];$/;"	v
+name	run-tests.php	/^			$name = trim($setting[0]);$/;"	v
+name	run-tests.php	/^	foreach($ini_settings as $name => $value) {$/;"	v
+names	miracl/mrcore.c	/^static char *names[] =$/;"	v	file:
+nbts	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+nbts	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+ndash	miracl/miracl.h	/^mr_small ndash;$/;"	m	struct:__anon19
+ndig	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+negate	miracl/zzn.h	/^    ZZn& negate()$/;"	f	class:ZZn
+negify	miracl/mrcore.c	/^void negify(flash x,flash y)$/;"	f
+newx	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+next	miracl/ratcalc.c	/^static BOOL next(int ch)$/;"	f	file:
+nib	miracl/miracl.h	/^int   nib;           \/* length of bigs  *\/$/;"	m	struct:__anon19
+nlp	miracl/factor.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+nlp	miracl/qsieve.c	/^static int mm,mlf,jj,nbts,nlp,lp,hmod,hmod2;$/;"	v	file:
+no_clean	run-tests.php	/^					$no_clean = true;$/;"	v
+no_clean	run-tests.php	/^$no_clean = false;$/;"	v
+nops	miracl/ratcalc.c	/^static int nops[]= {1,2,1,3};         \/* number of options   *\/$/;"	v	file:
+norm	miracl/mrflsh3.c	/^static int norm(_MIPD_ int type,flash y)$/;"	f	file:
+normalise	miracl/ec2.h	/^    friend void normalise(EC2 &e) {epoint2_norm(e.p);}$/;"	f	class:EC2
+normalise	miracl/ecn.h	/^    friend void normalise(ECn &e) {epoint_norm(e.p);}$/;"	f	class:ECn
+normalise	miracl/mrarth2.c	/^mr_small normalise(_MIPD_ big x,big y)$/;"	f
+np	miracl/identity.c	/^static int np;$/;"	v	file:
+nprimes	miracl/miracl.h	/^int nprimes,degree;$/;"	m	struct:__anon19
+nres	miracl/mrmonty.c	/^void nres(_MIPD_ big x,big y)$/;"	f
+nres_complex	miracl/mrmonty.c	/^void nres_complex(_MIPD_ big a,big b,big r,big i)$/;"	f
+nres_div2	miracl/mrmonty.c	/^void nres_div2(_MIPD_ big x,big w)$/;"	f
+nres_div3	miracl/mrmonty.c	/^void nres_div3(_MIPD_ big x,big w)$/;"	f
+nres_div5	miracl/mrmonty.c	/^void nres_div5(_MIPD_ big x,big w)$/;"	f
+nres_dotprod	miracl/mrmonty.c	/^void nres_dotprod(_MIPD_ int n,big *x,big *y,big w)$/;"	f
+nres_double_inverse	miracl/mrmonty.c	/^BOOL nres_double_inverse(_MIPD_ big x,big y,big w,big z)$/;"	f
+nres_double_modadd	miracl/mrmonty.c	/^void nres_double_modadd(_MIPD_ big x,big y,big w)$/;"	f
+nres_double_modsub	miracl/mrmonty.c	/^void nres_double_modsub(_MIPD_ big x,big y,big w)$/;"	f
+nres_lazy	miracl/mrmonty.c	/^void nres_lazy(_MIPD_ big a0,big a1,big b0,big b1,big r,big i)$/;"	f
+nres_lucas	miracl/mrlucas.c	/^void nres_lucas(_MIPD_ big p,big r,big vp,big v)$/;"	f
+nres_modadd	miracl/mrmonty.c	/^void nres_modadd(_MIPD_ big x,big y,big w)$/;"	f
+nres_moddiv	miracl/mrmonty.c	/^int nres_moddiv(_MIPD_ big x,big y,big w)$/;"	f
+nres_modmult	miracl/mrmonty.c	/^void nres_modmult(_MIPD_ big x,big y,big w)$/;"	f
+nres_modsub	miracl/mrmonty.c	/^void nres_modsub(_MIPD_ big x,big y,big w)$/;"	f
+nres_multi_inverse	miracl/mrmonty.c	/^BOOL nres_multi_inverse(_MIPD_ int m,big *x,big *w)$/;"	f
+nres_negate	miracl/mrmonty.c	/^void nres_negate(_MIPD_ big x, big w)$/;"	f
+nres_powltr	miracl/mrpower.c	/^void nres_powltr(_MIPD_ int x,big y,big w)$/;"	f
+nres_powmod	miracl/mrpower.c	/^void nres_powmod(_MIPD_ big x,big y,big w)$/;"	f
+nres_powmod2	miracl/mrpower.c	/^void nres_powmod2(_MIPD_ big x,big y,big a,big b,big w)$/;"	f
+nres_powmodn	miracl/mrpower.c	/^void nres_powmodn(_MIPD_ int n,big *x,big *y,big w)$/;"	f
+nres_premult	miracl/mrmonty.c	/^void nres_premult(_MIPD_ big x,int k,big w)$/;"	f
+nres_sqroot	miracl/ecn2_opt.c	/^BOOL nres_sqroot(_MIPD_ big x,big w)$/;"	f
+nres_sqroot	miracl/mrsroot.c	/^BOOL nres_sqroot(_MIPD_ big x,big w)$/;"	f
+nroot	miracl/mrarth3.c	/^BOOL nroot(_MIPD_ big x,int n,big w)$/;"	f
+num1bits	miracl/limlee.c	/^static int num1bits(long x)$/;"	f	file:
+num_sizes	miracl/imratio.c	/^int num_sizes=4;$/;"	v
+numbits	miracl/mrgf2m.c	/^static int numbits(big x)$/;"	f	file:
+numdig	miracl/mrcore.c	/^int numdig(_MIPD_ big x)$/;"	f
+numer	miracl/mrcore.c	/^void numer(_MIPD_ flash x,big y)$/;"	f
+nxprime	miracl/mrprime.c	/^BOOL nxprime(_MIPD_ big w,big x)$/;"	f
+nxsafeprime	miracl/mrprime.c	/^BOOL nxsafeprime(_MIPD_ int type,int subset,big w,big p)$/;"	f
+o	run-tests.php	/^	$o = explode("\\n", $output);$/;"	v
+o	run-tests.php	/^	$o = opendir($dir) or error("cannot open directory: $dir");$/;"	v
+old1	run-tests.php	/^	$old1 = array();$/;"	v
+old2	run-tests.php	/^	$old2 = array();$/;"	v
+old_php	run-tests.php	/^				$old_php = $php;$/;"	v
+old_php	run-tests.php	/^			$old_php = $php;$/;"	v
+oldn	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+oldstat	miracl/ratcalc.c	/^static char oldstat[]=   "                                     ";$/;"	v	file:
+one	miracl/miracl.h	/^big one;$/;"	m	struct:__anon19
+op	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+operator !=	miracl/big.h	/^    friend BOOL operator!=(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator !=	miracl/ec2.h	/^    friend BOOL operator!=(const EC2& a,const EC2& b)$/;"	f	class:EC2
+operator !=	miracl/ecn.h	/^    friend BOOL operator!=(const ECn& a,const ECn& b)$/;"	f	class:ECn
+operator !=	miracl/flash.h	/^    friend BOOL operator!=(const Flash& f1, const Flash& f2)$/;"	f	class:Flash
+operator !=	miracl/floating.h	/^    friend BOOL operator!=(const Float& f1, const Float& f2)$/;"	f	class:Float
+operator !=	miracl/gf2m.h	/^    friend BOOL operator!=(const GF2m& b1,const GF2m& b2)$/;"	f	class:GF2m
+operator !=	miracl/zzn.h	/^    friend BOOL operator!=(const ZZn& b1,const ZZn& b2)$/;"	f	class:ZZn
+operator %=	miracl/big.h	/^    Big& operator%=(const Big& b) {divide(fn,b.fn,b.fn); return *this;}$/;"	f	class:Big
+operator %=	miracl/big.h	/^    Big& operator%=(int i)  {convert(subdiv(fn,i,fn),fn); return *this;}$/;"	f	class:Big
+operator %=	miracl/flash.h	/^    Flash& operator%=(const Flash& f) {fmodulo(fn,f.fn,fn); return *this;}$/;"	f	class:Flash
+operator &	miracl/big.h	/^    miracl *operator&() {return mr;}$/;"	f	class:Miracl
+operator *=	miracl/big.h	/^    Big& operator*=(const Big& b) {multiply(fn,b.fn,fn); return *this;}$/;"	f	class:Big
+operator *=	miracl/big.h	/^    Big& operator*=(int i)  {premult(fn,i,fn); return *this;}$/;"	f	class:Big
+operator *=	miracl/ec2.h	/^    EC2& operator*=(const Big& k) {ecurve2_mult(k.getbig(),p,p); return *this;}$/;"	f	class:EC2
+operator *=	miracl/ecn.h	/^    ECn& operator*=(const Big& k) {ecurve_mult(k.getbig(),p,p); return *this;}$/;"	f	class:ECn
+operator *=	miracl/flash.h	/^    Flash& operator*=(const Flash& f) {fmul(fn,f.fn,fn);  return *this;}$/;"	f	class:Flash
+operator *=	miracl/flash.h	/^    Flash& operator*=(int n)          {fpmul(fn,n,1,fn);  return *this;}$/;"	f	class:Flash
+operator *=	miracl/gf2m.h	/^    GF2m& operator*=(const GF2m& b) {modmult2(fn,b.fn,fn); return *this;}$/;"	f	class:GF2m
+operator *=	miracl/zzn.h	/^    ZZn& operator*=(const ZZn& b) $/;"	f	class:ZZn
+operator *=	miracl/zzn.h	/^    ZZn& operator*=(int i) $/;"	f	class:ZZn
+operator ++	miracl/big.h	/^    Big& operator++()      {incr(fn,1,fn); return *this;}$/;"	f	class:Big
+operator ++	miracl/flash.h	/^    Flash& operator++()      {fincr(fn,1,1,fn);  return *this;}$/;"	f	class:Flash
+operator ++	miracl/gf2m.h	/^    GF2m& operator++() {incr2(fn,1,fn); return *this; }$/;"	f	class:GF2m
+operator ++	miracl/zzn.h	/^    ZZn& operator++() $/;"	f	class:ZZn
+operator +=	miracl/big.h	/^    Big& operator+=(const Big& b){add(fn,b.fn,fn); return *this;}$/;"	f	class:Big
+operator +=	miracl/big.h	/^    Big& operator+=(int i) {incr(fn,i,fn); return *this;}$/;"	f	class:Big
+operator +=	miracl/ec2.h	/^    EC2& operator+=(const EC2& b) {ecurve2_add(b.p,p); return *this;}$/;"	f	class:EC2
+operator +=	miracl/ecn.h	/^    ECn& operator+=(const ECn& b) {ecurve_add(b.p,p); return *this;}$/;"	f	class:ECn
+operator +=	miracl/flash.h	/^    Flash& operator+=(const Flash& f) {fadd(fn,f.fn,fn);  return *this;}$/;"	f	class:Flash
+operator +=	miracl/gf2m.h	/^    GF2m& operator+=(const GF2m& c)$/;"	f	class:GF2m
+operator +=	miracl/gf2m.h	/^    GF2m& operator+=(int i) {incr2(fn,i,fn); return *this; }$/;"	f	class:GF2m
+operator +=	miracl/zzn.h	/^    ZZn& operator+=(const ZZn& b) $/;"	f	class:ZZn
+operator +=	miracl/zzn.h	/^    ZZn& operator+=(int i) $/;"	f	class:ZZn
+operator --	miracl/big.h	/^    Big& operator--()      {decr(fn,1,fn); return *this;}$/;"	f	class:Big
+operator --	miracl/flash.h	/^    Flash& operator--()      {fincr(fn,-1,1,fn); return *this;}$/;"	f	class:Flash
+operator --	miracl/zzn.h	/^    ZZn& operator--() $/;"	f	class:ZZn
+operator -=	miracl/big.h	/^    Big& operator-=(const Big& b) {subtract(fn,b.fn,fn); return *this;}$/;"	f	class:Big
+operator -=	miracl/big.h	/^    Big& operator-=(int i)  {decr(fn,i,fn); return *this;}$/;"	f	class:Big
+operator -=	miracl/ec2.h	/^    EC2& operator-=(const EC2& b) {ecurve2_sub(b.p,p); return *this;}$/;"	f	class:EC2
+operator -=	miracl/ecn.h	/^    ECn& operator-=(const ECn& b) {ecurve_sub(b.p,p); return *this;}$/;"	f	class:ECn
+operator -=	miracl/flash.h	/^    Flash& operator-=(const Flash& f) {fsub(fn,f.fn,fn);  return *this;}$/;"	f	class:Flash
+operator -=	miracl/zzn.h	/^    ZZn& operator-=(const ZZn& b) $/;"	f	class:ZZn
+operator -=	miracl/zzn.h	/^    ZZn& operator-=(int i) $/;"	f	class:ZZn
+operator /=	miracl/big.h	/^    Big& operator\/=(const Big& b) {divide(fn,b.fn,fn); return *this;}$/;"	f	class:Big
+operator /=	miracl/big.h	/^    Big& operator\/=(int i)  {subdiv(fn,i,fn);    return *this;}$/;"	f	class:Big
+operator /=	miracl/flash.h	/^    Flash& operator\/=(const Flash& f) {fdiv(fn,f.fn,fn);  return *this;}$/;"	f	class:Flash
+operator /=	miracl/flash.h	/^    Flash& operator\/=(int n)          {fpmul(fn,1,n,fn);  return *this;}$/;"	f	class:Flash
+operator /=	miracl/zzn.h	/^    ZZn& operator\/=(const ZZn& b) {nres_moddiv(fn,b.fn,fn); return *this;}$/;"	f	class:ZZn
+operator <	miracl/big.h	/^    friend BOOL operator<(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator <	miracl/flash.h	/^    friend BOOL operator<(const Flash& f1, const Flash& f2)$/;"	f	class:Flash
+operator <	miracl/floating.h	/^    friend BOOL operator<(const Float& f1, const Float& f2)$/;"	f	class:Float
+operator <<=	miracl/big.h	/^    Big& operator<<=(int i) {sftbit(fn,i,fn); return *this;}$/;"	f	class:Big
+operator <=	miracl/big.h	/^    friend BOOL operator<=(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator <=	miracl/flash.h	/^    friend BOOL operator<=(const Flash& f1, const Flash& f2)$/;"	f	class:Flash
+operator <=	miracl/floating.h	/^    friend BOOL operator<=(const Float& f1, const Float& f2)$/;"	f	class:Float
+operator =	miracl/big.h	/^	Big& operator=(char* s){instr(fn,s);return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^	Big& operator=(mr_utype ut){tconvert(ut,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(big& b) {copy(b,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(big* b) {fn=*b; return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(char* s){cinstr(fn,s);return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(const Big& b) {copy(b.fn,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(int i)  {convert(i,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(long lg){lgconv(lg,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(mr_dltype dl){dlconv(dl,fn); return *this;}$/;"	f	class:Big
+operator =	miracl/big.h	/^    Big& operator=(mr_small s) {fn->len=1; fn->w[0]=s; return *this;}$/;"	f	class:Big
+operator =	miracl/ec2.h	/^    EC2& operator=(const EC2& b)  {epoint2_copy(b.p,p);return *this;}$/;"	f	class:EC2
+operator =	miracl/ecn.h	/^    ECn& operator=(const ECn& b)  {epoint_copy(b.p,p);return *this;}$/;"	f	class:ECn
+operator =	miracl/flash.h	/^    Flash& operator=(char* s)    {cinstr(fn,s);return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(const Big& b)     {copy(b.fn, fn); return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(const Flash& f)   {copy(f.fn, fn); return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(double& d)  {dconv(d,fn);    return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(int i) {convert(i,fn); return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(long lg){lgconv(lg,fn); return *this;}$/;"	f	class:Flash
+operator =	miracl/flash.h	/^    Flash& operator=(mr_dltype dl){dlconv(dl,fn); return *this;}$/;"	f	class:Flash
+operator =	miracl/gf2m.h	/^    GF2m& operator=(big c)          {MR_CLONE_GF2M(c) return *this;}$/;"	f	class:GF2m
+operator =	miracl/gf2m.h	/^    GF2m& operator=(char *s)        { cinstr(fn,s); reduce2(fn,fn); return *this;}$/;"	f	class:GF2m
+operator =	miracl/gf2m.h	/^    GF2m& operator=(const Big& b)   { reduce2(b.getbig(),fn); return *this; }$/;"	f	class:GF2m
+operator =	miracl/gf2m.h	/^    GF2m& operator=(const GF2m& c)  {MR_CLONE_GF2M(c.fn) return *this;}$/;"	f	class:GF2m
+operator =	miracl/gf2m.h	/^    GF2m& operator=(int i)   {if (i==0) MR_ZERO_GF2M else {convert(i,fn); reduce2(fn,fn);} return *this;}$/;"	f	class:GF2m
+operator =	miracl/zzn.h	/^    ZZn& operator=(big c)           {MR_CLONE_ZZN(c) return *this; }$/;"	f	class:ZZn
+operator =	miracl/zzn.h	/^    ZZn& operator=(char* s){cinstr(fn,s); nres(fn,fn); return *this;}$/;"	f	class:ZZn
+operator =	miracl/zzn.h	/^    ZZn& operator=(const ZZn& c)    {MR_CLONE_ZZN(c.fn) return *this;}$/;"	f	class:ZZn
+operator =	miracl/zzn.h	/^    ZZn& operator=(int i)  {if (i==0) MR_ZERO_ZZN else {convert(i,fn); nres(fn,fn);} return *this;}$/;"	f	class:ZZn
+operator ==	miracl/big.h	/^    friend BOOL operator==(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator ==	miracl/ec2.h	/^    friend BOOL operator==(const EC2& a,const EC2& b)$/;"	f	class:EC2
+operator ==	miracl/ecn.h	/^    friend BOOL operator==(const ECn& a,const ECn& b)$/;"	f	class:ECn
+operator ==	miracl/flash.h	/^    friend BOOL operator==(const Flash& f1, const Flash& f2)$/;"	f	class:Flash
+operator ==	miracl/floating.h	/^    friend BOOL operator==(const Float& f1, const Float& f2)$/;"	f	class:Float
+operator ==	miracl/gf2m.h	/^    friend BOOL operator==(const GF2m& b1,const GF2m& b2)$/;"	f	class:GF2m
+operator ==	miracl/zzn.h	/^    friend BOOL operator==(const ZZn& b1,const ZZn& b2)$/;"	f	class:ZZn
+operator >	miracl/big.h	/^    friend BOOL operator>(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator >	miracl/flash.h	/^    friend BOOL operator>(const Flash& f1, const Flash& f2) $/;"	f	class:Flash
+operator >	miracl/floating.h	/^    friend BOOL operator>(const Float& f1, const Float& f2) $/;"	f	class:Float
+operator >=	miracl/big.h	/^    friend BOOL operator>=(const Big& b1,const Big& b2)$/;"	f	class:Big
+operator >=	miracl/flash.h	/^    friend BOOL operator>=(const Flash& f1, const Flash& f2) $/;"	f	class:Flash
+operator >=	miracl/floating.h	/^    friend BOOL operator>=(const Float& f1, const Float& f2) $/;"	f	class:Float
+operator >>=	miracl/big.h	/^    Big& operator>>=(int i) {sftbit(fn,-i,fn); return *this;}$/;"	f	class:Big
+operator Big	miracl/gf2m.h	/^    operator Big() {return (Big)fn;}   \/* GF2m -> Big *\/$/;"	f	class:GF2m
+operator Big	miracl/zzn.h	/^    operator Big() {Big c; redc(fn,c.getbig()); return c;}   \/* ZZn -> Big *\/$/;"	f	class:ZZn
+operator []	miracl/big.h	/^    mr_small& operator[](int i) {return fn->w[i];}$/;"	f	class:Big
+opp	miracl/ratcalc.c	/^static int opp[] = {0,1,1,2,2,3,3,2}; \/* operator precedence *\/$/;"	v	file:
+option	miracl/ratcalc.c	/^static int option[]={0,0,0,0};$/;"	v	file:
+optionals	run-tests.php	/^$optionals = array('tests', 'ext', 'Zend', 'ZendEngine2', 'sapi\/cli', 'sapi\/cgi');$/;"	v
+order	miracl/identity.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+order	miracl/index.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+org_file	run-tests.php	/^	$org_file = $file;$/;"	v
+org_headers	run-tests.php	/^		$org_headers = $headers;$/;"	v
+otfile	miracl/miracl.h	/^FILE  *otfile;       \/* Output file      *\/$/;"	m	struct:__anon19
+otnum	miracl/mrio1.c	/^int otnum(_MIPD_ flash x,FILE *filep)$/;"	f
+otstr	miracl/mrio1.c	/^int otstr(_MIPD_ flash x,char *string)$/;"	f
+out	run-tests.php	/^	$out = system_with_timeout($cmd, $env, isset($section_text['STDIN']) ? $section_text['STDIN'] : null);$/;"	v
+output	miracl/factor.c	/^FILE *output;$/;"	v
+output	run-tests.php	/^			$output = system_with_timeout("$extra $php $pass_options -q $ini_settings -d display_errors=0 \\"$test_skipif\\"", $env);$/;"	v
+output	run-tests.php	/^		$output = $output_headers . "\\n--HEADERS--\\n" . $output;$/;"	v
+output	run-tests.php	/^		$output = trim($match[2]);$/;"	v
+output	run-tests.php	/^	$output = preg_replace("\/\\r\\n\/", "\\n", trim($out));$/;"	v
+output_file	run-tests.php	/^					$output_file = $argv[++$i];$/;"	v
+output_file	run-tests.php	/^	$output_file = 'compress.zlib:\/\/' . $output_file . '.gz';$/;"	v
+output_file	run-tests.php	/^$output_file = $CUR_DIR . '\/php_test_results_' . date('Ymd_Hi') . '.txt';$/;"	v
+output_filename	run-tests.php	/^	$output_filename   = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'out';$/;"	v
+output_headers	run-tests.php	/^		$output_headers = array();$/;"	v
+output_headers	run-tests.php	/^		$output_headers = join("\\n", $output_headers);$/;"	v
+output_type	run-tests.php	/^		$output_type = $type . 'ED';$/;"	v
+output_type	run-tests.php	/^		$output_type = $type[0] . 'ED';$/;"	v
+p	miracl/ec2.h	/^    epoint *p;$/;"	m	class:EC2
+p	miracl/ecn.h	/^    epoint *p;$/;"	m	class:ECn
+p	miracl/identity.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+p	miracl/index.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+p	miracl/miracl.h	/^double db,n,p;$/;"	m	struct:__anon19
+p1	miracl/identity.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+p1	miracl/index.c	/^static big p,p1,order,lim1,lim2;$/;"	v	file:
+p1024	miracl/bmark.c	/^char p1024[]="33pn5XYfRZ6oa1SgeSZ0gLXbIHYKsAL2vf2hMPp4BShBUUwVqJSaZMHBtYRr2C8CtD2ql3cKco8tsbol9KiiW0kmgYdmX2OYuDirwVHBXU6iarsuWLsFI8f9IcXF5mQUhhIfNL1UgB9iOopI4DZJdaAkweMrr0L7H6DTcJCv4uOG8l";$/;"	v
+p160	miracl/bmark.c	/^char p160[]="1243254415344564576487568858887587143562341624873";$/;"	v
+p192	miracl/bmark.c	/^char p192[]="4361274637164371634176431764172114141371368173651736587859";$/;"	v
+p2048	miracl/bmark.c	/^char p2048[]="9JhODtckdgHoisG3BF7icLO1W2kQN8uERdD45ta8ECK2pSl74xmjtptZhoFRXLCn8SHJtmwXTuf6aUbUUGsT6dE8GMWSkdg3qN4owcJE6wuCUiKKDOrsUEaFA6GCaSoHrHd6upEOTFJrSt5JZvvPUmZExbgTtVkZaM3EHVO5hhmaOglEXNmWbQlSZR57EPH4VS5nYPHsj3YEqtQjBxOg509VY3Efa3WCBXSILEksrBCdxBFeboPQ2ImO8gt52UX68ClTq4hUO7HltCJ8DEXT0QitGp5G39H3EGlBM7a1Pto1XRctShgDCJkKtedRvCTHJ81IaLUM2QRgVvY2oAUfU6DpqPl";$/;"	v
+p224	miracl/bmark.c	/^char p224[]="26237462376427386428736423786423764364625346524653462546544347644653";$/;"	v
+p256	miracl/bmark.c	/^char p256[]="115324781748134865946503563657643838352352623747656242345890742746828256867467";$/;"	v
+p512	miracl/bmark.c	/^char p512[]="A89BmxRFLAnMTGV1EofBF3t9vxHwLw3upSiJQqGrSSJanNwAWm4qeIpR0QZos81Cb0T3GSB8Vvioo2ShdHeocZl";$/;"	v
+pR	miracl/miracl.h	/^big pR;$/;"	m	struct:__anon19
+pack	miracl/miracl.h	/^int   pack;          \/* packing density *\/$/;"	m	struct:__anon19
+pack	miracl/mraes.c	/^static MR_WORD pack(const MR_BYTE *b)$/;"	f	file:
+pack	miracl/mrgcm.c	/^static MR_WORD pack(const MR_BYTE *b)$/;"	f	file:
+para_Gx	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_Gy	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_a	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_b	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_h	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_n	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+para_p	sm2/GMSM2.h	/^big     para_p, para_a, para_b, para_n, para_Gx, para_Gy, para_h;$/;"	v
+parity2	miracl/mrgf2m.c	/^int parity2(big x)$/;"	f
+partial	miracl/factor.c	/^static BOOL partial;$/;"	v	file:
+partial	miracl/qsieve.c	/^static BOOL partial;$/;"	v	file:
+pass_option_n	run-tests.php	/^					$pass_option_n = true;$/;"	v
+pass_option_n	run-tests.php	/^$pass_option_n = false;$/;"	v
+pass_options	run-tests.php	/^$pass_options = '';$/;"	v
+passed	run-tests.php	/^			$passed = true;$/;"	v
+passed	run-tests.php	/^		$passed = false;$/;"	v
+passed	run-tests.php	/^	$passed = false;$/;"	v
+path	run-tests.php	/^		$path = $url_bits['host'].$url_bits['path'];$/;"	v
+path	run-tests.php	/^		$path = $url_bits['path'];$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i] . '.phpt');$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i]);$/;"	v
+pd	miracl/genkey.c	/^static big pd,pl,ph;$/;"	v	file:
+percent_results	run-tests.php	/^	$percent_results = array();$/;"	v
+ph	miracl/genkey.c	/^static big pd,pl,ph;$/;"	v	file:
+php	run-tests.php	/^						$php = PHP_BINARY;$/;"	v
+php	run-tests.php	/^					$php = $argv[++$i];$/;"	v
+php	run-tests.php	/^					$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = realpath(".\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/..\/..\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = $php_cgi . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = realpath(dirname($php) . "\/php-cgi.exe") . ' -C ';$/;"	v
+php	run-tests.php	/^		$php = $cwd . '\/sapi\/cli\/php';$/;"	v
+php	run-tests.php	/^		$php = $old_php;$/;"	v
+php	run-tests.php	/^	$php = getenv('TEST_PHP_EXECUTABLE');$/;"	v
+php	run-tests.php	/^$php = null;$/;"	v
+php_cgi	run-tests.php	/^				$php_cgi = null;$/;"	v
+php_cgi	run-tests.php	/^			$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $env['TEST_PHP_CGI_EXECUTABLE'];$/;"	v
+php_cgi	run-tests.php	/^	$php_cgi = getenv('TEST_PHP_CGI_EXECUTABLE');$/;"	v
+php_cgi	run-tests.php	/^$php_cgi = null;$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = "$php_info_sep\\nPHP         : $php_cgi $php_info_cgi$php_info_sep";$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = '';$/;"	v
+php_info	run-tests.php	/^	$php_info = '<?php echo "$/;"	v
+php_info	run-tests.php	/^	$php_info = `$php $pass_options $info_params "$info_file"`;$/;"	v
+php_info_cgi	run-tests.php	/^		$php_info_cgi = `$php_cgi $pass_options $info_params -q "$info_file"`;$/;"	v
+php_info_sep	run-tests.php	/^		$php_info_sep = "\\n---------------------------------------------------------------------";$/;"	v
+php_version	run-tests.php	/^	$php_version = urlencode(TESTED_PHP_VERSION);$/;"	v
+phpext_gmsm_ptr	php_gmsm.h	25;"	d
+phpincludedir	Makefile	/^phpincludedir = \/apps\/php\/include\/php$/;"	m
+phplibdir	Makefile	/^phplibdir = \/home\/dev\/javin\/php\/php-src\/ext\/gmsm\/modules$/;"	m
+pi	miracl/miracl.h	/^flash pi;$/;"	m	struct:__anon19
+pl	miracl/genkey.c	/^static big pd,pl,ph;$/;"	v	file:
+plus	miracl/factor.c	/^static BOOL *cp,*plus,*minus;$/;"	v	file:
+plus	miracl/lenstra.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+plus	miracl/pollard.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+plus	miracl/williams.c	/^static BOOL plus[1+MULT\/2],minus[1+MULT\/2];$/;"	v	file:
+pmod8	miracl/miracl.h	/^int pmod8;$/;"	m	struct:__anon19
+pmod9	miracl/miracl.h	/^int pmod9;$/;"	m	struct:__anon19
+point_at_infinity	miracl/mrcore.c	/^BOOL point_at_infinity(epoint *p)$/;"	f
+pollard	miracl/factor.c	/^void pollard(int lim1,long lim2)$/;"	f
+pollard	miracl/identity.c	/^void pollard(big id,big dl)$/;"	f
+pool	miracl/miracl.h	/^char pool[MR_HASH_BYTES];    \/* random pool *\/$/;"	m	struct:__anon4
+pool_ptr	miracl/miracl.h	/^int pool_ptr;$/;"	m	struct:__anon4
+port	run-tests.php	/^		$port = $proxy['port'];$/;"	v
+port	run-tests.php	/^		$port = empty($url_bits['port']) ? 80 : $port = $url_bits['port'];$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST_RAW']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['PUT']);$/;"	v
+post	run-tests.php	/^        $post = gzcompress($post, 9);$/;"	v
+post	run-tests.php	/^        $post = gzencode($post, 9, FORCE_GZIP);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['DEFLATE_POST']);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['GZIP_POST']);$/;"	v
+pow	miracl/brick.h	/^    Big pow(Big &e) {Big w; pow_brick(&b,e.getbig(),w.getbig()); return w;}       $/;"	f	class:Brick
+pow_brick	miracl/mrbrick.c	/^void pow_brick(_MIPD_ brick *b,big e,big w)$/;"	f
+power	miracl/mrarth3.c	/^void power(_MIPD_ big x,long n,big z,big w)$/;"	f
+power2	miracl/mrgf2m.c	/^void power2(_MIPD_ big x,int m,big w)$/;"	f
+powers	miracl/bmark.c	/^double powers(int gb,int eb,big p)$/;"	f
+powers_double	miracl/bmark.c	/^double powers_double(int gb,int eb,big p)$/;"	f
+powers_precomp	miracl/bmark.c	/^double powers_precomp(int gb,int eb,big p)$/;"	f
+powers_small_base	miracl/bmark.c	/^double powers_small_base(int g,int eb,big p)$/;"	f
+powers_small_exp	miracl/bmark.c	/^double powers_small_exp(int gb,long ex,big p)$/;"	f
+powltr	miracl/mrpower.c	/^int powltr(_MIPD_ int x, big y, big n, big w)$/;"	f
+powmod	miracl/mrpower.c	/^void powmod(_MIPD_ big x,big y,big n,big w)$/;"	f
+powmod2	miracl/mrpower.c	/^void powmod2(_MIPD_ big x,big y,big a,big b,big n,big w)$/;"	f
+powmodn	miracl/mrpower.c	/^void powmodn(_MIPD_ int n,big *x,big *y,big p,big w)$/;"	f
+pp	miracl/identity.c	/^static big pp[NPRIMES],rem[NPRIMES];$/;"	v	file:
+pr	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+pr	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+prec	miracl/ratcalc.c	/^static int prec(int no)$/;"	f	file:
+precompute	miracl/mrgcm.c	/^static void precompute(gcm *g,MR_BYTE *H)$/;"	f	file:
+prefix	Makefile	/^prefix = \/apps\/php$/;"	m
+premult	miracl/mrarth1.c	/^void premult(_MIPD_ big x,int n,big z)$/;"	f
+prepare_basis	miracl/mrgf2m.c	/^BOOL prepare_basis(_MIPD_ int m,int a,int b,int c,BOOL check)$/;"	f
+prepare_monty	miracl/mrmonty.c	/^mr_small prepare_monty(_MIPD_ big n)$/;"	f
+prepare_naf	miracl/mrec2m.c	/^static void prepare_naf(_MIPD_ big e,big hp,big hn)$/;"	f	file:
+prime	miracl/big.h	/^    friend BOOL prime(const Big& b) {return isprime(b.fn);}  $/;"	f	class:Big
+prime	miracl/miracl.h	/^mr_utype *prime,*cr;$/;"	m	struct:__anon19
+primemod	miracl/bmark.c	/^void primemod(int bits,big p)$/;"	f
+primetext	miracl/pk-demo.c	/^char *primetext=$/;"	v
+proc	run-tests.php	/^	$proc = proc_open($commandline, array($/;"	v
+product	miracl/mraes.c	/^static MR_BYTE product(MR_WORD x,MR_WORD y)$/;"	f	file:
+prom	miracl/ecdh2m.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdh2m16.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdh2m8.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdhp.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdhp16.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdhp32.c	/^static const mr_small prom[]=$/;"	v	file:
+prom	miracl/ecdhp8.c	/^static const mr_small prom[]=$/;"	v	file:
+prop	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+proxy	run-tests.php	/^		$proxy = parse_url($proxy);$/;"	v
+ptab	miracl/mraes.c	/^static const MR_BYTE ptab[]=$/;"	v	file:
+putdig	miracl/mrcore.c	/^void putdig(_MIPD_ int n,big x,int i)$/;"	f
+q	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+qdiv	miracl/mrxgcd.c	/^static mr_small qdiv(mr_large u,mr_large v)$/;"	f	file:
+qdiv	miracl/mrxgcd.c	/^static mr_small qdiv(mr_small u,mr_small v)$/;"	f	file:
+qkeys	miracl/ratcalc.c	/^static int qkeys[6][7]=  $/;"	v	file:
+qnr	miracl/miracl.h	/^int qnr;    \/* a QNR -1 for p=3 mod 4, -2 for p=5 mod 8, 0 otherwise *\/$/;"	m	struct:__anon19
+qsieve	miracl/factor.c	/^int qsieve(int d)$/;"	f
+quad	miracl/mrflsh1.c	/^static int quad(_MIPD_ big w,int n)$/;"	f	file:
+quad2	miracl/mrgf2m.c	/^BOOL quad2(_MIPD_ big b,big w)$/;"	f
+quadratic	miracl/gf2m.h	/^    BOOL quadratic(GF2m& b) {return quad2(fn,b.fn);}$/;"	f	class:GF2m
+query_string	run-tests.php	/^		$query_string = '';$/;"	v
+query_string	run-tests.php	/^		$query_string = trim($section_text['GET']);$/;"	v
+r	miracl/miracl.h	/^int a,b,c,d,r,q,oldn,ndig;$/;"	m	struct:__anon19
+r	run-tests.php	/^			$r = "%r";$/;"	v
+r	run-tests.php	/^		$r = $pipes;$/;"	v
+r	run-tests.php	/^	$r = is_null($wanted_re) ? $w : explode("\\n", $wanted_re);$/;"	v
+r1	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+r1	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+r160	miracl/bmark.c	/^char r160[]="1243254415344564576487570064860738948886682236669";$/;"	v
+r163	miracl/bmark.c	/^char r163[]="5846006549323611672814742442876390689256843201587";$/;"	v
+r192	miracl/bmark.c	/^char r192[]="4361274637164371634176431764042976768701814568420333347189";$/;"	v
+r2	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+r2	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+r224	miracl/bmark.c	/^char r224[]="26237462376427386428736423786423773752689811507809031319417547459991";$/;"	v
+r233	miracl/bmark.c	/^char r233[]="6901746346790563787434755862277025555839812737345013555379383634485463";$/;"	v
+r256	miracl/bmark.c	/^char r256[]="115324781748134865946503563657643838352221626521810006206950260876359658535911";$/;"	v
+r283	miracl/bmark.c	/^char r283[]="7770675568902916283677847627294075626569625924376904889109196526770044277787378692871"; $/;"	v
+radeg	miracl/ratcalc.c	/^static flash radeg,loge2,loge10,eps;$/;"	v	file:
+rand2	miracl/mrgf2m.c	/^void rand2(_MIPD_ big x)$/;"	f
+randise	miracl/genkey.c	/^long randise(void)$/;"	f
+rate	miracl/miracl.h	/^int rate,len;$/;"	m	struct:__anon7
+raw_lines	run-tests.php	/^		$raw_lines = explode("\\n", $post);$/;"	v
+rbsub	miracl/mraes.c	/^static const MR_BYTE rbsub[]=$/;"	v	file:
+rco	miracl/mraes.c	/^static const MR_WORD rco[]=$/;"	v	file:
+recode	miracl/big.h	/^	friend int recode(const Big& e,int t,int w,int i) {return recode(e.fn,t,w,i);}$/;"	f	class:Big
+recode	miracl/mrcore.c	/^int recode(_MIPD_ big e,int t,int w,int i)$/;"	f
+redc	miracl/mrmonty.c	/^void redc(_MIPD_ big x,big y)$/;"	f
+redir_tested	run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	v
+redir_tests	run-tests.php	/^$redir_tests = array();$/;"	v
+redirenv	run-tests.php	/^			$redirenv = array_merge($environment, $IN_REDIRECT['ENV']);$/;"	v
+reduce2	miracl/mrgf2m.c	/^void reduce2(_MIPD_ big y,big x)$/;"	f
+rem	miracl/identity.c	/^static big pp[NPRIMES],rem[NPRIMES];$/;"	v	file:
+remain	miracl/mrarth1.c	/^int remain(_MIPD_ big x,int n)$/;"	f
+remain2	miracl/mrgf2m.c	/^static void remain2(_MIPD_ big y,big x)$/;"	f	file:
+repeat	run-tests.php	/^						$repeat = true;$/;"	v
+repeat	run-tests.php	/^			$repeat = false;$/;"	v
+repeat	run-tests.php	/^		$repeat = substr($argv[$i],0,1) == '-';$/;"	v
+replace_count	run-tests.php	/^					$replace_count = 0;$/;"	v
+request	run-tests.php	/^		$request = '';$/;"	v
+restore	miracl/ratcalc.c	/^static void restore(void)$/;"	f	file:
+result	miracl/ratcalc.c	/^static BOOL flag,newx,result,hyp,degrees,delim;$/;"	v	file:
+result	run-tests.php	/^			if ($failed_tests_file && ($result == 'XFAILED' || $result == 'FAILED' || $result == 'WARNED' || $result == 'LEAKED')) {$/;"	v
+result	run-tests.php	/^		$result = run_test($php, $name, $env);$/;"	v
+result	run-tests.php	/^    $result = sprintf($/;"	v
+rever	miracl/palin.c	/^BOOL rever(big x,big y)$/;"	f
+rh	run-tests.php	/^		$rh = preg_split("\/[\\n\\r]+\/", $match[1]);$/;"	v
+rho	miracl/identity.c	/^long rho(big q,big r,big m,big n)$/;"	f
+rho	miracl/index.c	/^long rho(big q,big r,big m,big n)$/;"	f
+rkey	miracl/miracl.h	/^mr_unsign32 rkey[60];$/;"	m	struct:__anon8
+rndptr	miracl/miracl.h	/^int         rndptr;   \/* ...array & pointer *\/$/;"	m	struct:__anon19
+rndptr	miracl/miracl.h	/^int         rndptr;   \/* ...array & pointer *\/$/;"	m	struct:__anon4
+rom	miracl/ecdh2m.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdh2m16.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdh2m8.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdhp.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdhp16.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdhp32.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/ecdhp8.c	/^static const mr_small rom[]=$/;"	v	file:
+rom	miracl/rsat.c	/^static const mr_small rom[]={$/;"	v	file:
+roots	miracl/miracl.h	/^mr_utype *inverse,**roots;$/;"	m	struct:__anon19
+rotl	miracl/mrsha3.c	61;"	d	file:
+rp	miracl/factor.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+rp	miracl/qsieve.c	/^static int *epr,*r1,*r2,*rp,*b,*pr,*e,*hash;$/;"	v	file:
+rtable	miracl/mraes.c	/^static const MR_WORD rtable[]=$/;"	v	file:
+rtable1	miracl/mraes.c	/^static const MR_WORD rtable1[]=$/;"	v	file:
+rtable2	miracl/mraes.c	/^static const MR_WORD rtable2[]=$/;"	v	file:
+rtable3	miracl/mraes.c	/^static const MR_WORD rtable3[]=$/;"	v	file:
+run_all_tests	run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	f
+run_test	run-tests.php	/^function run_test($php, $file, $env)$/;"	f
+s	miracl/factor.c	/^static char *s;$/;"	v	file:
+s1	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+s1	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+s1	miracl/miracl.h	/^mr_utype **s1,**s2;   \/* pre-computed tables for polynomial reduction *\/$/;"	m	struct:__anon19
+s2	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+s2	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+s2	miracl/miracl.h	/^mr_utype **s1,**s2;   \/* pre-computed tables for polynomial reduction *\/$/;"	m	struct:__anon19
+same	miracl/miracl.h	/^BOOL same;$/;"	m	struct:__anon19
+save_or_mail_results	run-tests.php	/^function save_or_mail_results()$/;"	f
+save_text	run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	f
+sbrand	miracl/mrstrong.c	/^static mr_unsign32 sbrand(csprng *rng)$/;"	f	file:
+sc	miracl/crt.h	/^    small_chinese sc;$/;"	m	class:Crt
+screen	miracl/ratcalc.c	/^static void screen(void)$/;"	f	file:
+scrt	miracl/mrscrt.c	/^void scrt(_MIPD_ small_chinese *c,mr_utype *u,big x)$/;"	f
+scrt_end	miracl/mrscrt.c	/^void scrt_end(small_chinese *c)$/;"	f
+scrt_init	miracl/mrscrt.c	/^BOOL scrt_init(_MIPD_ small_chinese *c,int r,mr_utype *moduli)$/;"	f
+secdone	run-tests.php	/^			$secdone = false;$/;"	v
+secdone	run-tests.php	/^			$secdone = true;$/;"	v
+secdone	run-tests.php	/^	$secdone = false;$/;"	v
+secfile	run-tests.php	/^			$secfile = $section == 'FILE' || $section == 'FILEEOF' || $section == 'FILE_EXTERNAL';$/;"	v
+secfile	run-tests.php	/^	$secfile = false;$/;"	v
+section	run-tests.php	/^			$section = $r[1];$/;"	v
+section	run-tests.php	/^			$section = strtoupper($file);$/;"	v
+section	run-tests.php	/^	$section = 'TEST';$/;"	v
+section	run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	v
+section_text	run-tests.php	/^	$section_text = array('TEST' => '');$/;"	v
+sep	run-tests.php	/^			$sep = "\\n" . str_repeat('=', 80) . "\\n";$/;"	v
+set	miracl/big.h	/^    void set(int index,int n)   { putdig(n,fn,index);}$/;"	f	class:Big
+set	miracl/ec2.h	/^    BOOL set(const Big& x,const Big& y)    {return epoint2_set(x.getbig(),y.getbig(),0,p);}$/;"	f	class:EC2
+set	miracl/ec2.h	/^    BOOL set(const Big& x,int cb=0)  {return epoint2_set(x.getbig(),x.getbig(),cb,p);}$/;"	f	class:EC2
+set	miracl/ecn.h	/^    BOOL set(const Big& x,const Big& y)    {return epoint_set(x.getbig(),y.getbig(),0,p);}$/;"	f	class:ECn
+set	miracl/ecn.h	/^    BOOL set(const Big& x,int cb=0)  {return epoint_set(x.getbig(),x.getbig(),cb,p);}$/;"	f	class:ECn
+set_io_buffer_size	miracl/mrcore.c	/^void set_io_buffer_size(_MIPD_ int len)$/;"	f
+set_mip	miracl/mrcore.c	/^    void set_mip(miracl *mip)$/;"	f
+set_user_function	miracl/mrcore.c	/^void set_user_function(_MIPD_ BOOL (*user)(void))$/;"	f
+set_zzn3	miracl/big.h	/^    friend void set_zzn3(int cnr,Big& sru)  {get_mip()->cnr=cnr; nres(sru.fn,get_mip()->sru);}$/;"	f	class:Big
+setopts	miracl/ratcalc.c	/^static void setopts(void)$/;"	f	file:
+setting	run-tests.php	/^			$setting = explode("=", $setting, 2);$/;"	v
+settings	miracl/ratcalc.c	/^static char *settings[4][4]= $/;"	v	file:
+settings	run-tests.php	/^	$settings = '';$/;"	v
+settings2array	run-tests.php	/^function settings2array($settings, &$ini_settings)$/;"	f
+settings2params	run-tests.php	/^function settings2params(&$ini_settings)$/;"	f
+setz	miracl/ecn.h	/^	void setz(const Big& z) {nres(z.getbig(),p->Z); p->marker=MR_EPOINT_GENERAL;}$/;"	f	class:ECn
+sftbit	miracl/mrbits.c	/^void sftbit(_MIPD_ big x,int n,big z)$/;"	f
+sgcd	miracl/mrcore.c	/^mr_small sgcd(mr_small x,mr_small y)$/;"	f
+sh_filename	run-tests.php	/^	$sh_filename       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'sh';$/;"	v
+sha	miracl/miracl.h	/^typedef sha256 sha;$/;"	t
+sha256	miracl/miracl.h	/^} sha256;$/;"	t	typeref:struct:__anon5
+sha3	miracl/miracl.h	/^} sha3;$/;"	t	typeref:struct:__anon7
+sha384	miracl/miracl.h	/^typedef sha512 sha384;$/;"	t
+sha3_hash	miracl/mrsha3.c	/^void sha3_hash(sha3 *sh,char *hash)$/;"	f
+sha3_init	miracl/mrsha3.c	/^void sha3_init(sha3 *sh,int olen)$/;"	f
+sha3_process	miracl/mrsha3.c	/^void sha3_process(sha3 *sh,int byte)$/;"	f
+sha512	miracl/miracl.h	/^} sha512;$/;"	t	typeref:struct:__anon6
+shared_objects_gmsm	Makefile	/^shared_objects_gmsm = miracl\/mrcore.lo miracl\/mrarth0.lo miracl\/mrarth1.lo miracl\/mrarth2.lo miracl\/mralloc.lo miracl\/mrsmall.lo miracl\/mrio1.lo miracl\/mrio2.lo miracl\/mrgcd.lo miracl\/mrjack.lo miracl\/mrxgcd.lo miracl\/mrarth3.lo miracl\/mrbits.lo miracl\/mrrand.lo miracl\/mrprime.lo miracl\/mrcrt.lo miracl\/mrscrt.lo miracl\/mrmonty.lo miracl\/mrpower.lo miracl\/mrsroot.lo miracl\/mrcurve.lo miracl\/mrfast.lo miracl\/mrshs.lo miracl\/mrshs256.lo miracl\/mrshs512.lo miracl\/mrsha3.lo miracl\/mrfpe.lo miracl\/mraes.lo miracl\/mrgcm.lo miracl\/mrlucas.lo miracl\/mrzzn2.lo miracl\/mrzzn2b.lo miracl\/mrzzn3.lo miracl\/mrzzn4.lo miracl\/mrecn2.lo miracl\/mrstrong.lo miracl\/mrbrick.lo miracl\/mrebrick.lo miracl\/mrec2m.lo miracl\/mrgf2m.lo miracl\/mrflash.lo miracl\/mrfrnd.lo miracl\/mrdouble.lo miracl\/mrround.lo miracl\/mrbuild.lo miracl\/mrflsh1.lo miracl\/mrpi.lo miracl\/mrflsh2.lo miracl\/mrflsh3.lo miracl\/mrflsh4.lo miracl\/mrmuldv.lo miracl\/bmark.lo sm2\/GMSM2.lo sm3\/GMSM3.lo sm4\/GMSM4.lo utils\/BCD.lo gmsm.lo$/;"	m
+shift	miracl/big.h	/^    Big& shift(int n) {mr_shift(fn,n,fn); return *this;}$/;"	f	class:Big
+shiftleftbits	miracl/mrgf2m.c	/^static void shiftleftbits(big x,int m)$/;"	f	file:
+shortname	run-tests.php	/^	$shortname = str_replace($cwd . '\/', '', $file);$/;"	v
+show	miracl/ratcalc.c	/^static void show(BOOL force)$/;"	f	file:
+show_end	run-tests.php	/^function show_end($end_time)$/;"	f
+show_file_block	run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	f
+show_redirect_ends	run-tests.php	/^function show_redirect_ends($tests, $tested, $tested_file)$/;"	f
+show_redirect_start	run-tests.php	/^function show_redirect_start($tests, $tested, $tested_file)$/;"	f
+show_result	run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	f
+show_start	run-tests.php	/^function show_start($start_time)$/;"	f
+show_summary	run-tests.php	/^function show_summary()$/;"	f
+show_test	run-tests.php	/^function show_test($test_idx, $shortname)$/;"	f
+shs256_hash	miracl/mrshs256.c	/^void shs256_hash(sha256 *sh,char hash[32])$/;"	f
+shs256_init	miracl/mrshs256.c	/^void shs256_init(sha256 *sh)$/;"	f
+shs256_process	miracl/mrshs256.c	/^void shs256_process(sha256 *sh,int byte)$/;"	f
+shs384_hash	miracl/mrshs512.c	/^void shs384_hash(sha384 *sh,char hash[48])$/;"	f
+shs384_init	miracl/mrshs512.c	/^void shs384_init(sha384 *sh)$/;"	f
+shs384_process	miracl/mrshs512.c	/^void shs384_process(sha384 *sh,int byte)$/;"	f
+shs512_hash	miracl/mrshs512.c	/^void shs512_hash(sha512 *sh,char hash[64])$/;"	f
+shs512_init	miracl/mrshs512.c	/^void shs512_init(sha512 *sh)$/;"	f
+shs512_process	miracl/mrshs512.c	/^void shs512_process(sha512 *sh,int byte)$/;"	f
+shs_hash	miracl/mrshs.c	/^void shs_hash(sha *sh,char hash[20])$/;"	f
+shs_init	miracl/mrshs.c	/^void shs_init(sha *sh)$/;"	f
+shs_process	miracl/mrshs.c	/^void shs_process(sha *sh,int byte)$/;"	f
+shs_transform	miracl/mrsha3.c	/^static void shs_transform(sha3 *sh)$/;"	f	file:
+shs_transform	miracl/mrshs.c	/^static void shs_transform(sha *sh)$/;"	f	file:
+shs_transform	miracl/mrshs256.c	/^static void shs_transform(sha256 *sh)$/;"	f	file:
+shs_transform	miracl/mrshs512.c	/^static void shs_transform(sha512 *sh)$/;"	f	file:
+shtool_exit	build/shtool	/^shtool_exit () {$/;"	f
+sieve	miracl/factor.c	/^static unsigned char *logp,*sieve;$/;"	v	file:
+sieve	miracl/qsieve.c	/^static unsigned char *logp,*sieve;$/;"	v	file:
+sign	miracl/mrdouble.c	46;"	d	file:
+sirand	miracl/mrstrong.c	/^static void sirand(csprng* rng,mr_unsign32 seed)$/;"	f	file:
+size	miracl/mrcore.c	/^int size(big x)$/;"	f
+sizes	miracl/imratio.c	/^int sizes[]={160,256,512,640};$/;"	v
+skip_ext	run-tests.php	/^			$skip_ext = ($is_ext_dir && !in_array(strtolower($name), $exts_to_test));$/;"	v
+sm2_decrypt	php_gmsm.h	/^PHP_FUNCTION(sm2_decrypt);$/;"	v
+sm2_encrypt	php_gmsm.h	/^PHP_FUNCTION(sm2_encrypt);$/;"	v
+sm3_hash	php_gmsm.h	/^PHP_FUNCTION(sm3_hash);$/;"	v
+sm4_decrypt	php_gmsm.h	/^PHP_FUNCTION(sm4_decrypt);$/;"	v
+sm4_encrypt	php_gmsm.h	/^PHP_FUNCTION(sm4_encrypt);$/;"	v
+small_chinese	miracl/miracl.h	/^} small_chinese;$/;"	t	typeref:struct:__anon3
+smul	miracl/mrsmall.c	/^mr_small smul(mr_small x,mr_small y,mr_small n)$/;"	f
+sp	miracl/ratcalc.c	/^static int ipt,op[8],prop[8],sp,brkt,lgbase;$/;"	v	file:
+spmd	miracl/mrsmall.c	/^mr_small spmd(mr_small x,mr_small n,mr_small m) $/;"	f
+sqrmp	miracl/mrsmall.c	/^mr_small sqrmp(mr_small x,mr_small m)$/;"	f
+sqroot	miracl/mrsroot.c	/^BOOL sqroot(_MIPD_ big x,big p,big w)$/;"	f
+sqroot2	miracl/mrgf2m.c	/^void sqroot2(_MIPD_ big x,big y)$/;"	f
+square	miracl/gf2m.h	/^    GF2m& square() {modsquare2(fn,fn); return *this;}$/;"	f	class:GF2m
+square2	miracl/mrgf2m.c	/^static void square2(big x,big w)$/;"	f	file:
+srcdir	Makefile	/^srcdir = \/home\/dev\/javin\/php\/php-src\/ext\/gmsm$/;"	m
+sru	miracl/miracl.h	/^big sru;$/;"	m	struct:__anon19
+st	run-tests.php	/^		$st = $steps \/ 2;$/;"	v
+st	run-tests.php	/^		$st = $steps;$/;"	v
+start	run-tests.php	/^					$start = $end = $length;$/;"	v
+start	run-tests.php	/^				$start = strpos($wanted_re, $r, $startOffset);$/;"	v
+start	run-tests.php	/^	$start = $JUNIT['files'][$file_name]['start'];$/;"	v
+startOffset	run-tests.php	/^				$startOffset = $end + 2;$/;"	v
+startOffset	run-tests.php	/^			$startOffset = 0;$/;"	v
+start_time	run-tests.php	/^		$start_time = time();$/;"	v
+start_time	run-tests.php	/^$start_time = time();$/;"	v
+started	run-tests.php	/^			$started = true;$/;"	v
+started	run-tests.php	/^		$started = false;$/;"	v
+stat	run-tests.php	/^	$stat = proc_get_status($proc);$/;"	v
+state	sm3/GMSM3.h	/^    unsigned int    state[8];$/;"	m	struct:__anon1
+stateX	miracl/miracl.h	/^MR_BYTE stateX[16];$/;"	m	struct:__anon9
+status	miracl/miracl.h	/^int status;$/;"	m	struct:__anon9
+status	miracl/ratcalc.c	/^static char  status[]=   "                                     ";$/;"	v	file:
+status	run-tests.php	/^				$status = "failed";$/;"	v
+status	run-tests.php	/^				$status = "success";$/;"	v
+status	run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	v
+stprec	miracl/miracl.h	/^int   stprec;        \/* start precision *\/$/;"	m	struct:__anon19
+stptr	miracl/ratcalc.c	/^static int stptr[]={22,26,30,34};$/;"	v	file:
+str	gmsm.php	/^	$str = "Module $module is not compiled into PHP";$/;"	v
+str	gmsm.php	/^	$str = $function($module);$/;"	v
+str	run-tests.php	/^	$str = "TEST $test_idx\/$test_cnt [$shortname]\\r";$/;"	v
+strip	miracl/deciph.c	/^void strip(char *name)$/;"	f
+strip	miracl/decode.c	/^void strip(char *name)$/;"	f
+strip	miracl/dssign.c	/^void strip(char *name)$/;"	f
+strip	miracl/dssver.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsign.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsign2.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsign2s.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsign_s.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsver.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsver2.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsver2s.c	/^void strip(char *name)$/;"	f
+strip	miracl/ecsver_s.c	/^void strip(char *name)$/;"	f
+strip	miracl/enciph.c	/^void strip(char *name)$/;"	f
+strip	miracl/encode.c	/^void strip(char *name)$/;"	f
+strip	miracl/romaker.c	/^void strip(char *name)$/;"	f
+strip	miracl/romaker2.c	/^void strip(char *name)$/;"	f
+strong_bigdig	miracl/mrstrong.c	/^void strong_bigdig(_MIPD_ csprng *rng,int n,int b,big x)$/;"	f
+strong_bigrand	miracl/mrstrong.c	/^void strong_bigrand(_MIPD_ csprng *rng,big w,big x)$/;"	f
+strong_init	miracl/mrstrong.c	/^void strong_init(csprng *rng,int rawlen,char *raw,mr_unsign32 tod)$/;"	f
+strong_kill	miracl/mrstrong.c	/^void strong_kill(csprng *rng)$/;"	f
+strong_rng	miracl/mrstrong.c	/^int strong_rng(csprng *rng)$/;"	f
+strongp	miracl/genkey.c	/^void strongp(big p,int n,long seed1,long seed2)$/;"	f
+sub	miracl/ec2.h	/^    big sub(const EC2& b)         {return ecurve2_sub(b.p,p); }$/;"	f	class:EC2
+subdiv	miracl/mrarth1.c	/^int subdiv(_MIPD_ big x,int n,big z)$/;"	f
+subdivisible	miracl/mrarth1.c	/^BOOL subdivisible(_MIPD_ big x,int n)$/;"	f
+subtract	miracl/mrarth0.c	/^void subtract(_MIPD_ big x,big y,big z)$/;"	f
+suite	run-tests.php	/^		$suite = junit_get_suitename_for($file_name);$/;"	v
+suite	run-tests.php	/^	$suite = $suite_name ? $JUNIT['suites'][$suite_name] : $JUNIT;$/;"	v
+suite	run-tests.php	/^	$suite = junit_get_suitename_for($file_name);$/;"	v
+sum_results	run-tests.php	/^	$sum_results = array($/;"	v
+summary	run-tests.php	/^	$summary = '';$/;"	v
+suppress	miracl/factor.c	/^static BOOL suppress=FALSE;$/;"	v	file:
+swap	miracl/ratcalc.c	/^static void swap(void)$/;"	f	file:
+switch	run-tests.php	/^					$switch = $argv[$i];$/;"	v
+switch	run-tests.php	/^				$switch = substr($argv[$i],1,1);$/;"	v
+switch	run-tests.php	/^		$switch = substr($argv[$i],1,1);$/;"	v
+sys_libtool	run-tests.php	/^					$sys_libtool = shell_exec(str_replace("\\n", "", $sys_libtool_path) . ' --version');$/;"	v
+sys_libtool_path	run-tests.php	/^				$sys_libtool_path = shell_exec(__DIR__ . '\/build\/shtool path glibtool libtool');$/;"	v
+system_with_timeout	run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	f
+t	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+t	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+t	miracl/miracl.h	/^mr_utype **t;         \/* workspace *\/$/;"	m	struct:__anon19
+t	miracl/ratcalc.c	/^static flash x,y[8],m,t;$/;"	v	file:
+ta	run-tests.php	/^	$ta = strpos($a, "{$cwd}\/tests") === 0 ? 1 + (strpos($a, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+table	miracl/miracl.h	/^    const mr_small *table; $/;"	m	struct:__anon12
+table	miracl/miracl.h	/^    const mr_small *table;$/;"	m	struct:__anon11
+table	miracl/miracl.h	/^    const mr_small *table;$/;"	m	struct:__anon13
+table	miracl/miracl.h	/^mr_unsign32 table[128][4]; \/* 2k bytes *\/$/;"	m	struct:__anon9
+table_init	miracl/mrec2m.c	/^static void table_init(_MIPD_ epoint *g,epoint **table)$/;"	f	file:
+tan1	miracl/mrflsh3.c	/^static int tan1(_MIPD_ big w,int n)$/;"	f	file:
+tb	run-tests.php	/^	$tb = strpos($b, "{$cwd}\/tests") === 0 ? 1 + (strpos($b, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+tconvert	miracl/mrcore.c	/^void tconvert(_MIPD_ mr_utype n,big x)$/;"	f
+temp	run-tests.php	/^					$temp = $temp . '(' . substr($wanted_re, $start+2, ($end - $start-2)). ')';$/;"	v
+temp	run-tests.php	/^				$temp = $temp . preg_quote(substr($wanted_re, $startOffset, ($start - $startOffset)),  '\/');$/;"	v
+temp	run-tests.php	/^			$temp = "";$/;"	v
+temp	run-tests.php	/^		$temp = array_intersect(array('XFAIL', 'FAIL'), $type);$/;"	v
+temp_clean	run-tests.php	/^	$temp_clean        = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = $IN_REDIRECT['dir'];$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = realpath(dirname($file));$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = str_replace($temp_source, $temp_target, $temp_dir);$/;"	v
+temp_file	run-tests.php	/^	$temp_file         = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+temp_filenames	run-tests.php	/^		$temp_filenames = array($/;"	v
+temp_filenames	run-tests.php	/^	$temp_filenames = null;$/;"	v
+temp_skipif	run-tests.php	/^	$temp_skipif       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+temp_source	run-tests.php	/^					$temp_source = $argv[++$i];$/;"	v
+temp_source	run-tests.php	/^$temp_source = null;$/;"	v
+temp_target	run-tests.php	/^					$temp_target = $argv[++$i];$/;"	v
+temp_target	run-tests.php	/^$temp_target = null;$/;"	v
+temp_urlbase	run-tests.php	/^						$temp_urlbase = $temp_target;$/;"	v
+temp_urlbase	run-tests.php	/^					$temp_urlbase = $argv[++$i];$/;"	v
+temp_urlbase	run-tests.php	/^$temp_urlbase = null;$/;"	v
+test_clean	run-tests.php	/^	$test_clean        = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+test_cnt	run-tests.php	/^	$test_cnt = count($test_files);$/;"	v
+test_cnt	run-tests.php	/^$test_cnt = count($test_files);$/;"	v
+test_dirs	run-tests.php	/^$test_dirs = array();$/;"	v
+test_file	run-tests.php	/^	$test_file         = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+test_files	run-tests.php	/^					$test_files = array_merge($test_files, $pattern_match);$/;"	v
+test_files	run-tests.php	/^		$test_files = array();$/;"	v
+test_files	run-tests.php	/^	$test_files = array_merge($test_files, $redir_tests);$/;"	v
+test_files	run-tests.php	/^	$test_files = array_unique($test_files);$/;"	v
+test_files	run-tests.php	/^$test_files = array();$/;"	v
+test_files	run-tests.php	/^$test_files = array_unique($test_files);$/;"	v
+test_idx	run-tests.php	/^		$test_idx = 0;$/;"	v
+test_idx	run-tests.php	/^$test_idx = 0;$/;"	v
+test_list	run-tests.php	/^					$test_list = file($argv[++$i]);$/;"	v
+test_name	run-tests.php	/^function test_name($name)$/;"	f
+test_results	run-tests.php	/^$test_results = array();$/;"	v
+test_skipif	run-tests.php	/^	$test_skipif       = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+test_sort	run-tests.php	/^function test_sort($a, $b)$/;"	f
+tested	run-tests.php	/^			$tested = "<a href='$url'>$tested<\/a>";$/;"	v
+tested	run-tests.php	/^		$tested = $IN_REDIRECT['prefix'] . ' ' . trim($section_text['TEST']);$/;"	v
+tested	run-tests.php	/^	$tested = trim($section_text['TEST']);$/;"	v
+tested_file	run-tests.php	/^		$tested_file = $tmp_relative_file;$/;"	v
+tested_file	run-tests.php	/^	$tested_file = $shortname;$/;"	v
+testfile	run-tests.php	/^				$testfile = realpath("{$dir}\/{$name}");$/;"	v
+testfile	run-tests.php	/^			$testfile = realpath($argv[$i]);$/;"	v
+testname	run-tests.php	/^	$testname = realpath($testname);$/;"	v
+text	miracl/pk-demo.c	/^char *text="MIRACL - Best multi-precision library in the World!\\n";$/;"	v
+theta0	miracl/mrshs256.c	78;"	d	file:
+theta0	miracl/mrshs512.c	105;"	d	file:
+theta1	miracl/mrshs256.c	79;"	d	file:
+theta1	miracl/mrshs512.c	106;"	d	file:
+time	run-tests.php	/^	$time = null !== $time ? $time : junit_get_timer($file_name);$/;"	v
+time	run-tests.php	/^function junit_mark_test_as($type, $file_name, $test_name, $time = null, $message = '', $details = '') {$/;"	v
+timeout	run-tests.php	/^	$timeout = $leak_check ? 300 : (isset($env['TEST_TIMEOUT']) ? $env['TEST_TIMEOUT'] : 60);$/;"	v
+tmp_post	run-tests.php	/^	$tmp_post          = $temp_dir . DIRECTORY_SEPARATOR . uniqid('\/phpt.');$/;"	v
+tmp_relative_file	run-tests.php	/^	$tmp_relative_file = str_replace(__DIR__ . DIRECTORY_SEPARATOR, '', $test_file) . 't';$/;"	v
+tnaf	miracl/mrec2m.c	/^static int tnaf(_MIPD_ big e,big hp,big hn)$/;"	f	file:
+to_base_256	miracl/mrfpe.c	/^static int to_base_256(char *x,int len,int s,MR_BYTE *y)$/;"	f	file:
+todouble	miracl/flash.h	/^    friend double todouble(const Flash& f) { return fdsize(f.fn);}$/;"	f	class:Flash
+toint	miracl/big.h	/^    friend int toint(const Big& b)  {return size(b.fn);} $/;"	f	class:Big
+top	miracl/ratcalc.c	/^static int top=7;$/;"	v	file:
+top_builddir	Makefile	/^top_builddir = \/home\/dev\/javin\/php\/php-src\/ext\/gmsm$/;"	m
+top_srcdir	Makefile	/^top_srcdir = \/home\/dev\/javin\/php\/php-src\/ext\/gmsm$/;"	m
+trace	miracl/gf2m.h	/^    friend int trace(GF2m & z) {return trace2(z.fn);}$/;"	f	class:GF2m
+trace	miracl/miracl.h	/^int   trace[MR_MAXDEPTH];    \/* .. mechanism    *\/$/;"	m	struct:__anon19
+trace2	miracl/mrgf2m.c	/^int trace2(_MIPD_ big x)$/;"	f
+trial_division	miracl/mrprime.c	/^int trial_division(_MIPD_ big x,big y)$/;"	f
+twop	miracl/mrfast.c	/^static mr_utype twop(int n)$/;"	f	file:
+type	miracl/crt.h	/^    int type;$/;"	m	class:Crt
+type	run-tests.php	/^		$type = reset($temp);$/;"	v
+typtr	miracl/ratcalc.c	/^static int typtr=16;$/;"	v	file:
+u	miracl/miracl.h	/^mr_small u,v,ku,kv;$/;"	m	struct:__anon19
+uconvert	miracl/mrcore.c	/^void uconvert(_MIPD_ unsigned int n ,big x)$/;"	f
+ulgconv	miracl/mrcore.c	/^void ulgconv(_MIPD_ unsigned long n,big x)$/;"	f
+unitary	miracl/miracl.h	/^    BOOL unitary;$/;"	m	struct:__anon15
+unpack	miracl/mraes.c	/^static void unpack(MR_WORD a,MR_BYTE *b)$/;"	f	file:
+unpack	miracl/mrfpe.c	/^static void unpack(UINT32 a,MR_BYTE *b)$/;"	f	file:
+unpack	miracl/mrgcm.c	/^static void unpack(MR_WORD a,MR_BYTE *b)$/;"	f	file:
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['diff']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['file']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['mem']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['skip']);$/;"	v
+url_bits	run-tests.php	/^	$url_bits = parse_url(QA_SUBMISSION_PAGE);$/;"	v
+user	miracl/miracl.h	/^BOOL (*user)(void);  \/* pointer to user supplied function *\/$/;"	m	struct:__anon19
+user_email	run-tests.php	/^				$user_email = str_replace("@", " at ", str_replace(".", " dot ", $user_email));$/;"	v
+user_email	run-tests.php	/^				$user_email = trim(fgets($fp, 1024));$/;"	v
+user_input	run-tests.php	/^				$user_input = 's';$/;"	v
+user_input	run-tests.php	/^		$user_input = fgets($fp, 10);$/;"	v
+user_tests	run-tests.php	/^	$user_tests = array();$/;"	v
+user_tests	run-tests.php	/^	$user_tests = explode (',', getenv('TEST_PHP_USER'));$/;"	v
+util_lower	build/shtool	/^util_lower () {$/;"	f
+util_upper	build/shtool	/^util_upper () {$/;"	f
+v	miracl/miracl.h	/^mr_small u,v,ku,kv;$/;"	m	struct:__anon19
+val	run-tests.php	/^				$val = addslashes($val);$/;"	v
+valgrind_cmd	run-tests.php	/^					$valgrind_cmd = "valgrind --version";$/;"	v
+valgrind_header	run-tests.php	/^						$valgrind_header = trim($valgrind_header);$/;"	v
+valgrind_header	run-tests.php	/^					$valgrind_header = system_with_timeout($valgrind_cmd, $environment);$/;"	v
+valgrind_header	run-tests.php	/^$valgrind_header = '';$/;"	v
+valgrind_version	run-tests.php	/^						$valgrind_version = preg_replace("\/valgrind-(\\d+)\\.(\\d+)\\.(\\d+)([.\\w_-]+)?(\\s+)\/", '$1.$2.$3', $valgrind_header, 1, $replace_count);$/;"	v
+valgrind_version	run-tests.php	/^$valgrind_version = 0;$/;"	v
+value	run-tests.php	/^				$value = addslashes($value);$/;"	v
+value	run-tests.php	/^			$value = trim($setting[1]);$/;"	v
+value	run-tests.php	/^function junit_suite_record($suite, $param, $value = 1) {$/;"	v
+verify_config	run-tests.php	/^function verify_config()$/;"	f
+w	miracl/factor.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+w	miracl/lenstra.c	/^static big ak,t,w,s1,d1,s2,d2;$/;"	v	file:
+w	miracl/miracl.h	/^    mr_small *w;$/;"	m	struct:bigtype
+w	miracl/miracl.h	/^mr_unsign32 w[80];$/;"	m	struct:__anon5
+w	miracl/miracl.h	/^mr_unsign64 w[80];$/;"	m	struct:__anon6
+w	miracl/qsieve.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+w	run-tests.php	/^		$w = null;$/;"	v
+w	run-tests.php	/^	$w = explode("\\n", $wanted);$/;"	v
+w0	miracl/miracl.h	/^big w0;            \/* workspace bigs  *\/$/;"	m	struct:__anon19
+w1	miracl/miracl.h	/^big w1,w2,w3,w4;$/;"	m	struct:__anon19
+w10	miracl/miracl.h	/^big w8,w9,w10,w11;$/;"	m	struct:__anon19
+w11	miracl/miracl.h	/^big w8,w9,w10,w11;$/;"	m	struct:__anon19
+w12	miracl/miracl.h	/^big w12,w13,w14,w15;$/;"	m	struct:__anon19
+w13	miracl/miracl.h	/^big w12,w13,w14,w15;$/;"	m	struct:__anon19
+w14	miracl/miracl.h	/^big w12,w13,w14,w15;$/;"	m	struct:__anon19
+w15	miracl/miracl.h	/^big w12,w13,w14,w15;$/;"	m	struct:__anon19
+w2	miracl/miracl.h	/^big w1,w2,w3,w4;$/;"	m	struct:__anon19
+w3	miracl/miracl.h	/^big w1,w2,w3,w4;$/;"	m	struct:__anon19
+w4	miracl/miracl.h	/^big w1,w2,w3,w4;$/;"	m	struct:__anon19
+w5	miracl/miracl.h	/^big w5,w6,w7;$/;"	m	struct:__anon19
+w6	miracl/miracl.h	/^big w5,w6,w7;$/;"	m	struct:__anon19
+w7	miracl/miracl.h	/^big w5,w6,w7;$/;"	m	struct:__anon19
+w8	miracl/miracl.h	/^big w8,w9,w10,w11;$/;"	m	struct:__anon19
+w9	miracl/miracl.h	/^big w8,w9,w10,w11;$/;"	m	struct:__anon19
+wa	miracl/miracl.h	/^mr_utype *wa;$/;"	m	struct:__anon19
+want	run-tests.php	/^		$want = array();$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTF']);$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTREGEX']);$/;"	v
+wanted	run-tests.php	/^		$wanted = $wanted_headers . "\\n--HEADERS--\\n" . $wanted;$/;"	v
+wanted	run-tests.php	/^		$wanted = preg_replace('\/\\r\\n\/',"\\n", $wanted);$/;"	v
+wanted	run-tests.php	/^		$wanted = trim($section_text['EXPECT']);$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = array();$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = join("\\n", $wanted_headers);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = $temp;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = preg_quote($wanted_headers . "\\n--HEADERS--\\n", '\/') . $wanted_re;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace($/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%A', '.*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%S', '[^\\r\\n]*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%a', '.+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%c', '.', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%d', '\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%e', '\\\\' . DIRECTORY_SEPARATOR, $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%f', '[+-]?\\.?\\d+\\.?\\d*(?:[Ee][+-]?\\d+)?', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%i', '[+-]?\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%s', '[^\\r\\n]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%w', '\\s*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%x', '[0-9a-fA-F]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = null;$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = preg_replace('\/\\r\\n\/', "\\n", $wanted);$/;"	v
+warn	run-tests.php	/^					$warn = true; \/* only if there is a reason *\/$/;"	v
+warn	run-tests.php	/^					$warn = true;$/;"	v
+warn	run-tests.php	/^	$warn = false;$/;"	v
+wb	miracl/miracl.h	/^mr_utype *wb;$/;"	m	struct:__anon19
+wc	miracl/miracl.h	/^mr_utype *wc;$/;"	m	struct:__anon19
+width	miracl/ratcalc.c	/^static int width=80;      \/* screen width can be 40 or 80 columns *\/$/;"	v	file:
+williams	miracl/factor.c	/^void williams(int lim1,long lim2,int ntrys)$/;"	f
+window	miracl/miracl.h	/^    int window;$/;"	m	struct:__anon11
+window	miracl/miracl.h	/^    int window;$/;"	m	struct:__anon12
+window	miracl/miracl.h	/^    int window;$/;"	m	struct:__anon13
+workprec	miracl/miracl.h	/^int   workprec;$/;"	m	struct:__anon19
+workspace	miracl/miracl.h	/^char *workspace;$/;"	m	struct:__anon19
+workspace	miracl/miracl.h	/^char workspace[MR_BIG_RESERVE(MR_SPACES)];$/;"	m	struct:__anon19
+write_information	run-tests.php	/^function write_information($show_html)$/;"	f
+ws	miracl/miracl.h	/^big ws,wt;$/;"	m	struct:__anon19
+wt	miracl/miracl.h	/^big ws,wt;$/;"	m	struct:__anon19
+ww	miracl/factor.c	/^static big ak,t,ww,s1,d1,s2,d2;$/;"	v	file:
+x	miracl/factor.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+x	miracl/miracl.h	/^    zzn2 x;$/;"	m	struct:__anon16
+x	miracl/mr87f.c	/^big x,z;$/;"	v
+x	miracl/qsieve.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+x	miracl/ratcalc.c	/^static flash x,y[8],m,t;$/;"	v	file:
+x163	miracl/bmark.c	/^char x163[]="3F0EBA16286A2D57EA0991168D4994637E8343E36";$/;"	v
+x233	miracl/bmark.c	/^char x233[]="FAC9DFCBAC8313BB2139F1BB755FEF65BC391F8B36F8F8EB7371FD558B";$/;"	v
+x283	miracl/bmark.c	/^char x283[]="5F939258DB7DD90E1934F8C70B0DFEC2EED25B8557EAC9C80E2E198F8CDBECD86B12053";$/;"	v
+x571	miracl/bmark.c	/^char x571[]="0303001D34B856296C16C0D40D3CD7750A93D1D2955FA80AA5F40FC8DB7B2ABDBDE53950F4C0D293CDD711A35B67FB1499AE60038614F1394ABFA3B4C850D927E1E7769C8EEC2D19";$/;"	v
+x_failed	run-tests.php	/^		$x_failed = (100.0 * $sum_results['FAILED']) \/ $x_total;$/;"	v
+x_leaked	run-tests.php	/^		$x_leaked = (100.0 * $sum_results['LEAKED']) \/ $x_total;$/;"	v
+x_passed	run-tests.php	/^		$x_passed = (100.0 * $sum_results['PASSED']) \/ $x_total;$/;"	v
+x_total	run-tests.php	/^	$x_total = $n_total - $sum_results['SKIPPED'] - $sum_results['BORKED'];$/;"	v
+x_warned	run-tests.php	/^		$x_warned = $x_failed = $x_passed = $x_leaked = $x_xfailed = 0;$/;"	v
+x_warned	run-tests.php	/^		$x_warned = (100.0 * $sum_results['WARNED']) \/ $x_total;$/;"	v
+x_xfailed	run-tests.php	/^		$x_xfailed = (100.0 * $sum_results['XFAILED']) \/ $x_total;$/;"	v
+xgcd	miracl/mrxgcd.c	/^int xgcd(_MIPD_ big x,big y,big xd,big yd,big z)$/;"	f
+xml	run-tests.php	/^	$xml = '<?xml version="1.0" encoding="UTF-8"?>'. PHP_EOL .$/;"	v
+y	miracl/factor.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+y	miracl/miracl.h	/^    zzn2 y;$/;"	m	struct:__anon16
+y	miracl/qsieve.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+y	miracl/ratcalc.c	/^static flash x,y[8],m,t;$/;"	v	file:
+y160	miracl/bmark.c	/^char y160[]="1184021062507719516935416374276431034553065993786";$/;"	v
+y163	miracl/bmark.c	/^char y163[]="D51FBC6C71A0094FA2CDD545B11C5C0C797324F1";$/;"	v
+y192	miracl/bmark.c	/^char y192[]="939373580274738592696031201994651073677369517020051213856";$/;"	v
+y224	miracl/bmark.c	/^char y224[]="6566202929975094781252846334642707436688198986599754639429350077046";$/;"	v
+y233	miracl/bmark.c	/^char y233[]="1006A08A41903350678E58528BEBF8A0BEFF867A7CA36716F7E01F81052";$/;"	v
+y256	miracl/bmark.c	/^char y256[]="51289739734510562976895380525256763300476168821636300126346201758371757118206";$/;"	v
+y283	miracl/bmark.c	/^char y283[]="3676854FE24141CB98FE6D4B20D02B4516FF702350EDDB0826779C813F0DF45BE8112F4";$/;"	v
+y571	miracl/bmark.c	/^char y571[]="037BF27342DA639B6DCCFFFEB73D69D78C6C27A6009CBBCA1980F8533921E8A684423E43BAB08A576291AF8F461BB2A8B3531D2F0485C19B16E2F1516E23DD3C1A4827AF1B8AC15B";$/;"	v
+z	miracl/factor.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+z	miracl/miracl.h	/^    zzn2 z;$/;"	m	struct:__anon16
+z	miracl/mr87f.c	/^big x,z;$/;"	v
+z	miracl/qsieve.c	/^static big *x,*y,*z,*w;$/;"	v	file:
+zero	miracl/mrcore.c	/^void zero(flash x)$/;"	f
+zzn	miracl/miracl.h	/^typedef big zzn;$/;"	t
+zzn2	miracl/miracl.h	/^} zzn2;$/;"	t	typeref:struct:__anon14
+zzn2_add	miracl/mrzzn2.c	/^void zzn2_add(_MIPD_ zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f
+zzn2_add_i	miracl/ecn2_opt.c	/^static inline void zzn2_add_i(zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f	file:
+zzn2_compare	miracl/mrzzn2.c	/^BOOL zzn2_compare(zzn2 *x,zzn2 *y)$/;"	f
+zzn2_conj	miracl/mrzzn2.c	/^void zzn2_conj(_MIPD_ zzn2 *x,zzn2 *w)$/;"	f
+zzn2_conj_i	miracl/ecn2_opt.c	/^inline void zzn2_conj_i(zzn2 *x,zzn2 *w)$/;"	f
+zzn2_copy	miracl/mrzzn2.c	/^void zzn2_copy(zzn2 *x,zzn2 *w)$/;"	f
+zzn2_copy_i	miracl/ecn2_opt.c	/^static inline void zzn2_copy_i(zzn2 *x,zzn2 *w)$/;"	f	file:
+zzn2_dblsub_i	miracl/ecn2_opt.c	/^static inline void zzn2_dblsub_i(zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f	file:
+zzn2_div2	miracl/mrzzn2.c	/^void zzn2_div2(_MIPD_ zzn2 *w)$/;"	f
+zzn2_div2_i	miracl/ecn2_opt.c	/^static inline void zzn2_div2_i(zzn2 *w)$/;"	f	file:
+zzn2_div3	miracl/mrzzn2.c	/^void zzn2_div3(_MIPD_ zzn2 *w)$/;"	f
+zzn2_div5	miracl/mrzzn2.c	/^void zzn2_div5(_MIPD_ zzn2 *w)$/;"	f
+zzn2_from_big	miracl/mrzzn2.c	/^void zzn2_from_big(_MIPD_ big x, zzn2 *w)$/;"	f
+zzn2_from_bigs	miracl/mrzzn2.c	/^void zzn2_from_bigs(_MIPD_ big x,big y, zzn2 *w)$/;"	f
+zzn2_from_int	miracl/mrzzn2.c	/^void zzn2_from_int(_MIPD_ int i,zzn2 *w)$/;"	f
+zzn2_from_ints	miracl/mrzzn2.c	/^void zzn2_from_ints(_MIPD_ int i,int j,zzn2 *w)$/;"	f
+zzn2_from_zzn	miracl/mrzzn2.c	/^void zzn2_from_zzn(big x,zzn2 *w)$/;"	f
+zzn2_from_zzns	miracl/mrzzn2.c	/^void zzn2_from_zzns(big x,big y,zzn2 *w)$/;"	f
+zzn2_imul	miracl/mrzzn2.c	/^void zzn2_imul(_MIPD_ zzn2 *x,int y,zzn2 *w)$/;"	f
+zzn2_inv	miracl/mrzzn2.c	/^void zzn2_inv(_MIPD_ zzn2 *w)$/;"	f
+zzn2_inv_i	miracl/ecn2_opt.c	/^void zzn2_inv_i(_MIPD_ zzn2 *w)$/;"	f
+zzn2_isunity	miracl/mrzzn2.c	/^BOOL zzn2_isunity(_MIPD_ zzn2 *x)$/;"	f
+zzn2_iszero	miracl/mrzzn2.c	/^BOOL zzn2_iszero(zzn2 *x)$/;"	f
+zzn2_mul	miracl/mrzzn2.c	/^void zzn2_mul(_MIPD_ zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f
+zzn2_mul_i	miracl/ecn2_opt.c	/^static inline void zzn2_mul_i(zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f	file:
+zzn2_multi_inverse	miracl/mrzzn2.c	/^BOOL zzn2_multi_inverse(_MIPD_ int m,zzn2 *x,zzn2 *w)$/;"	f
+zzn2_negate	miracl/mrzzn2.c	/^void zzn2_negate(_MIPD_ zzn2 *x,zzn2 *w)$/;"	f
+zzn2_pmul_i	miracl/ecn2_opt.c	/^static inline void zzn2_pmul_i(int i,zzn2 *x)$/;"	f	file:
+zzn2_qr	miracl/mrzzn2b.c	/^BOOL zzn2_qr(_MIPD_ zzn2 *u)$/;"	f
+zzn2_sadd	miracl/mrzzn2.c	/^void zzn2_sadd(_MIPD_ zzn2 *x,big y,zzn2 *w)$/;"	f
+zzn2_smul	miracl/mrzzn2.c	/^void zzn2_smul(_MIPD_ zzn2 *x,big y,zzn2 *w)$/;"	f
+zzn2_sqr	miracl/mrzzn2.c	/^void zzn2_sqr(_MIPD_ zzn2 *x,zzn2 *w)$/;"	f
+zzn2_sqr_i	miracl/ecn2_opt.c	/^static inline void zzn2_sqr_i(zzn2 *x,zzn2 *w)$/;"	f	file:
+zzn2_sqrt	miracl/ecn2_opt.c	/^BOOL zzn2_sqrt(_MIPD_ zzn2 *u,zzn2 *w)$/;"	f
+zzn2_sqrt	miracl/mrzzn2b.c	/^BOOL zzn2_sqrt(_MIPD_ zzn2 *u,zzn2 *w)$/;"	f
+zzn2_ssub	miracl/mrzzn2.c	/^void zzn2_ssub(_MIPD_ zzn2 *x,big y,zzn2 *w)$/;"	f
+zzn2_sub	miracl/mrzzn2.c	/^void zzn2_sub(_MIPD_ zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f
+zzn2_sub_i	miracl/ecn2_opt.c	/^static inline void zzn2_sub_i(zzn2 *x,zzn2 *y,zzn2 *w)$/;"	f	file:
+zzn2_tim2_i	miracl/ecn2_opt.c	/^static inline void zzn2_tim2_i(zzn2 *w)$/;"	f	file:
+zzn2_tim3_i	miracl/ecn2_opt.c	/^static inline void zzn2_tim3_i(zzn2 *w)$/;"	f	file:
+zzn2_timesi	miracl/mrzzn2.c	/^void zzn2_timesi(_MIPD_ zzn2 *u)$/;"	f
+zzn2_timesi_i	miracl/ecn2_opt.c	/^static inline void zzn2_timesi_i(zzn2 *u)$/;"	f	file:
+zzn2_txd	miracl/mrzzn2.c	/^void zzn2_txd(_MIPD_ zzn2 *u)$/;"	f
+zzn2_txx	miracl/mrzzn2.c	/^void zzn2_txx(_MIPD_ zzn2 *u)$/;"	f
+zzn2_txx_i	miracl/ecn2_opt.c	/^static inline void zzn2_txx_i(zzn2 *u)$/;"	f	file:
+zzn2_zero	miracl/mrzzn2.c	/^void zzn2_zero(zzn2 *w)$/;"	f
+zzn3	miracl/miracl.h	/^} zzn3;$/;"	t	typeref:struct:__anon17
+zzn3_add	miracl/mrzzn3.c	/^void zzn3_add(_MIPD_ zzn3 *x,zzn3 *y,zzn3 *w)$/;"	f
+zzn3_compare	miracl/mrzzn3.c	/^BOOL zzn3_compare(zzn3 *x,zzn3 *y)$/;"	f
+zzn3_copy	miracl/mrzzn3.c	/^void zzn3_copy(zzn3 *x,zzn3 *w)$/;"	f
+zzn3_div2	miracl/mrzzn3.c	/^void zzn3_div2(_MIPD_ zzn3 *w)$/;"	f
+zzn3_from_big	miracl/mrzzn3.c	/^void zzn3_from_big(_MIPD_ big x, zzn3 *w)$/;"	f
+zzn3_from_bigs	miracl/mrzzn3.c	/^void zzn3_from_bigs(_MIPD_ big x,big y,big z,zzn3 *w)$/;"	f
+zzn3_from_int	miracl/mrzzn3.c	/^void zzn3_from_int(_MIPD_ int i,zzn3 *w)$/;"	f
+zzn3_from_ints	miracl/mrzzn3.c	/^void zzn3_from_ints(_MIPD_ int i,int j,int k,zzn3 *w)$/;"	f
+zzn3_from_zzn	miracl/mrzzn3.c	/^void zzn3_from_zzn(big x,zzn3 *w)$/;"	f
+zzn3_from_zzn_1	miracl/mrzzn3.c	/^void zzn3_from_zzn_1(big x,zzn3 *w)$/;"	f
+zzn3_from_zzn_2	miracl/mrzzn3.c	/^void zzn3_from_zzn_2(big x,zzn3 *w)$/;"	f
+zzn3_from_zzns	miracl/mrzzn3.c	/^void zzn3_from_zzns(big x,big y,big z,zzn3 *w)$/;"	f
+zzn3_imul	miracl/mrzzn3.c	/^void zzn3_imul(_MIPD_ zzn3 *x,int y,zzn3 *w)$/;"	f
+zzn3_inv	miracl/mrzzn3.c	/^void zzn3_inv(_MIPD_ zzn3 *w)$/;"	f
+zzn3_isunity	miracl/mrzzn3.c	/^BOOL zzn3_isunity(_MIPD_ zzn3 *x)$/;"	f
+zzn3_iszero	miracl/mrzzn3.c	/^BOOL zzn3_iszero(zzn3 *x)$/;"	f
+zzn3_mul	miracl/mrzzn3.c	/^void zzn3_mul(_MIPD_ zzn3 *x,zzn3 *y,zzn3 *w)$/;"	f
+zzn3_negate	miracl/mrzzn3.c	/^void zzn3_negate(_MIPD_ zzn3 *x,zzn3 *w)$/;"	f
+zzn3_powq	miracl/mrzzn3.c	/^void zzn3_powq(_MIPD_ zzn3 *x,zzn3 *w)$/;"	f
+zzn3_sadd	miracl/mrzzn3.c	/^void zzn3_sadd(_MIPD_ zzn3 *x,big y,zzn3 *w)$/;"	f
+zzn3_set	miracl/mrzzn3.c	/^void zzn3_set(_MIPD_ int cnr,big sru)$/;"	f
+zzn3_smul	miracl/mrzzn3.c	/^void zzn3_smul(_MIPD_ zzn3 *x,big y,zzn3 *w)$/;"	f
+zzn3_ssub	miracl/mrzzn3.c	/^void zzn3_ssub(_MIPD_ zzn3 *x,big y,zzn3 *w)$/;"	f
+zzn3_sub	miracl/mrzzn3.c	/^void zzn3_sub(_MIPD_ zzn3 *x,zzn3 *y,zzn3 *w)$/;"	f
+zzn3_timesi	miracl/mrzzn3.c	/^void zzn3_timesi(_MIPD_ zzn3 *u)$/;"	f
+zzn3_timesi2	miracl/mrzzn3.c	/^void zzn3_timesi2(_MIPD_ zzn3 *u)$/;"	f
+zzn3_zero	miracl/mrzzn3.c	/^void zzn3_zero(zzn3 *w)$/;"	f
+zzn4	miracl/miracl.h	/^} zzn4;$/;"	t	typeref:struct:__anon15
+zzn4_add	miracl/mrzzn4.c	/^void zzn4_add(_MIPD_ zzn4 *x,zzn4 *y,zzn4 *w)$/;"	f
+zzn4_compare	miracl/mrzzn4.c	/^BOOL zzn4_compare(zzn4 *x,zzn4 *y)$/;"	f
+zzn4_conj	miracl/mrzzn4.c	/^void zzn4_conj(_MIPD_ zzn4 *x,zzn4 *w)$/;"	f
+zzn4_copy	miracl/mrzzn4.c	/^void zzn4_copy(zzn4 *x,zzn4 *w)$/;"	f
+zzn4_div2	miracl/mrzzn4.c	/^void zzn4_div2(_MIPD_ zzn4 *w)$/;"	f
+zzn4_from_big	miracl/mrzzn4.c	/^void zzn4_from_big(_MIPD_ big x, zzn4 *w)$/;"	f
+zzn4_from_int	miracl/mrzzn4.c	/^void zzn4_from_int(_MIPD_ int i,zzn4 *w)$/;"	f
+zzn4_from_zzn	miracl/mrzzn4.c	/^void zzn4_from_zzn(big x,zzn4 *w)$/;"	f
+zzn4_from_zzn2	miracl/mrzzn4.c	/^void zzn4_from_zzn2(zzn2 *x,zzn4 *w)$/;"	f
+zzn4_from_zzn2h	miracl/mrzzn4.c	/^void zzn4_from_zzn2h(zzn2 *x,zzn4 *w)$/;"	f
+zzn4_from_zzn2s	miracl/mrzzn4.c	/^void zzn4_from_zzn2s(zzn2 *x,zzn2 *y,zzn4 *w)$/;"	f
+zzn4_imul	miracl/mrzzn4.c	/^void zzn4_imul(_MIPD_ zzn4 *x,int y,zzn4 *w)$/;"	f
+zzn4_inv	miracl/mrzzn4.c	/^void zzn4_inv(_MIPD_ zzn4 *w)$/;"	f
+zzn4_isunity	miracl/mrzzn4.c	/^BOOL zzn4_isunity(_MIPD_ zzn4 *x)$/;"	f
+zzn4_iszero	miracl/mrzzn4.c	/^BOOL zzn4_iszero(zzn4 *x)$/;"	f
+zzn4_lmul	miracl/mrzzn4.c	/^void zzn4_lmul(_MIPD_ zzn4 *x,big y,zzn4 *w)$/;"	f
+zzn4_mul	miracl/mrzzn4.c	/^void zzn4_mul(_MIPD_ zzn4 *x,zzn4 *y,zzn4 *w)$/;"	f
+zzn4_negate	miracl/mrzzn4.c	/^void zzn4_negate(_MIPD_ zzn4 *x,zzn4 *w)$/;"	f
+zzn4_powq	miracl/mrzzn4.c	/^void zzn4_powq(_MIPD_ zzn2 *fr,zzn4 *w)$/;"	f
+zzn4_sadd	miracl/mrzzn4.c	/^void zzn4_sadd(_MIPD_ zzn4 *x,zzn2 *y,zzn4 *w)$/;"	f
+zzn4_smul	miracl/mrzzn4.c	/^void zzn4_smul(_MIPD_ zzn4 *x,zzn2 *y,zzn4 *w)$/;"	f
+zzn4_sqr	miracl/mrzzn4.c	/^void zzn4_sqr(_MIPD_ zzn4 *x,zzn4 *w)$/;"	f
+zzn4_ssub	miracl/mrzzn4.c	/^void zzn4_ssub(_MIPD_ zzn4 *x,zzn2 *y,zzn4 *w)$/;"	f
+zzn4_sub	miracl/mrzzn4.c	/^void zzn4_sub(_MIPD_ zzn4 *x,zzn4 *y,zzn4 *w)$/;"	f
+zzn4_tx	miracl/mrzzn4.c	/^void zzn4_tx(_MIPD_ zzn4* w)$/;"	f
+zzn4_zero	miracl/mrzzn4.c	/^void zzn4_zero(zzn4 *w)$/;"	f
+zzn6_3x2	miracl/miracl.h	/^} zzn6_3x2;$/;"	t	typeref:struct:__anon18
+~Big	miracl/big.h	/^    ~Big() {$/;"	f	class:Big
+~Brick	miracl/brick.h	/^    ~Brick() {if (created) brick_end(&b);}$/;"	f	class:Brick
+~Crt	miracl/crt.h	/^    ~Crt() $/;"	f	class:Crt
+~EBrick	miracl/ebrick.h	/^    ~EBrick() {if (created) ebrick_end(&B);}$/;"	f	class:EBrick
+~EBrick2	miracl/ebrick2.h	/^    ~EBrick2() {if (created) ebrick2_end(&B);}$/;"	f	class:EBrick2
+~EC2	miracl/ec2.h	/^    ~EC2() $/;"	f	class:EC2
+~ECn	miracl/ecn.h	/^    ~ECn() {$/;"	f	class:ECn
+~Flash	miracl/flash.h	/^    ~Flash()   { }$/;"	f	class:Flash
+~Flash	miracl/flash.h	/^    ~Flash()   {mirkill(fn);}$/;"	f	class:Flash
+~Float	miracl/floating.h	/^    ~Float() { }$/;"	f	class:Float
+~GF2m	miracl/gf2m.h	/^    ~GF2m()   $/;"	f	class:GF2m
+~Miracl	miracl/big.h	/^    ~Miracl()                    {mirexit();}$/;"	f	class:Miracl
+~ZZn	miracl/zzn.h	/^    ~ZZn() $/;"	f	class:ZZn
