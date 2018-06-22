@@ -179,7 +179,12 @@ PHP_FUNCTION(sm2_encrypt)
 	memset(hex_cipher, 0, hex_cipher_len);
 	BCD2HexString(cipher, cipher_len, hex_cipher, hex_cipher_len);
 
-	RETVAL_STRINGL(hex_cipher, hex_cipher_len, 1);
+#if defined(ZEND_ENGINE_3)
+    RETVAL_STR(contents);
+#else
+    RETVAL_STRINGL(contents, hex_cipher_len, 1);
+#endif
+
 	efree(cipher);
 	efree(hex_cipher);
 }
@@ -202,7 +207,12 @@ PHP_FUNCTION(sm2_decrypt)
 	memset(data, 0, data_len);
 	SM2_Decrypt_New(cipher, cipher_len, key, data);
 
-	RETVAL_STRINGL(data, data_len, 1);
+#if defined(ZEND_ENGINE_3)
+    RETVAL_STR(contents);
+#else
+    RETVAL_STRINGL(contents, data_len, 1);
+#endif
+
 	efree(data);
 }
 
@@ -222,7 +232,12 @@ PHP_FUNCTION(sm3_hash)
     memset(hash_str, 0, 32);
     SM3_256(str, str_len, hash_str);
 
+#if defined(ZEND_ENGINE_3)
+    RETVAL_STR(contents);
+#else
     RETVAL_STRINGL(hash_str, strlen(hash_str), 1);
+#endif
+
     efree(hash_str);
 }
 
@@ -244,7 +259,12 @@ PHP_FUNCTION(sm4_encrypt)
     memset(cipher, 0, 16);
     SM4_Encrypt(key, data, cipher);
 
+#if defined(ZEND_ENGINE_3)
+    RETVAL_STR(contents);
+#else
     RETVAL_STRINGL(cipher, 16, 1);
+#endif
+
     efree(cipher);
 }
 
@@ -265,7 +285,12 @@ PHP_FUNCTION(sm4_decrypt)
     memset(data, 0, 16);
     SM4_Decrypt(key, cipher, data);
 
+#if defined(ZEND_ENGINE_3)
+    RETVAL_STR(contents);
+#else
     RETVAL_STRINGL(data, strlen(data), 1);
+#endif
+
     efree(data);
 }
 /* }}} */
